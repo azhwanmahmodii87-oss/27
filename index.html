@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<title>27</title>
+<style>
+:root{--bg:#0b1020;--card:#151c33;--line:#26304f;--tx:#e8ecf8;--mu:#8a96b8;--ac:#4f8cff;--ok:#2fbf71;--wa:#e6a23c;--er:#e5534b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,Tahoma,sans-serif;padding-bottom:76px}
+header{padding:18px 16px 6px;display:flex;align-items:center;gap:10px}
+header b{font-size:34px;letter-spacing:2px;color:#fff}header span{color:var(--mu);font-size:13px}
+main{padding:8px 14px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:10px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stat{font-size:26px;font-weight:700}.mu{color:var(--mu);font-size:13px}
+button,.btn{background:var(--ac);color:#fff;border:0;border-radius:10px;padding:11px 14px;font-size:15px;cursor:pointer;text-decoration:none;display:inline-block}
+button.alt,.btn.alt{background:#222c4a}input{width:100%;padding:11px;border-radius:10px;border:1px solid var(--line);background:#0e1427;color:var(--tx);margin:6px 0}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:#0e1427;border-top:1px solid var(--line)}
+nav button{flex:1;background:none;border-radius:0;color:var(--mu);padding:14px 4px;font-size:13px}nav button.on{color:#fff;border-top:2px solid var(--ac)}
+.badge{font-size:12px;padding:2px 8px;border-radius:20px;display:inline-block}.confirmed{background:#123a27;color:var(--ok)}.official{background:#12305a;color:var(--ac)}.unverified{background:#3f2f10;color:var(--wa)}
+h3{margin:4px 0 8px;font-size:16px;direction:ltr;text-align:left}.en{direction:ltr;text-align:left}a{color:var(--ac)}.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+section{display:none}section.on{display:block}#msg{position:fixed;top:10px;left:10px;right:10px;background:#222c4a;border-radius:10px;padding:10px;display:none;z-index:9}
+</style>
+</head>
+<body>
+<div id="msg"></div>
+<header><b>27</b><span>رسانه خبری فناوری</span></header>
+<main>
+<section id="dash" class="on">
+ <div class="grid"><div class="card"><div class="stat" id="s-count">–</div><div class="mu">خبر جمع‌آوری‌شده</div></div>
+ <div class="card"><div class="stat" id="s-feeds">–</div><div class="mu">منبع سالم</div></div></div>
+ <div class="card"><div class="mu">آخرین به‌روزرسانی اخبار</div><div id="s-time">–</div></div>
+ <div class="card"><div class="mu">آخرین تولید ویدئو</div><div id="s-run">–</div></div>
+ <div class="card"><div class="mu">خطاهای منابع</div><div id="s-err" class="en">–</div></div>
+ <button onclick="load()">بارگذاری دوباره</button>
+</section>
+<section id="news"><div id="news-list"></div></section>
+<section id="studio">
+ <div class="card"><b>تولید</b><p class="mu">دکمه‌ها از طریق GitHub Actions اجرا می‌شن و به توکن (بخش تنظیمات) نیاز دارن. تولید حدود ۵ تا ۱۰ دقیقه طول می‌کشه.</p>
+ <div class="row"><button onclick="dispatch('news_only')">فقط به‌روزرسانی اخبار</button><button onclick="dispatch('make_short')">ساخت شورت (بهترین خبر)</button></div></div>
+ <div class="card"><b>دانلود MP4</b><p class="mu">بعد از پایان اجرا، وارد صفحه‌ی اجراها شوید و از بخش Artifacts فایل را دانلود کنید.</p><a class="btn alt" id="runs" target="_blank">صفحه‌ی اجراها</a></div>
+</section>
+<section id="hist"><div id="hist-list"></div></section>
+<section id="set">
+ <div class="card"><b>اتصال به GitHub</b><p class="mu">برای اجرای دکمه‌ها: GitHub ← Settings ← Developer settings ← Personal access tokens ← Fine-grained tokens. فقط به همین مخزن دسترسی بدهید و Actions را روی Read and write بگذارید. توکن فقط در همین مرورگر ذخیره می‌شه.</p>
+ <input id="tok" type="password" placeholder="توکن" dir="ltr"><div class="mu en" id="repo"></div>
+ <div class="row"><button onclick="saveTok()">ذخیره</button><button class="alt" onclick="localStorage.removeItem('tok');tok.value='';toast('حذف شد')">حذف توکن</button></div></div>
+</section>
+</main>
+<nav>
+ <button class="on" data-t="dash">داشبورد</button><button data-t="news">اتاق خبر</button><button data-t="studio">استودیو</button><button data-t="hist">تاریخچه</button><button data-t="set">تنظیمات</button>
+</nav>
+<script>
+const $=id=>document.getElementById(id);
+const owner=location.hostname.endsWith('github.io')?location.hostname.split('.')[0]:'';
+const repo=location.pathname.split('/')[1]||'';
+$('repo').textContent=owner&&repo?owner+'/'+repo:'آدرس مخزن شناسایی نشد';
+$('runs').href=`https://github.com/${owner}/${repo}/actions`;
+$('tok').value=localStorage.getItem('tok')||'';
+function toast(t){const m=$('msg');m.textContent=t;m.style.display='block';setTimeout(()=>m.style.display='none',4500)}
+function saveTok(){localStorage.setItem('tok',$('tok').value.trim());toast('ذخیره شد')}
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('nav button,section').forEach(e=>e.classList.remove('on'));b.classList.add('on');$(b.dataset.t).classList.add('on')});
+const J=async p=>{const r=await fetch(p+'?t='+Date.now());if(!r.ok)throw new Error(r.status);return r.json()};
+const fa=d=>new Date(d).toLocaleString('fa-IR');
+let NEWS=[];
+async function load(){
+ try{const d=await J('data/news.json');NEWS=d.items;
+  $('s-count').textContent=d.count;$('s-feeds').textContent=d.feeds_ok+'/'+d.feeds_total;$('s-time').textContent=fa(d.generated_at);
+  $('s-err').textContent=d.errors.length?d.errors.join(' | '):'بدون خطا';renderNews()}
+ catch(e){$('s-time').textContent='هنوز اخباری جمع نشده';$('news-list').innerHTML='<div class="card mu">هنوز خبری نیست. از استودیو «به‌روزرسانی اخبار» را اجرا کنید.</div>'}
+ try{const r=await J('data/last_run.json');$('s-run').innerHTML=r.ok?`✅ ${fa(r.time)}<div class="en mu">${r.title}</div>`:`❌ ${fa(r.time)}<pre class="en mu" style="white-space:pre-wrap">${r.error}</pre>`}
+ catch(e){$('s-run').textContent='هنوز ویدئویی ساخته نشده'}
+ try{const ids=await J('data/produced.json');const out=[];
+  for(const id of ids.slice().reverse()){try{const s=await J('data/scripts/'+id+'.json');
+   out.push(`<div class="card"><h3>${s.title}</h3><div class="mu">${s.scenes.length} صحنه · روش: ${s.method}</div><div class="mu">فایل: short_${id}.mp4</div></div>`)}catch(e){}}
+  $('hist-list').innerHTML=out.join('')||'<div class="card mu">تاریخچه خالی است.</div>'}
+ catch(e){$('hist-list').innerHTML='<div class="card mu">هنوز ویدئویی ساخته نشده.</div>'}
+}
+const label={confirmed:'تأییدشده (چند منبع)',official:'اعلام رسمی شرکت',unverified:'تأییدنشده (تک‌منبع)'};
+function renderNews(){
+ $('news-list').innerHTML=NEWS.map(n=>`<div class="card"><span class="badge ${n.status}">${label[n.status]}</span> <span class="mu">امتیاز ${n.score}</span>
+ <h3>${n.title}</h3><div class="mu en">${n.summary}</div><div class="mu en">${n.sources.join(', ')} · ${fa(n.published)}</div>
+ <div class="row"><a class="btn alt" href="${n.url}" target="_blank">منبع</a><button onclick="dispatch('make_short','${n.id}')">ساخت شورت</button></div></div>`).join('')}
+async function dispatch(task,id){
+ const t=localStorage.getItem('tok');if(!t||!owner){toast('اول توکن را در تنظیمات ذخیره کنید');return}
+ const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/run.yml/dispatches`,{method:'POST',
+  headers:{Authorization:'Bearer '+t,Accept:'application/vnd.github+json'},body:JSON.stringify({ref:'main',inputs:{task,news_id:id||''}})});
+ toast(r.status===204?'اجرا شروع شد. چند دقیقه بعد در «صفحه‌ی اجراها» ببینید.':'خطا '+r.status+' (توکن یا دسترسی را بررسی کنید)')}
+if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js');
+load();
+</script>
+</body>
+</html>

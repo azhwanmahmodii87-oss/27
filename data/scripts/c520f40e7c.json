@@ -1,0 +1,41 @@
+{
+  "news": {
+    "id": "c520f40e7c",
+    "title": "Google Fitbit Edge: On shelves now",
+    "summary": "Shop the new Google Fitbit Edge featuring a bright, large display and physical side buttons for easy control. Upgrade your fitness tracker today.",
+    "source": "Google Blog",
+    "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge-on-shelves-now/",
+    "published": "2026-10-30T20:15:00+00:00",
+    "sources": [
+      "Google Blog"
+    ],
+    "source_links": [
+      {
+        "source": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/devices/fitbit/google-fitbit-edge-on-shelves-now/"
+      }
+    ],
+    "status": "official",
+    "score": 40
+  },
+  "title": "Google Fitbit Edge: On shelves now",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Google Fitbit Edge: On shelves now.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "Shop the new Google Fitbit Edge featuring a bright, large display and physical side buttons for easy control.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "Upgrade your fitness tracker today.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "This was announced by Google Blog.",
+      "search": "futuristic technology"
+    }
+  ],
+  "method": "template"
+}
