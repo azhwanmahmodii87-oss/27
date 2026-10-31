@@ -33,7 +33,7 @@ jobs:
           python-version: "3.12"
       - name: Unpack project files
         run: |
-          mkdir -p src data
+          mkdir -p src data mkdir -p src data && sudo apt-get update && sudo apt-get install -y ffmpeg fonts-dejavu-core
           cat > src/news.py << 'EOF'
           """27 - Stage 1: global tech news collector.
 
