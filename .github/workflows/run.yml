@@ -1,0 +1,689 @@
+name: 27 - Run
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "What to run"
+        type: choice
+        options: [make_short, news_only]
+        default: make_short
+      news_id:
+        description: "Optional: story id"
+        required: false
+        default: ""
+  schedule:
+    - cron: "0 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      TASK: ${{ github.event.inputs.task || 'make_short' }}
+      NEWS_ID: ${{ github.event.inputs.news_id }}
+      PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Unpack project files
+        run: |
+          mkdir -p src data
+          cat > src/news.py << 'EOF'
+          """27 - Stage 1: global tech news collector.
+
+          Fetches RSS/Atom feeds, drops old and duplicate stories, scores importance,
+          marks verification status, and writes data/news.json.
+          Uses only the Python standard library (no pip install needed).
+          """
+          import difflib
+          import hashlib
+          import html
+          import json
+          import re
+          import sys
+          import urllib.request
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timedelta, timezone
+          from email.utils import parsedate_to_datetime
+          from pathlib import Path
+
+          # (name, url, weight 1-3, official company source?)
+          FEEDS = [
+              ("BBC Technology", "https://feeds.bbci.co.uk/news/technology/rss.xml", 3, False),
+              ("MIT Technology Review", "https://www.technologyreview.com/feed/", 3, False),
+              ("The Verge", "https://www.theverge.com/rss/index.xml", 2, False),
+              ("TechCrunch", "https://techcrunch.com/feed/", 2, False),
+              ("Wired", "https://www.wired.com/feed/rss", 2, False),
+              ("Ars Technica", "https://feeds.arstechnica.com/arstechnica/index", 2, False),
+              ("NVIDIA Blog", "https://blogs.nvidia.com/feed/", 2, True),
+              ("Google Blog", "https://blog.google/rss/", 2, True),
+              ("Microsoft Blog", "https://blogs.microsoft.com/feed/", 2, True),
+              ("OpenAI", "https://openai.com/news/rss.xml", 2, True),
+          ]
+
+          MAX_AGE_HOURS = 48
+          KEYWORDS = [
+              "ai", "artificial intelligence", "openai", "nvidia", "robot", "humanoid",
+              "chip", "semiconductor", "quantum", "apple", "google", "microsoft", "meta",
+              "space", "nasa", "spacex", "cyber", "hack", "breach", "launch", "unveil",
+              "breakthrough", "model", "gpu", "self-driving", "autonomous",
+          ]
+          STOP = set("the a an and or of to in on for with is are was by at from as it its "
+                     "this that new says say how why what will be has have".split())
+          OUT = Path(__file__).resolve().parent.parent / "data" / "news.json"
+
+
+          def local(tag):
+              return tag.rsplit("}", 1)[-1].lower()
+
+
+          def clean(text, limit=400):
+              text = html.unescape(re.sub(r"<[^>]+>", " ", text or ""))
+              text = re.sub(r"\s+", " ", text).strip()
+              return text[:limit]
+
+
+          def parse_date(value):
+              if not value:
+                  return None
+              value = value.strip()
+              try:
+                  dt = parsedate_to_datetime(value)
+              except (TypeError, ValueError):
+                  try:
+                      dt = datetime.fromisoformat(value.replace("Z", "+00:00"))
+                  except ValueError:
+                      return None
+              if dt.tzinfo is None:
+                  dt = dt.replace(tzinfo=timezone.utc)
+              return dt.astimezone(timezone.utc)
+
+
+          def parse_feed(xml_bytes):
+              """Return a list of dicts: title, url, summary, published (datetime or None)."""
+              root = ET.fromstring(xml_bytes)
+              items = []
+              for node in root.iter():
+                  if local(node.tag) not in ("item", "entry"):
+                      continue
+                  row = {"title": "", "url": "", "summary": "", "published": None}
+                  for child in node:
+                      name = local(child.tag)
+                      if name == "title":
+                          row["title"] = clean(child.text, 300)
+                      elif name == "link":
+                          row["url"] = (child.get("href") or child.text or "").strip() or row["url"]
+                      elif name in ("description", "summary", "content") and not row["summary"]:
+                          row["summary"] = clean(child.text)
+                      elif name in ("pubdate", "published", "updated", "date"):
+                          dt = parse_date(child.text)
+                          if dt and (row["published"] is None or name != "updated"):
+                              row["published"] = dt
+                  if row["title"] and row["url"]:
+                      items.append(row)
+              return items
+
+
+          def fetch(url):
+              req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (27-news-bot)"})
+              with urllib.request.urlopen(req, timeout=20) as resp:
+                  return resp.read()
+
+
+          def words(title):
+              return {w for w in re.findall(r"[a-z0-9]+", title.lower()) if w not in STOP and len(w) > 2}
+
+
+          def similar(a, b):
+              wa, wb = words(a["title"]), words(b["title"])
+              if wa and wb:
+                  shared = len(wa & wb)
+                  if shared >= 3 and shared / len(wa | wb) >= 0.4:
+                      return True
+              return difflib.SequenceMatcher(None, a["title"].lower(), b["title"].lower()).ratio() >= 0.75
+
+
+          def score(cluster, now):
+              rep = cluster["rep"]
+              raw = rep["weight"]
+              raw += 2 * min(len(cluster["sources"]) - 1, 3)
+              text = (rep["title"] + " " + rep["summary"]).lower()
+              raw += min(sum(1 for k in KEYWORDS if re.search(r"\b" + re.escape(k) + r"\b", text)), 4)
+              age_h = (now - rep["published"]).total_seconds() / 3600
+              raw += 2 if age_h < 6 else 1 if age_h < 24 else 0
+              return min(100, round(raw * 8))
+
+
+          def main():
+              now = datetime.now(timezone.utc)
+              cutoff = now - timedelta(hours=MAX_AGE_HOURS)
+              collected, errors, ok_feeds = [], [], 0
+
+              for name, url, weight, official in FEEDS:
+                  try:
+                      rows = parse_feed(fetch(url))
+                  except Exception as exc:  # one broken feed must not stop the rest
+                      errors.append(f"{name}: {exc}")
+                      print(f"[FAIL] {name}: {exc}")
+                      continue
+                  ok_feeds += 1
+                  kept = 0
+                  for r in rows:
+                      # Items without a date are skipped: we never pass unknown-age news as new.
+                      if r["published"] is None or r["published"] < cutoff or r["published"] > now + timedelta(hours=1):
+                          continue
+                      r.update(source=name, weight=weight, official=official)
+                      collected.append(r)
+                      kept += 1
+                  print(f"[OK]   {name}: {kept} recent items")
+
+              collected.sort(key=lambda r: (-r["weight"], -r["published"].timestamp()))
+              clusters = []
+              for r in collected:
+                  for c in clusters:
+                      if similar(r, c["rep"]):
+                          if r["source"] not in c["sources"]:
+                              c["sources"].append(r["source"])
+                              c["links"].append({"source": r["source"], "url": r["url"]})
+                          break
+                  else:
+                      clusters.append({"rep": r, "sources": [r["source"]],
+                                       "links": [{"source": r["source"], "url": r["url"]}]})
+
+              news = []
+              for c in clusters:
+                  rep = c["rep"]
+                  if len(c["sources"]) >= 2:
+                      status = "confirmed"      # reported by 2+ independent sources
+                  elif rep["official"]:
+                      status = "official"       # announced by the company itself
+                  else:
+                      status = "unverified"     # single media source
+                  news.append({
+                      "id": hashlib.sha1(rep["title"].encode()).hexdigest()[:10],
+                      "title": rep["title"],
+                      "summary": rep["summary"],
+                      "source": rep["source"],
+                      "url": rep["url"],
+                      "published": rep["published"].isoformat(),
+                      "sources": c["sources"],
+                      "source_links": c["links"],
+                      "status": status,
+                      "score": score(c, now),
+                  })
+              news.sort(key=lambda n: -n["score"])
+
+              OUT.parent.mkdir(parents=True, exist_ok=True)
+              OUT.write_text(json.dumps({
+                  "generated_at": now.isoformat(),
+                  "feeds_ok": ok_feeds,
+                  "feeds_total": len(FEEDS),
+                  "errors": errors,
+                  "count": len(news),
+                  "items": news,
+              }, ensure_ascii=False, indent=2), encoding="utf-8")
+              print(f"Saved {len(news)} stories to {OUT}")
+              if ok_feeds == 0:
+                  sys.exit(1)
+
+
+          if __name__ == "__main__":
+              main()
+          EOF
+          cat > src/script_gen.py << 'EOF'
+          """27 - English script writer.
+
+          Default: template script built ONLY from the facts in the news item (no invention).
+          Optional: free LLM via GitHub Models (set USE_LLM=1); falls back to the template on any error.
+          """
+          import json
+          import os
+          import re
+          import urllib.request
+
+          MODEL = "openai/gpt-4.1-mini"
+
+          TOPICS = [
+              (("ai", "openai", "model", "chatbot", "artificial"), "artificial intelligence data center"),
+              (("robot", "humanoid"), "robot technology"),
+              (("chip", "semiconductor", "gpu", "nvidia", "processor"), "computer chip circuit"),
+              (("space", "nasa", "spacex", "rocket", "satellite"), "space rocket launch"),
+              (("cyber", "hack", "breach", "security", "ransomware"), "cyber security code"),
+              (("car", "tesla", "self-driving", "autonomous", "ev"), "electric car technology"),
+              (("phone", "iphone", "android", "apple", "samsung"), "smartphone technology"),
+          ]
+
+
+          def topic_query(text):
+              words = set(re.findall(r"[a-z0-9\-]+", text.lower()))
+              for keys, query in TOPICS:
+                  if words & set(keys):
+                      return query
+              return "futuristic technology"
+
+
+          def sentences(text):
+              parts = re.split(r"(?<=[.!?])\s+", text.strip())
+              return [p.strip() for p in parts if len(p.strip()) > 25]
+
+
+          def template_script(item):
+              title = item["title"].rstrip(".")
+              query = topic_query(item["title"] + " " + item.get("summary", ""))
+              scenes = [{"narration": f"Tech news you need to know. {title}.", "search": query}]
+              for s in sentences(item.get("summary", ""))[:3]:
+                  scenes.append({"narration": s, "search": query})
+              srcs = item.get("sources") or [item["source"]]
+              line = "This story was reported by " + " and ".join(srcs[:3]) + "."
+              if item.get("status") == "unverified":
+                  line = f"This report comes from {srcs[0]} and has not yet been independently confirmed."
+              elif item.get("status") == "official":
+                  line = f"This was announced by {srcs[0]}."
+              scenes.append({"narration": line, "search": query})
+              return {"title": title, "scenes": scenes, "method": "template"}
+
+
+          SYSTEM = (
+              "You write scripts for 27, an international tech news channel. Write natural, "
+              "professional English narration. Use ONLY the facts provided. Never invent numbers, "
+              "quotes or details. Reply with JSON only."
+          )
+
+
+          def llm_script(item):
+              token = os.environ.get("GITHUB_TOKEN")
+              if not token:
+                  return None
+              facts = json.dumps({k: item.get(k) for k in ("title", "summary", "sources", "status")})
+              prompt = (
+                  "Write a 45-60 second vertical-video script (about 120-150 words) as JSON: "
+                  '{"scenes":[{"narration":"...","search":"2-3 word stock footage query"}]} '
+                  "with 5-6 scenes. Scene 1 must be a strong hook. Last scene credits the source "
+                  "and, if status is unverified, says the report is not yet confirmed. Facts: " + facts
+              )
+              body = json.dumps({
+                  "model": MODEL, "temperature": 0.4, "max_tokens": 900,
+                  "messages": [{"role": "system", "content": SYSTEM}, {"role": "user", "content": prompt}],
+              }).encode()
+              req = urllib.request.Request(
+                  "https://models.github.ai/inference/chat/completions", data=body,
+                  headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"})
+              with urllib.request.urlopen(req, timeout=90) as resp:
+                  text = json.load(resp)["choices"][0]["message"]["content"]
+              text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.M).strip()
+              scenes = json.loads(text)["scenes"]
+              scenes = [s for s in scenes if s.get("narration") and s.get("search")]
+              if len(scenes) < 3:
+                  return None
+              return {"title": item["title"], "scenes": scenes, "method": "llm"}
+
+
+          def make_script(item):
+              if os.environ.get("USE_LLM") == "1":
+                  try:
+                      result = llm_script(item)
+                      if result:
+                          return result
+                  except Exception as exc:
+                      print(f"[WARN] LLM failed, using template: {exc}")
+              return template_script(item)
+          EOF
+          cat > src/voice.py << 'EOF'
+          """27 - Voice-over with Piper TTS (free, open source)."""
+          import subprocess
+          import sys
+
+          VOICE = "en_US-lessac-medium"
+
+
+          def synth(text, out_wav, voice=VOICE):
+              subprocess.run([sys.executable, "-m", "piper", "--model", voice, "--output_file", str(out_wav)],
+                             input=text.encode("utf-8"), check=True)
+
+
+          def duration(path):
+              out = subprocess.run(
+                  ["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(path)],
+                  capture_output=True, text=True, check=True)
+              return float(out.stdout.strip())
+          EOF
+          cat > src/media.py << 'EOF'
+          """27 - Licensed stock footage from Pexels (free API key). Falls back to None."""
+          import json
+          import os
+          import urllib.parse
+          import urllib.request
+
+          UA = {"User-Agent": "Mozilla/5.0 (27-news-bot)"}
+
+
+          def find_clip(query, dest, used_ids):
+              key = os.environ.get("PEXELS_API_KEY")
+              if not key:
+                  return None
+              try:
+                  qs = urllib.parse.urlencode({"query": query, "orientation": "portrait", "per_page": 10})
+                  req = urllib.request.Request("https://api.pexels.com/videos/search?" + qs,
+                                               headers={**UA, "Authorization": key})
+                  with urllib.request.urlopen(req, timeout=30) as resp:
+                      videos = json.load(resp).get("videos", [])
+                  for v in videos:
+                      if v["id"] in used_ids:
+                          continue
+                      files = [f for f in v.get("video_files", [])
+                               if f.get("file_type") == "video/mp4" and (f.get("height") or 0) >= 1280]
+                      if not files:
+                          continue
+                      best = min(files, key=lambda f: f["height"])
+                      req = urllib.request.Request(best["link"], headers=UA)
+                      with urllib.request.urlopen(req, timeout=90) as resp, open(dest, "wb") as out:
+                          out.write(resp.read())
+                      used_ids.add(v["id"])
+                      return dest
+              except Exception as exc:
+                  print(f"[WARN] footage search failed for '{query}': {exc}")
+              return None
+          EOF
+          cat > src/render.py << 'EOF'
+          """27 - FFmpeg video engine: 1080x1920, scenes + captions + 27 branding -> MP4."""
+          import subprocess
+          import textwrap
+          from pathlib import Path
+
+          FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+          BG = "0x0b1020"
+          ENC = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "21", "-pix_fmt", "yuv420p", "-r", "30",
+                 "-c:a", "aac", "-ar", "44100", "-ac", "2"]
+
+
+          def run(cmd):
+              r = subprocess.run(cmd, capture_output=True, text=True)
+              if r.returncode != 0:
+                  raise RuntimeError("ffmpeg failed: " + r.stderr[-1500:])
+
+
+          def chunks(text, size=6):
+              w = text.split()
+              return [" ".join(w[i:i + size]) for i in range(0, len(w), size)]
+
+
+          def captions(text, dur, work, tag):
+              parts, total, t, filters = chunks(text), max(len(text), 1), 0.0, []
+              for i, part in enumerate(parts):
+                  span = dur * len(part) / total
+                  f = Path(work) / f"cap_{tag}_{i}.txt"
+                  f.write_text(textwrap.fill(part, 20), encoding="utf-8")
+                  filters.append(
+                      f"drawtext=fontfile={FONT}:textfile={f}:fontcolor=white:fontsize=66:line_spacing=12:"
+                      f"box=1:boxcolor=black@0.55:boxborderw=26:x=(w-text_w)/2:y=h*0.66:"
+                      f"enable='between(t,{t:.2f},{t + span:.2f})'")
+                  t += span
+              return filters
+
+
+          def scene(clip, wav, dur, text, out, work, tag):
+              src = (["-stream_loop", "-1", "-i", str(clip)] if clip
+                     else ["-f", "lavfi", "-i", "gradients=s=1080x1920:r=30:c0=0x12306b:c1=0x3a1260:x0=0:y0=0:x1=1080:y1=1920"])
+              vf = ["scale=1080:1920:force_original_aspect_ratio=increase", "crop=1080:1920", "fps=30",
+                    "setsar=1", "eq=brightness=-0.07:saturation=1.1", *(["vignette=PI/5"] if clip else []), "fade=t=in:st=0:d=0.3",
+                    f"drawtext=fontfile={FONT}:text='27':fontsize=72:fontcolor=white@0.85:x=60:y=90"]
+              vf += captions(text, dur, work, tag)
+              run(["ffmpeg", "-y", *src, "-i", str(wav), "-t", f"{dur:.2f}", "-vf", ",".join(vf),
+                   "-af", "aresample=44100,apad", *ENC, str(out)])
+
+
+          def card(big, small, dur, out):
+              vf = (f"drawtext=fontfile={FONT}:text='{big}':fontsize=420:fontcolor=white:x=(w-text_w)/2:y=(h-text_h)/2-120,"
+                    f"drawtext=fontfile={FONT}:text='{small}':fontsize=52:fontcolor=0x7fb2ff:x=(w-text_w)/2:y=h/2+220,"
+                    "fade=t=in:st=0:d=0.4")
+              run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"color=c={BG}:s=1080x1920:r=30",
+                   "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-t", str(dur), "-vf", vf, *ENC, str(out)])
+
+
+          def concat(parts, out, work):
+              lst = Path(work) / "list.txt"
+              lst.write_text("".join(f"file '{Path(p).resolve()}'\n" for p in parts))
+              run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", str(lst), "-c", "copy", str(out)])
+          EOF
+          cat > src/make_short.py << 'EOF'
+          """27 - Make one YouTube Short (9:16, ~60s) from the best fresh news story."""
+          import json
+          import os
+          import sys
+          import traceback
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          sys.path.insert(0, str(Path(__file__).resolve().parent))
+          import media, render, script_gen, voice  # noqa: E402
+
+          ROOT = Path(__file__).resolve().parent.parent
+          DATA, OUT, WORK = ROOT / "data", ROOT / "output", ROOT / "work"
+
+
+          def load(name, default):
+              p = DATA / name
+              return json.loads(p.read_text(encoding="utf-8")) if p.exists() else default
+
+
+          def pick(items, produced):
+              wanted = os.environ.get("NEWS_ID")
+              if wanted:
+                  return next((i for i in items if i["id"] == wanted), None)
+              ok = [i for i in items if i["id"] not in produced and i["status"] in ("confirmed", "official")]
+              if not ok and os.environ.get("ALLOW_UNVERIFIED") == "1":
+                  ok = [i for i in items if i["id"] not in produced]
+              return max(ok, key=lambda i: i["score"]) if ok else None
+
+
+          def main():
+              for d in (OUT, WORK, DATA / "scripts"):
+                  d.mkdir(parents=True, exist_ok=True)
+              news = load("news.json", {"items": []})
+              produced = load("produced.json", [])
+              item = pick(news["items"], produced)
+              if not item:
+                  raise SystemExit("No suitable (confirmed/official, not yet produced) story. Stopping safely.")
+              print(f"Story: {item['title']} [{item['status']}, score {item['score']}]")
+
+              sc = script_gen.make_script(item)
+              (DATA / "scripts" / f"{item['id']}.json").write_text(
+                  json.dumps({"news": item, **sc}, ensure_ascii=False, indent=2), encoding="utf-8")
+
+              parts, used, total = [], set(), 0.0
+              intro = WORK / "intro.mp4"
+              render.card("27", "TECH NEWS  |  WORLD", 1.5, intro)
+              parts.append(intro)
+              for n, s in enumerate(sc["scenes"]):
+                  wav = WORK / f"voice_{n}.wav"
+                  voice.synth(s["narration"], wav)
+                  dur = voice.duration(wav) + 0.35
+                  clip = media.find_clip(s["search"], WORK / f"clip_{n}.mp4", used)
+                  seg = WORK / f"scene_{n}.mp4"
+                  render.scene(clip, wav, dur, s["narration"], seg, WORK, n)
+                  parts.append(seg)
+                  total += dur
+                  print(f"  scene {n}: {dur:.1f}s, footage={'yes' if clip else 'fallback'}")
+              outro = WORK / "outro.mp4"
+              render.card("27", "FOLLOW FOR DAILY TECH NEWS", 2.0, outro)
+              parts.append(outro)
+
+              final = OUT / f"short_{item['id']}.mp4"
+              render.concat(parts, final, WORK)
+              srcs = ", ".join(f"{l['source']}: {l['url']}" for l in item["source_links"])
+              (OUT / f"short_{item['id']}.txt").write_text(
+                  f"{item['title']} | 27\n\nSources: {srcs}\n\n"
+                  "Note: visuals are illustrative stock footage, not footage of the event itself.\n"
+                  f"Script method: {sc['method']} | status: {item['status']}\n", encoding="utf-8")
+              produced.append(item["id"])
+              (DATA / "produced.json").write_text(json.dumps(produced), encoding="utf-8")
+              (DATA / "last_run.json").write_text(json.dumps({
+                  "time": datetime.now(timezone.utc).isoformat(), "ok": True, "title": item["title"],
+                  "video": final.name, "seconds": round(total + 3.5, 1)}), encoding="utf-8")
+              print(f"DONE: {final} (~{total + 3.5:.0f}s)")
+
+
+          if __name__ == "__main__":
+              try:
+                  main()
+              except SystemExit:
+                  raise
+              except Exception:
+                  DATA.mkdir(exist_ok=True)
+                  (DATA / "last_run.json").write_text(json.dumps({
+                      "time": datetime.now(timezone.utc).isoformat(), "ok": False,
+                      "error": traceback.format_exc()[-800:]}), encoding="utf-8")
+                  raise
+          EOF
+          cat > index.html << 'EOF'
+          <!DOCTYPE html>
+          <html lang="fa" dir="rtl">
+          <head>
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="theme-color" content="#0b1020">
+          <link rel="manifest" href="manifest.json">
+          <link rel="icon" href="icon-192.png">
+          <title>27</title>
+          <style>
+          :root{--bg:#0b1020;--card:#151c33;--line:#26304f;--tx:#e8ecf8;--mu:#8a96b8;--ac:#4f8cff;--ok:#2fbf71;--wa:#e6a23c;--er:#e5534b}
+          *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font-family:system-ui,Tahoma,sans-serif;padding-bottom:76px}
+          header{padding:18px 16px 6px;display:flex;align-items:center;gap:10px}
+          header b{font-size:34px;letter-spacing:2px;color:#fff}header span{color:var(--mu);font-size:13px}
+          main{padding:8px 14px}.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;margin:10px 0}
+          .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stat{font-size:26px;font-weight:700}.mu{color:var(--mu);font-size:13px}
+          button,.btn{background:var(--ac);color:#fff;border:0;border-radius:10px;padding:11px 14px;font-size:15px;cursor:pointer;text-decoration:none;display:inline-block}
+          button.alt,.btn.alt{background:#222c4a}input{width:100%;padding:11px;border-radius:10px;border:1px solid var(--line);background:#0e1427;color:var(--tx);margin:6px 0}
+          nav{position:fixed;bottom:0;left:0;right:0;display:flex;background:#0e1427;border-top:1px solid var(--line)}
+          nav button{flex:1;background:none;border-radius:0;color:var(--mu);padding:14px 4px;font-size:13px}nav button.on{color:#fff;border-top:2px solid var(--ac)}
+          .badge{font-size:12px;padding:2px 8px;border-radius:20px;display:inline-block}.confirmed{background:#123a27;color:var(--ok)}.official{background:#12305a;color:var(--ac)}.unverified{background:#3f2f10;color:var(--wa)}
+          h3{margin:4px 0 8px;font-size:16px;direction:ltr;text-align:left}.en{direction:ltr;text-align:left}a{color:var(--ac)}.row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+          section{display:none}section.on{display:block}#msg{position:fixed;top:10px;left:10px;right:10px;background:#222c4a;border-radius:10px;padding:10px;display:none;z-index:9}
+          </style>
+          </head>
+          <body>
+          <div id="msg"></div>
+          <header><b>27</b><span>رسانه خبری فناوری</span></header>
+          <main>
+          <section id="dash" class="on">
+           <div class="grid"><div class="card"><div class="stat" id="s-count">–</div><div class="mu">خبر جمع‌آوری‌شده</div></div>
+           <div class="card"><div class="stat" id="s-feeds">–</div><div class="mu">منبع سالم</div></div></div>
+           <div class="card"><div class="mu">آخرین به‌روزرسانی اخبار</div><div id="s-time">–</div></div>
+           <div class="card"><div class="mu">آخرین تولید ویدئو</div><div id="s-run">–</div></div>
+           <div class="card"><div class="mu">خطاهای منابع</div><div id="s-err" class="en">–</div></div>
+           <button onclick="load()">بارگذاری دوباره</button>
+          </section>
+          <section id="news"><div id="news-list"></div></section>
+          <section id="studio">
+           <div class="card"><b>تولید</b><p class="mu">دکمه‌ها از طریق GitHub Actions اجرا می‌شن و به توکن (بخش تنظیمات) نیاز دارن. تولید حدود ۵ تا ۱۰ دقیقه طول می‌کشه.</p>
+           <div class="row"><button onclick="dispatch('news_only')">فقط به‌روزرسانی اخبار</button><button onclick="dispatch('make_short')">ساخت شورت (بهترین خبر)</button></div></div>
+           <div class="card"><b>دانلود MP4</b><p class="mu">بعد از پایان اجرا، وارد صفحه‌ی اجراها شوید و از بخش Artifacts فایل را دانلود کنید.</p><a class="btn alt" id="runs" target="_blank">صفحه‌ی اجراها</a></div>
+          </section>
+          <section id="hist"><div id="hist-list"></div></section>
+          <section id="set">
+           <div class="card"><b>اتصال به GitHub</b><p class="mu">برای اجرای دکمه‌ها: GitHub ← Settings ← Developer settings ← Personal access tokens ← Fine-grained tokens. فقط به همین مخزن دسترسی بدهید و Actions را روی Read and write بگذارید. توکن فقط در همین مرورگر ذخیره می‌شه.</p>
+           <input id="tok" type="password" placeholder="توکن" dir="ltr"><div class="mu en" id="repo"></div>
+           <div class="row"><button onclick="saveTok()">ذخیره</button><button class="alt" onclick="localStorage.removeItem('tok');tok.value='';toast('حذف شد')">حذف توکن</button></div></div>
+          </section>
+          </main>
+          <nav>
+           <button class="on" data-t="dash">داشبورد</button><button data-t="news">اتاق خبر</button><button data-t="studio">استودیو</button><button data-t="hist">تاریخچه</button><button data-t="set">تنظیمات</button>
+          </nav>
+          <script>
+          const $=id=>document.getElementById(id);
+          const owner=location.hostname.endsWith('github.io')?location.hostname.split('.')[0]:'';
+          const repo=location.pathname.split('/')[1]||'';
+          $('repo').textContent=owner&&repo?owner+'/'+repo:'آدرس مخزن شناسایی نشد';
+          $('runs').href=`https://github.com/${owner}/${repo}/actions`;
+          $('tok').value=localStorage.getItem('tok')||'';
+          function toast(t){const m=$('msg');m.textContent=t;m.style.display='block';setTimeout(()=>m.style.display='none',4500)}
+          function saveTok(){localStorage.setItem('tok',$('tok').value.trim());toast('ذخیره شد')}
+          document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
+           document.querySelectorAll('nav button,section').forEach(e=>e.classList.remove('on'));b.classList.add('on');$(b.dataset.t).classList.add('on')});
+          const J=async p=>{const r=await fetch(p+'?t='+Date.now());if(!r.ok)throw new Error(r.status);return r.json()};
+          const fa=d=>new Date(d).toLocaleString('fa-IR');
+          let NEWS=[];
+          async function load(){
+           try{const d=await J('data/news.json');NEWS=d.items;
+            $('s-count').textContent=d.count;$('s-feeds').textContent=d.feeds_ok+'/'+d.feeds_total;$('s-time').textContent=fa(d.generated_at);
+            $('s-err').textContent=d.errors.length?d.errors.join(' | '):'بدون خطا';renderNews()}
+           catch(e){$('s-time').textContent='هنوز اخباری جمع نشده';$('news-list').innerHTML='<div class="card mu">هنوز خبری نیست. از استودیو «به‌روزرسانی اخبار» را اجرا کنید.</div>'}
+           try{const r=await J('data/last_run.json');$('s-run').innerHTML=r.ok?`✅ ${fa(r.time)}<div class="en mu">${r.title}</div>`:`❌ ${fa(r.time)}<pre class="en mu" style="white-space:pre-wrap">${r.error}</pre>`}
+           catch(e){$('s-run').textContent='هنوز ویدئویی ساخته نشده'}
+           try{const ids=await J('data/produced.json');const out=[];
+            for(const id of ids.slice().reverse()){try{const s=await J('data/scripts/'+id+'.json');
+             out.push(`<div class="card"><h3>${s.title}</h3><div class="mu">${s.scenes.length} صحنه · روش: ${s.method}</div><div class="mu">فایل: short_${id}.mp4</div></div>`)}catch(e){}}
+            $('hist-list').innerHTML=out.join('')||'<div class="card mu">تاریخچه خالی است.</div>'}
+           catch(e){$('hist-list').innerHTML='<div class="card mu">هنوز ویدئویی ساخته نشده.</div>'}
+          }
+          const label={confirmed:'تأییدشده (چند منبع)',official:'اعلام رسمی شرکت',unverified:'تأییدنشده (تک‌منبع)'};
+          function renderNews(){
+           $('news-list').innerHTML=NEWS.map(n=>`<div class="card"><span class="badge ${n.status}">${label[n.status]}</span> <span class="mu">امتیاز ${n.score}</span>
+           <h3>${n.title}</h3><div class="mu en">${n.summary}</div><div class="mu en">${n.sources.join(', ')} · ${fa(n.published)}</div>
+           <div class="row"><a class="btn alt" href="${n.url}" target="_blank">منبع</a><button onclick="dispatch('make_short','${n.id}')">ساخت شورت</button></div></div>`).join('')}
+          async function dispatch(task,id){
+           const t=localStorage.getItem('tok');if(!t||!owner){toast('اول توکن را در تنظیمات ذخیره کنید');return}
+           const r=await fetch(`https://api.github.com/repos/${owner}/${repo}/actions/workflows/run.yml/dispatches`,{method:'POST',
+            headers:{Authorization:'Bearer '+t,Accept:'application/vnd.github+json'},body:JSON.stringify({ref:'main',inputs:{task,news_id:id||''}})});
+           toast(r.status===204?'اجرا شروع شد. چند دقیقه بعد در «صفحه‌ی اجراها» ببینید.':'خطا '+r.status+' (توکن یا دسترسی را بررسی کنید)')}
+          if('serviceWorker' in navigator)navigator.serviceWorker.register('sw.js');
+          load();
+          </script>
+          </body>
+          </html>
+          EOF
+          cat > manifest.json << 'EOF'
+          {"name":"27 - Tech News","short_name":"27","lang":"fa","dir":"rtl","start_url":"./","scope":"./","display":"standalone","background_color":"#0b1020","theme_color":"#0b1020",
+          "icons":[{"src":"icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},{"src":"icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}]}
+          EOF
+          cat > sw.js << 'EOF'
+          const C='27-v1',SHELL=['./','index.html','manifest.json','icon-192.png'];
+          self.addEventListener('install',e=>e.waitUntil(caches.open(C).then(c=>c.addAll(SHELL))));
+          self.addEventListener('fetch',e=>{const u=new URL(e.request.url);
+           if(u.pathname.includes('/data/')||u.origin!==location.origin)return;
+           e.respondWith(fetch(e.request).then(r=>{const k=r.clone();caches.open(C).then(c=>c.put(e.request,k));return r}).catch(()=>caches.match(e.request)))});
+          EOF
+          printf 'output/\nwork/\n*.onnx\n*.onnx.json\n__pycache__/\n' > .gitignore
+          pip install pillow
+          python - << 'EOF'
+          from PIL import Image, ImageDraw, ImageFont
+          for s in (192, 512):
+              im = Image.new('RGB', (s, s), '#0b1020'); d = ImageDraw.Draw(im)
+              f = ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', int(s * .5))
+              b = d.textbbox((0, 0), '27', font=f)
+              d.text(((s - b[2] + b[0]) / 2 - b[0], (s - b[3] + b[1]) / 2 - b[1]), '27', font=f, fill='white')
+              d.rectangle([s * .18, s * .82, s * .82, s * .86], fill='#4f8cff')
+              im.save(f'icon-{s}.png')
+          EOF
+      - name: Collect news
+        run: python src/news.py
+      - name: Install voice engine
+        if: env.TASK == 'make_short'
+        run: |
+          pip install piper-tts
+          python -m piper.download_voices en_US-lessac-medium
+      - name: Make Short
+        if: env.TASK == 'make_short'
+        run: python src/make_short.py
+      - name: Upload video
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 27-video
+          path: output/
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Save data
+        if: always()
+        run: |
+          git config user.name "27-bot"
+          git config user.email "27-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "27: update"
+          git push
