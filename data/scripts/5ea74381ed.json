@@ -1,0 +1,37 @@
+{
+  "news": {
+    "id": "5ea74381ed",
+    "title": "An updated Model Spec for more capable and beneficial AI",
+    "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/updated-model-spec",
+    "published": "2026-10-29T17:00:00+00:00",
+    "sources": [
+      "OpenAI"
+    ],
+    "source_links": [
+      {
+        "source": "OpenAI",
+        "url": "https://openai.com/index/updated-model-spec"
+      }
+    ],
+    "status": "official",
+    "score": 40
+  },
+  "title": "An updated Model Spec for more capable and beneficial AI",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. An updated Model Spec for more capable and beneficial AI.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This was announced by OpenAI.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
