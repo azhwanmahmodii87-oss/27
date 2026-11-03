@@ -1,0 +1,41 @@
+{
+  "news": {
+    "id": "6429ef5ebe",
+    "title": "Advancing research and partnering with universities in Singapore",
+    "summary": "A light beam is focused through a lens into thin wires that pass through panels featuring increasingly complex patterns of blue dots, dashes, and other geometric shapes. The Google G is on the bottom left corner.",
+    "source": "Google Blog",
+    "url": "https://blog.google/innovation-and-ai/technology/research/partnering-singapore-advance-scientific-discovery/",
+    "published": "2026-11-03T04:30:00+00:00",
+    "sources": [
+      "Google Blog"
+    ],
+    "source_links": [
+      {
+        "source": "Google Blog",
+        "url": "https://blog.google/innovation-and-ai/technology/research/partnering-singapore-advance-scientific-discovery/"
+      }
+    ],
+    "status": "official",
+    "score": 40
+  },
+  "title": "Advancing research and partnering with universities in Singapore",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Advancing research and partnering with universities in Singapore.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "A light beam is focused through a lens into thin wires that pass through panels featuring increasingly complex patterns of blue dots, dashes, and other geometric shapes.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "The Google G is on the bottom left corner.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "This was announced by Google Blog.",
+      "search": "futuristic technology"
+    }
+  ],
+  "method": "template"
+}
