@@ -1,0 +1,42 @@
+{
+  "news": {
+    "id": "cc24ad3d7a",
+    "title": "Google will let schools skip AI tools, but they have to give up search, too",
+    "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
+    "source": "Ars Technica",
+    "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+    "published": "2026-11-03T17:54:43+00:00",
+    "sources": [
+      "Ars Technica",
+      "TechCrunch"
+    ],
+    "source_links": [
+      {
+        "source": "Ars Technica",
+        "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/"
+      },
+      {
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/"
+      }
+    ],
+    "status": "confirmed",
+    "score": 56
+  },
+  "title": "Google will let schools skip AI tools, but they have to give up search, too",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Google will let schools skip AI tools, but they have to give up search, too.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "Google will offer schools AI tools that purportedly don't give away the answers.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This story was reported by Ars Technica and TechCrunch.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
