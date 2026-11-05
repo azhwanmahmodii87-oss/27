@@ -1,0 +1,37 @@
+{
+  "news": {
+    "id": "0f0bd9b46d",
+    "title": "A thousand fewer paths to root",
+    "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+    "published": "2026-11-04T08:00:00+00:00",
+    "sources": [
+      "OpenAI"
+    ],
+    "source_links": [
+      {
+        "source": "OpenAI",
+        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+      }
+    ],
+    "status": "official",
+    "score": 40
+  },
+  "title": "A thousand fewer paths to root",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. A thousand fewer paths to root.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This was announced by OpenAI.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
