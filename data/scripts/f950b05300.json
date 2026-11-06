@@ -1,0 +1,42 @@
+{
+  "news": {
+    "id": "f950b05300",
+    "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
+    "summary": "Letterboxd, an online platform for movie lovers, has grown dramatically in recent years.",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million/",
+    "published": "2026-11-06T00:07:18+00:00",
+    "sources": [
+      "TechCrunch",
+      "The Verge"
+    ],
+    "source_links": [
+      {
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million/"
+      },
+      {
+        "source": "The Verge",
+        "url": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report"
+      }
+    ],
+    "status": "confirmed",
+    "score": 48
+  },
+  "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. The New York Times reportedly in talks to buy Letterboxd for $330 million.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "Letterboxd, an online platform for movie lovers, has grown dramatically in recent years.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "This story was reported by TechCrunch and The Verge.",
+      "search": "futuristic technology"
+    }
+  ],
+  "method": "template"
+}
