@@ -1,0 +1,41 @@
+{
+  "news": {
+    "id": "2f83d3e65a",
+    "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+    "summary": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development. Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless […]",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
+    "published": "2026-11-06T16:00:35+00:00",
+    "sources": [
+      "NVIDIA Blog"
+    ],
+    "source_links": [
+      {
+        "source": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/"
+      }
+    ],
+    "status": "official",
+    "score": 40
+  },
+  "title": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "A year ago, NVIDIA open sourced its Aerial wireless software, joining Sionna and a broader suite of open source tools for accelerating next-generation 6G network development.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "Together, they give researchers a foundation for testing ideas, comparing results and building on each other’s work — connecting simulation and AI training with experiments on real over-the-air wireless […]",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This was announced by NVIDIA Blog.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
