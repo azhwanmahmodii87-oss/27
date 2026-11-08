@@ -1,0 +1,37 @@
+{
+  "news": {
+    "id": "26d3da8ed5",
+    "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+    "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/partnering-with-hacktron",
+    "published": "2026-11-06T08:00:00+00:00",
+    "sources": [
+      "OpenAI"
+    ],
+    "source_links": [
+      {
+        "source": "OpenAI",
+        "url": "https://openai.com/index/partnering-with-hacktron"
+      }
+    ],
+    "status": "official",
+    "score": 32
+  },
+  "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Partnering with Hacktron to find vulnerabilities in OpenAI’s systems.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This was announced by OpenAI.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
