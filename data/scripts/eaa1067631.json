@@ -1,0 +1,45 @@
+{
+  "news": {
+    "id": "eaa1067631",
+    "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+    "summary": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles. These efforts are helping bring physical AI from development into real-world production. Samsung Advanc",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+    "published": "2026-11-09T05:00:40+00:00",
+    "sources": [
+      "NVIDIA Blog"
+    ],
+    "source_links": [
+      {
+        "source": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/"
+      }
+    ],
+    "status": "official",
+    "score": 64
+  },
+  "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Korea Advances Physical AI Across Industries With NVIDIA.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semiconductor manufacturing to robotics and autonomous vehicles.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "These efforts are helping bring physical AI from development into real-world production.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This was announced by NVIDIA Blog.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
