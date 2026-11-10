@@ -1,10 +1,224 @@
 {
-  "generated_at": "2026-11-09T05:49:51.964249+00:00",
+  "generated_at": "2026-11-10T05:39:36.028342+00:00",
   "feeds_ok": 10,
   "feeds_total": 10,
   "errors": [],
-  "count": 50,
+  "count": 89,
   "items": [
+    {
+      "id": "fd295d5564",
+      "title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+      "summary": "AI safety regulator will also be created after a rogue OpenAI agent hacked government websites.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-10T05:22:39+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 64
+    },
+    {
+      "id": "a1609573c8",
+      "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+      "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-09T23:51:22+00:00",
+      "sources": [
+        "BBC Technology",
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
+        }
+      ],
+      "status": "confirmed",
+      "score": 56
+    },
+    {
+      "id": "1a651dd2db",
+      "title": "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+      "summary": "The US president said he spoke with Jensen Huang on Monday and asked him about the affair with the alleged spy.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-10T03:58:13+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cqg7x7dpvym8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
+    {
+      "id": "d0a232b602",
+      "title": "Qantas to outsource 850 local jobs with most roles moving to India",
+      "summary": "The Australian airline said the move was aimed at modernising its IT systems and noted the impact of AI.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-10T01:55:22+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cry838v4qzvyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
+    {
+      "id": "d14c41e8f5",
+      "title": "The Download: empty AI climate claims, and an Nvidia investigation",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Opinion: The climate case for AI has not been made —By Mary Nichols, distinguished counsel at the UCLA School of Law and the former chair of the California Air Resources Board,…",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+      "published": "2026-11-09T13:15:00+00:00",
+      "sources": [
+        "MIT Technology Review"
+      ],
+      "source_links": [
+        {
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
+    {
+      "id": "cb71cb27d8",
+      "title": "Innovating with AI in the special chemicals industry",
+      "summary": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, ",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "published": "2026-11-09T13:00:00+00:00",
+      "sources": [
+        "MIT Technology Review"
+      ],
+      "source_links": [
+        {
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
+    {
+      "id": "7bac4899dd",
+      "title": "The climate case for AI has not been made",
+      "summary": "This week, as countries meet in Antalya, Turkey for the United Nations climate conference, one topic likely to dominate the conversation is artificial intelligence. The host has already called on countries to commit to ensuring that AI is designed, powered, and deployed in ways that support climate action. But so far, industries around the world…",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+      "published": "2026-11-09T10:00:00+00:00",
+      "sources": [
+        "MIT Technology Review"
+      ],
+      "source_links": [
+        {
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
+    {
+      "id": "b75161df84",
+      "title": "A New AI Tool From Google DeepMind Proved the Signal Protocol Is Secure",
+      "summary": "DeepMind researchers were able to formally verify that the widely used encryption protocol works as intended. Their stretch goal? Do the same for “all the software of the world.”",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/",
+      "published": "2026-11-10T05:01:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/a-new-ai-tool-from-google-deepmind-formally-verified-the-signal-protocol/"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
+    {
+      "id": "b256996ad9",
+      "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
+      "summary": "With a big checkbook and sought-after chips, Nvidia’s CEO had his thumb on the world of AI. An extramarital affair with a suspected Chinese spy may put all of that at risk.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+      "published": "2026-11-10T00:18:19+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
+    {
+      "id": "2e0b9206df",
+      "title": "What could China get from Jensen Huang?",
+      "summary": "It's difficult to overstate Nvidia's power in today's AI landscape. The company's chips are the bedrock upon which advanced AI technology in the US is being built, and demand has consistently outpaced supply for years. Nvidia has also been an influential investor in a wide range of up-and-coming AI companies in recent years, with about […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+      "published": "2026-11-09T23:51:58+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
+    {
+      "id": "b013e599f8",
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "summary": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "published": "2026-11-09T18:09:52+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
     {
       "id": "eaa1067631",
       "title": "Korea Advances Physical AI Across Industries With NVIDIA",
@@ -22,7 +236,359 @@
         }
       ],
       "status": "official",
-      "score": 64
+      "score": 48
+    },
+    {
+      "id": "f154750190",
+      "title": "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+      "summary": "The share price dropped wiped hundreds of billions of dollars from the value of Nvidia.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-09T19:58:01+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "42f2f7f871",
+      "title": "The backlash about data centers might really just be about electricity",
+      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where…",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "published": "2026-11-09T19:35:33+00:00",
+      "sources": [
+        "MIT Technology Review"
+      ],
+      "source_links": [
+        {
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "5a74fc8fbb",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "summary": "As a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressional race for former Speaker of the House Nancy Pelosi’s open San Francisco seat, he could play a key role in setting federal AI policy. I spoke with Wiener on Friday, only a…",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "published": "2026-11-09T17:05:43+00:00",
+      "sources": [
+        "MIT Technology Review"
+      ],
+      "source_links": [
+        {
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "cdc3fa1ffa",
+      "title": "Who is the suspected Chinese spy at centre of the Nvidia investigation?",
+      "summary": "Alice Huang, a Chinese businesswoman, had a close relationship with Nvidia boss Jensen Huang, reports say.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-09T14:50:35+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/videos/c80404zyr53wo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "edd514db00",
+      "title": "Jensen Huang’s alleged honeypot scandal has inspired some top-notch memes",
+      "summary": "The internet is having a field day with Nvidia's Jensen Huang's alleged honeypot scandal.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-alleged-honeypot-scandal-has-inspired-some-top-notch-memes/",
+      "published": "2026-11-10T04:34:15+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-alleged-honeypot-scandal-has-inspired-some-top-notch-memes/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "dd41f38476",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "published": "2026-11-10T01:27:12+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "83d3128c3b",
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "summary": "During Paramount Skydance's latest earnings call, CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "published": "2026-11-10T00:28:49+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "e06ce7ad22",
+      "title": "Here’s what Trump said he knew about Jensen Huang",
+      "summary": "President Trump held a White House press briefing earlier today and responded to several questions about his knowledge of Nvidia CEO Jensen Huang's affair with an alleged Chinese spy. Huang said this weekend that he had been \"​​unfaithful\" to his wife, and the company has opened an investigation into Huang. Recent articles from The New […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference",
+      "published": "2026-11-09T23:47:46+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1030446/trump-jensen-huang-press-conference"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "5a89b8c503",
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "published": "2026-11-09T23:28:37+00:00",
+      "sources": [
+        "TechCrunch",
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/"
+        },
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-hired-a-pr-firm-known-for-handling-sex-scandals-last-year/"
+        }
+      ],
+      "status": "confirmed",
+      "score": 40
+    },
+    {
+      "id": "9e6888aa09",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "summary": "Anthropic says the new models \"show improvements in areas like coding, reasoning, and vision,\" as well as in communicating more clearly with users.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "published": "2026-11-09T19:24:51+00:00",
+      "sources": [
+        "TechCrunch",
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/"
+        },
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030005/anthropic-claude-fable-mythos-5-2"
+        }
+      ],
+      "status": "confirmed",
+      "score": 40
+    },
+    {
+      "id": "95024a67f4",
+      "title": "Apple’s $50 Intelligence Usage Packs extend access to some AI features",
+      "summary": "After publishing a support article in early September outlining usage limits for some Apple Intelligence features, the company has updated Logic Pro with an option to \"Buy More Usage\" for a one-time purchase price of $49.99, as spotted by 9to5Mac. It has a built-in AI assistant to do things like \"start a new song, set […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro",
+      "published": "2026-11-09T19:09:58+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1030084/apple-intelligence-usage-packs-ai-features-creator-studio-logic-pro"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "4f52364ef1",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "summary": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "published": "2026-11-09T18:00:00+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "511fc4661b",
+      "title": "Developers can now build with Google Maps Platform in AI Studio.",
+      "summary": "Developers can now build with Google Maps Platform in AI Studio.",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/",
+      "published": "2026-11-09T17:00:00+00:00",
+      "sources": [
+        "Google Blog"
+      ],
+      "source_links": [
+        {
+          "source": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-google-maps-platform-ai-studio/"
+        }
+      ],
+      "status": "official",
+      "score": 40
+    },
+    {
+      "id": "3a698dc505",
+      "title": "Meta expands Instagram’s AI age-guessing tech globally",
+      "summary": "Meta says it will use its AI technology to look for clues about people it suspects to be teenagers — even if they use an adult birthday.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/",
+      "published": "2026-11-09T15:32:27+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/meta-expands-instagrams-ai-age-guessing-tech-globally/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "2cdbb12643",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "summary": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is taking center stage at this week’s Conference on Robot Learning (CoRL) in […]",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "published": "2026-11-09T14:00:01+00:00",
+      "sources": [
+        "NVIDIA Blog"
+      ],
+      "source_links": [
+        {
+          "source": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/"
+        }
+      ],
+      "status": "official",
+      "score": 40
+    },
+    {
+      "id": "8b9be6321a",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "summary": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/control-room",
+      "published": "2026-11-09T13:00:00+00:00",
+      "sources": [
+        "OpenAI"
+      ],
+      "source_links": [
+        {
+          "source": "OpenAI",
+          "url": "https://openai.com/index/control-room"
+        }
+      ],
+      "status": "official",
+      "score": 40
+    },
+    {
+      "id": "76166c87ab",
+      "title": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "summary": "Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across foundation models, physical AI, AI infrastructure and AI semiconductors. NVIDIA also announced an investment in Korean startup Point2, with additional investments […]",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/",
+      "published": "2026-11-09T08:00:53+00:00",
+      "sources": [
+        "NVIDIA Blog"
+      ],
+      "source_links": [
+        {
+          "source": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit/"
+        }
+      ],
+      "status": "official",
+      "score": 40
+    },
+    {
+      "id": "f85ea99a08",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "summary": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "published": "2026-11-09T08:00:00+00:00",
+      "sources": [
+        "OpenAI"
+      ],
+      "source_links": [
+        {
+          "source": "OpenAI",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak"
+        }
+      ],
+      "status": "official",
+      "score": 40
     },
     {
       "id": "0a3088f67c",
@@ -41,88 +607,7 @@
         }
       ],
       "status": "official",
-      "score": 56
-    },
-    {
-      "id": "273627ffe7",
-      "title": "Apple is racing to make Siri more agentic",
-      "summary": "Bloomberg's Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI's Dots or Meta's Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it's […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
-      "published": "2026-11-08T19:18:19+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic"
-        }
-      ],
-      "status": "unverified",
-      "score": 56
-    },
-    {
-      "id": "7d9e85a34d",
-      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
-      "summary": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key […]",
-      "source": "NVIDIA Blog",
-      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
-      "published": "2026-11-09T05:00:39+00:00",
-      "sources": [
-        "NVIDIA Blog"
-      ],
-      "source_links": [
-        {
-          "source": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/"
-        }
-      ],
-      "status": "official",
-      "score": 48
-    },
-    {
-      "id": "016b5750be",
-      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
-      "summary": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes […]",
-      "source": "NVIDIA Blog",
-      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
-      "published": "2026-11-09T05:00:04+00:00",
-      "sources": [
-        "NVIDIA Blog"
-      ],
-      "source_links": [
-        {
-          "source": "NVIDIA Blog",
-          "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/"
-        }
-      ],
-      "status": "official",
-      "score": 48
-    },
-    {
-      "id": "fdf67848fb",
-      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-      "summary": "In a memo to the company, Huang admitted that he had an affair.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-      "published": "2026-11-08T21:00:11+00:00",
-      "sources": [
-        "TechCrunch",
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/"
-        },
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy"
-        }
-      ],
-      "status": "confirmed",
-      "score": 48
+      "score": 40
     },
     {
       "id": "5bdc9302c0",
@@ -141,7 +626,7 @@
         }
       ],
       "status": "unverified",
-      "score": 48
+      "score": 40
     },
     {
       "id": "34100cd3db",
@@ -160,83 +645,387 @@
         }
       ],
       "status": "unverified",
-      "score": 48
+      "score": 40
     },
     {
-      "id": "b2c17062cd",
-      "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
-      "summary": "Nvidia’s board is investigating Jensen Huang over his relationship with a suspected Chinese spy, and Yale’s Jeffrey Sonnenfeld thinks it’s roughly a coin flip whether Huang stays on as CEO.",
+      "id": "e63093f8ce",
+      "title": "California’s proposed ‘billionaire tax’ fails to pass",
+      "summary": "California voters rejected Proposition 40, the one-time 5% tax on billionaires, the AP reported Monday. Tech leaders outspent backers roughly 10 to 1 to defeat it, and the founders and economists TechCrunch interviewed before the vote were split on whether it would have driven out wealthy residents or just trimmed their fortunes.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
-      "published": "2026-11-09T05:26:29+00:00",
+      "url": "https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/",
+      "published": "2026-11-10T05:18:43+00:00",
       "sources": [
         "TechCrunch"
       ],
       "source_links": [
         {
           "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/"
+          "url": "https://techcrunch.com/2026/11/09/californias-proposed-billionaire-tax-fails-to-pass/"
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
-      "id": "d2755322d8",
-      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "summary": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below. To my […]",
+      "id": "be73168da3",
+      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "summary": "Six months before Nvidia's spy scandal erupted, Culper Research was already questioning Jensen Huang's unusually close relationship with a Chinese executive.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "published": "2026-11-09T22:46:09+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "22286ee17d",
+      "title": "Waymo Said It Fixed Its School Bus Problem. The US Government Says It Didn’t Work",
+      "summary": "Last year, Waymo recalled its software after several of its autonomous cars drove around stopped buses. But the problems remained. Now the feds want to know more.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/waymo-school-bus-problem-the-us-government-says-it-didnt-work/",
+      "published": "2026-11-09T22:40:10+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/waymo-school-bus-problem-the-us-government-says-it-didnt-work/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "3b90a71b1a",
+      "title": "The race is on to sue Nvidia",
+      "summary": "Nvidia’s stock slid more than 4% after its board opened an investigation into Jensen Huang’s relationship with a suspected Chinese spy, and one securities law expert says the company’s earlier insistence that it was all “normal” could turn into a very expensive problem.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "published": "2026-11-09T22:23:42+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "4eab88c45e",
+      "title": "The global pledge to use AI for climate good is a cruel joke",
+      "summary": "At this point, reading through the latest splashy pledge to use AI for the good of the environment feels like downing a nonalcoholic beer. Admittedly, I'm suspicious from the onset. How can this be good? But I love beer and our planet enough to give it a whirl - and hey, why not try a […]",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-      "published": "2026-11-08T22:54:50+00:00",
+      "url": "https://www.theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31",
+      "published": "2026-11-09T21:13:16+00:00",
       "sources": [
         "The Verge"
       ],
       "source_links": [
         {
           "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia"
+          "url": "https://www.theverge.com/science/1030252/ai-data-center-climate-pledge-united-nations-cop31"
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
-      "id": "14b8e9a9d3",
-      "title": "Apple’s M5 MacBook Air is down to its lowest price since July",
-      "summary": "The latest 13-inch MacBook Air is currently available for $1,099.99, marking the second time we’ve seen this $200 discount following the company’s hefty price increases over the summer. Although the base model — which features Apple’s M5 processor, 16GB of RAM, and 512GB of storage — often sold for around $950 to $1,000 shortly after […]",
+      "id": "500879c7a6",
+      "title": "A Sam Altman parody offers an amusing lesson in memory management",
+      "summary": "We verified the RAM numbers are real without sending any emails to OpenAI.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/11/a-sam-altman-parody-offers-an-amusing-lesson-in-memory-management/",
+      "published": "2026-11-09T20:49:09+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/a-sam-altman-parody-offers-an-amusing-lesson-in-memory-management/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "710e024d4d",
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "summary": "The Nvidia CEO also pulled out of an Anthropic event earlier.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "published": "2026-11-09T20:09:06+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "56336c764e",
+      "title": "AI hardware startup Nominal triples valuation to $3B in 8 months",
+      "summary": "Nominal, a startup that offers an AI platform for hardware engineering and claims Anduril as a major customer, has raised another big round of financing that triples its valuation.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/",
+      "published": "2026-11-09T19:21:46+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/ai-hardware-startup-nominal-triples-valuation-to-3b-in-8-months/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "dbb9176258",
+      "title": "Instagram’s Effect Builder makes new filters from AI prompts",
+      "summary": "After expanding its Edits app to macOS last week, Instagram's next move is launching this Effect Builder that generates custom filters for your Stories posts with AI. Available now for US residents who are over 18, it has a prompt box for describing your filter idea to the chatbot, with an option to attach style […]",
       "source": "The Verge",
-      "url": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale",
-      "published": "2026-11-08T16:00:00+00:00",
+      "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters",
+      "published": "2026-11-09T18:07:23+00:00",
       "sources": [
         "The Verge"
       ],
       "source_links": [
         {
           "source": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1029019/apple-macbook-air-13-15-inch-m5-deal-sale"
+          "url": "https://www.theverge.com/tech/1030061/instagram-ai-effect-builder-filters"
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
-      "id": "6f95daafe3",
-      "title": "Chatbots might be coming to Apple’s HomeView",
-      "summary": "Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There's a flag listed for a \"Conversational Apps\" category. While there are no details about what apps would fall under that heading, it seems reasonable that AI chatbots like ChatGPT and Claude could be added to […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
-      "published": "2026-11-08T15:00:30+00:00",
+      "id": "dc807cc11a",
+      "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
+      "summary": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
+      "published": "2026-11-09T16:56:54+00:00",
       "sources": [
-        "The Verge"
+        "TechCrunch"
       ],
       "source_links": [
         {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview"
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/"
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
+    },
+    {
+      "id": "93309abd1d",
+      "title": "Medium’s new TK app brings AI assistance directly into the writing process",
+      "summary": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
+      "published": "2026-11-09T16:12:28+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "425f80e562",
+      "title": "SpaceX now fundamentally an \"infrastructure company,\" senior official says",
+      "summary": "\"Grok analyzing the same video is 99.9 percent perfect.\"",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/",
+      "published": "2026-11-09T15:39:21+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "a45f727359",
+      "title": "Waymo robotaxis kept illegally passing school buses after software fix, feds say",
+      "summary": "The update to Waymo's self-driving system was rolled out nearly a year ago.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/",
+      "published": "2026-11-09T15:24:59+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/waymo-robotaxis-kept-illegally-passing-school-buses-after-software-fix-feds-say/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "13ee06f1fa",
+      "title": "Nvidia CEO's affair becomes a national security problem",
+      "summary": "Nvidia is probing whether Chinese intelligence targeted its CEO through an affair.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+      "published": "2026-11-09T15:23:20+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "b430c64511",
+      "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+      "summary": "As the publishing industry wrestles with paranoia over the provenance of manuscripts, writers are caught in an impossible bind.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+      "published": "2026-11-09T11:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "cd540331ac",
+      "title": "I Let Pangram Loose on My Gmail Inbox. Here’s How Much AI It Found",
+      "summary": "The AI detector will now check your incoming emails for machine-generated text.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/i-let-pangram-loose-on-my-gmail-inbox-heres-how-much-ai-it-found/",
+      "published": "2026-11-09T10:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/i-let-pangram-loose-on-my-gmail-inbox-heres-how-much-ai-it-found/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "67ce7bb918",
+      "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+      "summary": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+      "published": "2026-11-09T08:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "e2b903849e",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "summary": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/kuken",
+      "published": "2026-11-09T08:00:00+00:00",
+      "sources": [
+        "OpenAI"
+      ],
+      "source_links": [
+        {
+          "source": "OpenAI",
+          "url": "https://openai.com/index/kuken"
+        }
+      ],
+      "status": "official",
+      "score": 32
+    },
+    {
+      "id": "7d9e85a34d",
+      "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "summary": "As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterprise workflows. A key […]",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/",
+      "published": "2026-11-09T05:00:39+00:00",
+      "sources": [
+        "NVIDIA Blog"
+      ],
+      "source_links": [
+        {
+          "source": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai/"
+        }
+      ],
+      "status": "official",
+      "score": 32
+    },
+    {
+      "id": "016b5750be",
+      "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "summary": "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The collaboration lays the groundwork for Korean NPU and XPU companies to explore participation in the NVIDIA NVLink Fusion ecosystem, and includes […]",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/",
+      "published": "2026-11-09T05:00:04+00:00",
+      "sources": [
+        "NVIDIA Blog"
+      ],
+      "source_links": [
+        {
+          "source": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/"
+        }
+      ],
+      "status": "official",
+      "score": 32
     },
     {
       "id": "44ec7cf635",
@@ -255,64 +1044,539 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
-      "id": "1ca631ea95",
-      "title": "Sequoia partners reportedly blindsided when Roelof Botha joined SpaceX board",
-      "summary": "A new report claims Sequoia's recent changes undo the legacy of the firm's former steward.",
+      "id": "5ca5a6439d",
+      "title": "Hotel giant Wyndham exposed customer data after app security lapse",
+      "summary": "Exclusive: Wyndham left a hardcoded credential in its customer app, allowing anyone to access customer data. The hotel giant wouldn't say if it has the ability to check for any past unauthorized access.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/",
-      "published": "2026-11-08T19:51:30+00:00",
+      "url": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/",
+      "published": "2026-11-09T23:03:46+00:00",
       "sources": [
         "TechCrunch"
       ],
       "source_links": [
         {
           "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/sequoia-partners-reportedly-blindsided-when-roelof-botha-joined-spacex-board/"
+          "url": "https://techcrunch.com/2026/11/09/hotel-giant-wyndham-exposed-customer-data-after-app-security-lapse/"
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
-      "id": "08c8f09dd9",
-      "title": "Elvis and Eminem rights holders are suing Suno",
-      "summary": "Suno is facing yet another pair of lawsuits. A group of rights holders of Elvis Presley's music and the publisher of some of Eminem's biggest records are suing the AI music company, claiming it illegally generates music and lyrics that mimic those artists. The lawyers in the Presley suit claim that Suno has violated Tennessee's […]",
+      "id": "ac422ff3b6",
+      "title": "The Home Depot Best Early Black Friday Deals (2026)",
+      "summary": "If you’re looking for a new appliance or vacuum, Home Depot’s sale is one you don’t want to miss.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-home-depot-early-black-friday-deals-nov-2026/",
+      "published": "2026-11-09T22:15:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/the-home-depot-early-black-friday-deals-nov-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "2e0763630e",
+      "title": "These WIRED-Tested Standing Desks Are Already on Sale for Black Friday",
+      "summary": "Upgrade your workspace with discounts on WIRED-tested desks from Branch, Vari, FlexiSpot, and Uplift—plus a walking pad to keep things moving.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-early-black-friday-deals-on-standing-desks-11-9-26/",
+      "published": "2026-11-09T22:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/best-early-black-friday-deals-on-standing-desks-11-9-26/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "5e0ec51f04",
+      "title": "DCU shake-up: James Gunn and Peter Safran out post-merger",
+      "summary": "Producer and former Kevin Feige protege Jeremy Latcham will replace Gunn and Safran.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger/",
+      "published": "2026-11-09T21:55:35+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/culture/2026/11/dcu-shake-up-james-gunn-and-peter-safran-out-post-merger/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "c8563fbaca",
+      "title": "MSI’s refurbished QD-OLED gaming monitor is on sale for under $300",
+      "summary": "One of the best upgrades you can make to your PC gaming setup is an OLED monitor. Fortunately, MSI’s factory-reconditioned Mag 272QP X24 is on sale at Woot through November 18th with a 180-day manufacturer warranty for $290.99, which is more than $100 cheaper than the full MSRP of $399.99. MSI’s 27-inch screen is well-featured […]",
       "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
-      "published": "2026-11-08T17:23:19+00:00",
+      "url": "https://www.theverge.com/gadgets/1030262/msi-mag-272qp-qd-oled-x24-monitor-woot-deal-sale",
+      "published": "2026-11-09T21:43:41+00:00",
       "sources": [
         "The Verge"
       ],
       "source_links": [
         {
           "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit"
+          "url": "https://www.theverge.com/gadgets/1030262/msi-mag-272qp-qd-oled-x24-monitor-woot-deal-sale"
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
-      "id": "bbc76c8308",
-      "title": "TechCrunch Mobility: The Cybertruck experiment is over",
-      "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, the role AI is playing in it.",
+      "id": "e33ad9fc36",
+      "title": "Man who lost $308,000 on sports bets sues Kalshi for offering illegal gambling",
+      "summary": "Lawsuit demands Kalshi return losses because online betting is illegal in Washington.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/",
+      "published": "2026-11-09T21:13:39+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/man-who-lost-308000-on-sports-bets-sues-kalshi-for-offering-illegal-gambling/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "50d5422159",
+      "title": "Fervo now has $12B in orders for its geothermal power tech",
+      "summary": "Geothermal company Fervo is targeting natural gas as it brings down geothermal drilling costs at its 8.4 GW resource in Utah.",
       "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/",
-      "published": "2026-11-08T17:02:00+00:00",
+      "url": "https://techcrunch.com/2026/11/09/fervo-now-has-12b-in-orders-for-its-geothermal-power-tech/",
+      "published": "2026-11-09T20:55:34+00:00",
       "sources": [
         "TechCrunch"
       ],
       "source_links": [
         {
           "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/techcrunch-mobility-the-cybertruck-experiment-is-over/"
+          "url": "https://techcrunch.com/2026/11/09/fervo-now-has-12b-in-orders-for-its-geothermal-power-tech/"
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
+    },
+    {
+      "id": "3f483fbb1c",
+      "title": "The 9 Best TV Shows to Stream This Month (November 2026)",
+      "summary": "Black Doves, The Lord of the Rings: The Rings of Power, and Blade Runner 2099 are just a few of the shows you should be watching right now.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-9-best-shows-to-stream-right-now/",
+      "published": "2026-11-09T20:47:28+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/the-9-best-shows-to-stream-right-now/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "572d8eca38",
+      "title": "Vulnerability that lets hackers SSH into Linux devices is under active exploitation",
+      "summary": "\"*sshole\" poses a serious threat to Internet security.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/",
+      "published": "2026-11-09T19:41:34+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/11/vulnerability-that-lets-hackers-ssh-into-linux-devices-is-under-active-exploitation/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "2b58829694",
+      "title": "YouTube streaming data returns to Billboard charts, ending major disagreement",
+      "summary": "YouTube will resume sharing streaming data with Billboard in 2027 after changes to the chart formula give more weight to free, ad-supported music streams.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/youtube-streaming-data-returns-to-billboard-charts-ending-major-disagreement/",
+      "published": "2026-11-09T19:39:41+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/youtube-streaming-data-returns-to-billboard-charts-ending-major-disagreement/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "4d196456de",
+      "title": "France blames Iran for mass-hacks targeting freezers in grocery stores and blood banks",
+      "summary": "France's foreign minister blamed Iran for launching at least two waves of cyberattacks targeting industrial refrigerated and freezer units across France and wider Europe.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/",
+      "published": "2026-11-09T19:19:24+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/france-blames-iran-for-mass-hacks-targeting-freezers-in-grocery-stores-and-blood-banks/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "bd7fae0eef",
+      "title": "Pentagon mulls placing fleet of military satellites around the Moon",
+      "summary": "\"Please jump on my cislunar bandwagon because I need some more friends here.\"",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
+      "published": "2026-11-09T19:08:37+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "602be2e05e",
+      "title": "ChatGPT Enterprise now available in AWS Marketplace",
+      "summary": "ChatGPT Enterprise is now available through AWS Marketplace, helping organizations simplify procurement through existing AWS purchasing and billing relationships.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "published": "2026-11-09T19:00:00+00:00",
+      "sources": [
+        "OpenAI"
+      ],
+      "source_links": [
+        {
+          "source": "OpenAI",
+          "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+        }
+      ],
+      "status": "official",
+      "score": 24
+    },
+    {
+      "id": "abf6119cea",
+      "title": "You can grab three months of Game Pass Ultimate for under $20 per month",
+      "summary": "The price of Xbox Game Pass Ultimate has fluctuated between $20 and $30 per month over the last year, but you can get three months of the top plan for around $19 per month. At Newegg, using the coupon code BNWF2656 at checkout knocks $11 off the usual cost of a three-month subscription. That brings […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/1029998/game-pass-ultimate-three-months-lego-pokemon-pikachu-deal-sale",
+      "published": "2026-11-09T18:35:25+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1029998/game-pass-ultimate-three-months-lego-pokemon-pikachu-deal-sale"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "76bf5ec500",
+      "title": "Claude Code is accidentally exposing secrets all over GitHub",
+      "summary": "\"Do not ask again\" prompt leads to passwords, API keys, and more being shared.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+      "published": "2026-11-09T17:24:26+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "80fcd31720",
+      "title": "Uber launches parking service following SpotHero acquisition, with an eye on robotaxis",
+      "summary": "Uber Parking is the latest example of the company offering products beyond its core ride-hailing service.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/",
+      "published": "2026-11-09T17:00:00+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "5d8ca2dba4",
+      "title": "F1 in Brazil: You’ve got to keep your tires alive",
+      "summary": "A topsy-turvy grid and intermittent rain resulted in a very entertaining race.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/cars/2026/11/f1-in-brazil-drivers-at-their-very-best-in-tricky-conditions/",
+      "published": "2026-11-09T15:16:31+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/cars/2026/11/f1-in-brazil-drivers-at-their-very-best-in-tricky-conditions/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "42cd785461",
+      "title": "Our newest TPUs: 8tx and 8i Max, built for the agentic era",
+      "summary": "TPU 8tx and TPU 8i Max",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/",
+      "published": "2026-11-09T13:00:00+00:00",
+      "sources": [
+        "Google Blog"
+      ],
+      "source_links": [
+        {
+          "source": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+        }
+      ],
+      "status": "official",
+      "score": 24
+    },
+    {
+      "id": "53abf94aa5",
+      "title": "New Democratic Congress will likely strip the gilding from Trump's Golden Dome",
+      "summary": "\"There’s no doubt that whatever it’s going to be called, it won’t be called Golden Dome.\"",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/",
+      "published": "2026-11-09T12:00:05+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "995672f3ac",
+      "title": "King Arthur Baking Sourdough Sidekick Review: Rising to the Occasion",
+      "summary": "This techy automatic starter feeder has some quirks, but it ended my yearlong sourdough slump.",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/king-arthur-baking-sourdough-sidekick/",
+      "published": "2026-11-09T12:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/review/king-arthur-baking-sourdough-sidekick/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "d62f6a104a",
+      "title": "New Hulu Doc ‘Get Huge’ Shows the Deadly Toll of Looksmaxxing",
+      "summary": "The new Hulu docuseries Get Huge: Looksmaxxing to Death shines a light on the mysterious deaths and disappearances of a group of male influencers in Thailand—and the leader at the center of it all.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/hulu-doc-get-huge-shows-the-deadly-toll-of-looksmaxxing/",
+      "published": "2026-11-09T12:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/hulu-doc-get-huge-shows-the-deadly-toll-of-looksmaxxing/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "3499da9680",
+      "title": "Holiday 100: Your guide to this year’s top trending gifts",
+      "summary": "Text \"Holiday 100\" surrounded by various products: a piano keyboard mat, a camera, a pair of jeans, a kettle, a suitcase, a vase, and a tube of lipstick. In the top right is a bow.",
+      "source": "Google Blog",
+      "url": "https://blog.google/products-and-platforms/products/shopping/holiday-100-gift-guide-2026/",
+      "published": "2026-11-09T12:00:00+00:00",
+      "sources": [
+        "Google Blog"
+      ],
+      "source_links": [
+        {
+          "source": "Google Blog",
+          "url": "https://blog.google/products-and-platforms/products/shopping/holiday-100-gift-guide-2026/"
+        }
+      ],
+      "status": "official",
+      "score": 24
+    },
+    {
+      "id": "737a1d5257",
+      "title": "The Midterms Were a Pretty Good Sign for the Right-to-Repair Movement",
+      "summary": "A shifting political landscape gives right-to-repair advocates their best shot yet at meaningful federal reform.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-midterms-were-a-pretty-good-sign-for-right-to-repair/",
+      "published": "2026-11-09T11:30:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/the-midterms-were-a-pretty-good-sign-for-right-to-repair/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "700b63f064",
+      "title": "Scientists May Have Discovered a Massive Starless Galaxy",
+      "summary": "The promising candidate contains roughly 2 billion times the sun’s mass in hydrogen, yet appears to have no stars. Studying it could help answer questions that have vexed astronomers for years.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-discover-massive-starless-galaxy/",
+      "published": "2026-11-09T11:15:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/scientists-discover-massive-starless-galaxy/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "64dbbe2780",
+      "title": "Audioengine Color of the Year Kit Review: Bright Look, Good Sound",
+      "summary": "The canary-yellow set is equal parts design and audio performance, and includes speakers, speaker stands, a turntable, and a subwoofer.",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/audioengine-2026-color-of-the-year-kit/",
+      "published": "2026-11-09T11:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/review/audioengine-2026-color-of-the-year-kit/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "d4b8649a1f",
+      "title": "These Robotic Arms Are Powered by Algae. Watch How They Move",
+      "summary": "The key to the movement of these flexible robots is the algae’s photosynthetic capabilities.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/these-robotic-arms-are-made-of-algae-watch-how-they-move/",
+      "published": "2026-11-09T10:30:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/these-robotic-arms-are-made-of-algae-watch-how-they-move/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "c825becf8f",
+      "title": "DHS Has Used This Controversial Investigative Tool 185,000 Times Since Trump Took Office",
+      "summary": "Homeland Security Investigations estimates that it has sent out more administrative subpoenas since January 2025 than it did in more than six and a half years between 2016 and mid-August 2022.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/dhs-has-used-this-controversial-investigative-tool-185000-times-since-trump-took-office/",
+      "published": "2026-11-09T10:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/dhs-has-used-this-controversial-investigative-tool-185000-times-since-trump-took-office/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "c3f79a8b08",
+      "title": "Welcome to Weed Island",
+      "summary": "How the tiny, self-governing British island of Jersey unintentionally became Europe’s front line in the multibillion-dollar global cannabis industry.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/welcome-to-weed-island-jersey/",
+      "published": "2026-11-09T07:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/welcome-to-weed-island-jersey/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
     },
     {
       "id": "29c726f8f9",
@@ -328,215 +1592,6 @@
         {
           "source": "Wired",
           "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "0faffb42d8",
-      "title": "This Totally Free App Can Free Up Space on Your Mac",
-      "summary": "Stop paying for disk cleaners. This open source utility safely clears hidden caches, leftover app junk, and even gigabytes of offline Apple Intelligence models.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/this-totally-free-app-can-free-up-space-on-your-mac-purge/",
-      "published": "2026-11-07T11:15:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/this-totally-free-app-can-free-up-space-on-your-mac-purge/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "5f7127839b",
-      "title": "Can the Zelda remake capture the magic of the original?",
-      "summary": "Nintendo has released its remake of what is considered one of the best games ever made - the BBC's Tom Gerken gives his verdict.",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-08T00:37:45+00:00",
-      "sources": [
-        "BBC Technology"
-      ],
-      "source_links": [
-        {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "5317ffb130",
-      "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
-      "summary": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of 2022 - Diaspora Problems. […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
-      "published": "2026-11-08T22:37:22+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "0462f51efa",
-      "title": "Apps to distract you from the endless cycle of doomscrolling",
-      "summary": "It's hard to break the cycle of doomscrolling, but there are plenty of apps that can help you spend more time on content that’s engaging and productive.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/",
-      "published": "2026-11-08T22:00:00+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/apps-to-distract-you-from-the-endless-cycle-of-doomscrolling/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "2fac468e64",
-      "title": "If Snap’s Specs are still ridiculously expensive, they’re also a lot more comfortable than they used to be",
-      "summary": "Snap's Specs, which have been in development for many years now, are going to market this fall. Will they be a hit with users?",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/if-snaps-specs-are-still-ridiculously-expensive-theyre-also-a-lot-more-comfortable-than-they-used-to-be/",
-      "published": "2026-11-08T21:00:00+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/if-snaps-specs-are-still-ridiculously-expensive-theyre-also-a-lot-more-comfortable-than-they-used-to-be/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "8243a4140d",
-      "title": "Epic Games Launcher is coming to SteamOS",
-      "summary": "In October, Epic Games said that it was \"investigating\" making Fortnite compatible with Valve's Linux-based SteamOS. At the time, Epic Games Launcher was in preview, but SteamOS was not specifically listed as a supported distro. Now, Communications Director Jake Jones has confirmed SteamOS compatibility, along with a handful of other distros, to GamingOnLinux. In response […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos",
-      "published": "2026-11-08T20:52:05+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/games/1029557/epic-games-launcher-is-coming-to-steamos"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "dbebd3b008",
-      "title": "Coordinated disturbances haunt grids worldwide. Here’s how researchers solved the mystery.",
-      "summary": "Mystery solved: Coordinated power drops have been haunting power grid worldwide, but a team of researchers in Germany found the culprit.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/",
-      "published": "2026-11-08T20:30:00+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/coordinated-disturbances-haunt-grids-worldwide-heres-how-researchers-solved-the-mystery/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "f2328aa410",
-      "title": "SNL has a new impression of Elon Musk, ‘the worst thing South Africa has ever done’",
-      "summary": "SNL seems to have its knives out for tech executives.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done/",
-      "published": "2026-11-08T18:00:04+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "1dd2ba1007",
-      "title": "He arrested a hacker, then spent 18 months clearing his own name. Now he’s a cybersecurity VC.",
-      "summary": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
-      "published": "2026-11-08T17:30:00+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "fe37912b3d",
-      "title": "Ninja’s AutoBarista is impressively versatile, but one feature was a dealbreaker for me",
-      "summary": "The AutoBarista's \"Grind iQ\" technology allows the machine to analyze your coffee beans to inform how it pulls a shot of espresso.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/08/ninjas-autobarista-is-impressively-versatile-but-one-feature-was-a-dealbreaker-for-me/",
-      "published": "2026-11-08T15:00:00+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/08/ninjas-autobarista-is-impressively-versatile-but-one-feature-was-a-dealbreaker-for-me/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "d936179ac1",
-      "title": "There’s no slowing down media’s pivot-to-video 2.0",
-      "summary": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the pressures of creating content for the internet, follow Mia Sato. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Almost exactly a decade […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
-      "published": "2026-11-08T13:00:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot"
         }
       ],
       "status": "unverified",
@@ -559,7 +1614,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "1c9c0c2815",
@@ -578,7 +1633,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "43f5b0ffbb",
@@ -597,7 +1652,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "1dce1860f3",
@@ -616,7 +1671,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "786ffff908",
@@ -635,7 +1690,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "446a4b424b",
@@ -651,310 +1706,6 @@
         {
           "source": "Wired",
           "url": "https://www.wired.com/gallery/best-touchscreen-gloves/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "5904e2f7c8",
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "published": "2026-11-07T21:17:08+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "4beff61b43",
-      "title": "Binance CFO is leaving to ‘pursue a new venture’ after $6.3 billion hack",
-      "summary": "The announcement comes barely more than a week after hackers stole $6.3 billion worth of cryptocurrency from Binance users.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/",
-      "published": "2026-11-07T17:24:07+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "7122686a4c",
-      "title": "The 10 Best Early Black Friday Headphone Deals (2026)",
-      "summary": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Bose, and more.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-6-26/",
-      "published": "2026-11-07T11:45:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-6-26/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "3413881e07",
-      "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
-      "summary": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
-      "published": "2026-11-07T11:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "83b193613a",
-      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
-      "summary": "On Equity, we unpacked what the midterms mean for the tech industry.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-      "published": "2026-11-07T22:07:22+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "9a40e42698",
-      "title": "Parents want safer phones for kids. These companies are answering the call.",
-      "summary": "As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
-      "published": "2026-11-07T19:00:00+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "5d2059e88f",
-      "title": "Amazon’s new basic Kindle proves you don’t need all the bells and whistles",
-      "summary": "Amazon's redesigned basic Kindle costs more than before, but its lighter build and improved display make a compelling case for skipping the pricier models.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles/",
-      "published": "2026-11-07T17:18:00+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "a65d32a36e",
-      "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
-      "summary": "With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn't exactly an option while I was at a relative's outdoor party in August. So I sat beneath a patio umbrella with a powerful fan nearby, figuring I was protected from the sun and heat. Half an hour later, I felt exhausted, dizzy, […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
-      "published": "2026-11-07T17:00:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "48c1207b51",
-      "title": "The Fridge-Hacking Spree Is an Internet-of-Things Wake-Up Call",
-      "summary": "Escalating hacks affecting blood labs and grocery stores show the very real risks to critical infrastructure that come from basic security lapses involving internet-connected devices.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things/",
-      "published": "2026-11-07T13:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "f9339d0d6b",
-      "title": "The Bantu expansion changed Africa. Scientists are still tracing how.",
-      "summary": "Genes and archaeology are revealing how Bantu speakers spread across much of Africa.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
-      "published": "2026-11-07T12:15:55+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "0efe8f3339",
-      "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
-      "summary": "Ensuring your cat stays hydrated is one of the best ways to keep your pet healthy. The right pet water fountain can help.",
-      "source": "Wired",
-      "url": "https://www.wired.com/gallery/best-cat-water-fountains/",
-      "published": "2026-11-07T11:37:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/gallery/best-cat-water-fountains/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "abe57ae39d",
-      "title": "British soldier ignored order to pull his SIM card, then got blackmailed",
-      "summary": "Soldier told repeatedly to lock down devices before deploying, got sextorted, court-martialed.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/",
-      "published": "2026-11-07T11:00:34+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "b14721d046",
-      "title": "GoRuck Black Friday Sale: My Favorite Packs and Weighted Vests Are Nearly 50% Off",
-      "summary": "Skip the gym and get outdoors with GoRuck’s indestructible packs and workout gear, deeply discounted ahead of the holidays.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/goruck-black-friday-sale-2026/",
-      "published": "2026-11-07T11:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/goruck-black-friday-sale-2026/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "14c211f1c6",
-      "title": "Ecoflow Rapid Pro Power Bank Deal: Save $80",
-      "summary": "With huge capacities, retractable USB-C cables, and fast-charging capability, these discounted Ecoflow power banks are worth grabbing.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/ecoflow-rapid-pro-deal-november-2026/",
-      "published": "2026-11-07T11:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/ecoflow-rapid-pro-deal-november-2026/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "fe7e96023b",
-      "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
-      "summary": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
-      "published": "2026-11-07T11:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "5a271dd2a3",
-      "title": "The American Dream Wasn’t Built for Climate Change",
-      "summary": "Owning a home is billed as a way to build wealth, but amid climate-related disasters, for many, it's beginning to feel like a trap.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/the-american-dream-wasnt-built-for-climate-change/",
-      "published": "2026-11-07T10:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/the-american-dream-wasnt-built-for-climate-change/"
         }
       ],
       "status": "unverified",

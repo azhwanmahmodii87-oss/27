@@ -1,0 +1,42 @@
+{
+  "news": {
+    "id": "a1609573c8",
+    "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+    "summary": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+    "source": "BBC Technology",
+    "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-09T23:51:22+00:00",
+    "sources": [
+      "BBC Technology",
+      "The Verge"
+    ],
+    "source_links": [
+      {
+        "source": "BBC Technology",
+        "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "source": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
+      }
+    ],
+    "status": "confirmed",
+    "score": 56
+  },
+  "title": "What we know so far about Jensen Huang's affair with suspected Chinese spy",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. What we know so far about Jensen Huang's affair with suspected Chinese spy.",
+      "search": "cyber security code"
+    },
+    {
+      "narration": "The billionaire tech executive finds himself mired in a personal and national security scandal.",
+      "search": "cyber security code"
+    },
+    {
+      "narration": "This story was reported by BBC Technology and The Verge.",
+      "search": "cyber security code"
+    }
+  ],
+  "method": "template"
+}
