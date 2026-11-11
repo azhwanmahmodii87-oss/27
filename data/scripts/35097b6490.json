@@ -1,0 +1,50 @@
+{
+  "news": {
+    "id": "35097b6490",
+    "title": "Google’s Pixel Tag tracker is now available",
+    "summary": "After years of third-party Android trackers from companies like Samsung, Motorola, and Pebblebee, Google's Pixel Tag is now available for purchase. First announced in August, the Pixel Tag is designed to work with Google's tracking network and app that was renamed the Find Hub last year. The Pixel Tag is priced similar to Apple's AirTag […]",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/tech/1030766/google-pixel-tag-tracker-find-hub-uwb-bluetooth-sounding",
+    "published": "2026-11-10T19:00:00+00:00",
+    "sources": [
+      "The Verge",
+      "TechCrunch"
+    ],
+    "source_links": [
+      {
+        "source": "The Verge",
+        "url": "https://www.theverge.com/tech/1030766/google-pixel-tag-tracker-find-hub-uwb-bluetooth-sounding"
+      },
+      {
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/10/pixel-tag-googles-30-android-ready-answer-to-apples-airtag-is-now-available/"
+      }
+    ],
+    "status": "confirmed",
+    "score": 56
+  },
+  "title": "Google’s Pixel Tag tracker is now available",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Google’s Pixel Tag tracker is now available.",
+      "search": "smartphone technology"
+    },
+    {
+      "narration": "After years of third-party Android trackers from companies like Samsung, Motorola, and Pebblebee, Google's Pixel Tag is now available for purchase.",
+      "search": "smartphone technology"
+    },
+    {
+      "narration": "First announced in August, the Pixel Tag is designed to work with Google's tracking network and app that was renamed the Find Hub last year.",
+      "search": "smartphone technology"
+    },
+    {
+      "narration": "The Pixel Tag is priced similar to Apple's AirTag […]",
+      "search": "smartphone technology"
+    },
+    {
+      "narration": "This story was reported by The Verge and TechCrunch.",
+      "search": "smartphone technology"
+    }
+  ],
+  "method": "template"
+}
