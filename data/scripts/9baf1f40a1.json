@@ -1,0 +1,37 @@
+{
+  "news": {
+    "id": "9baf1f40a1",
+    "title": "Gilbert + Tobin rethinks the business of law with AI",
+    "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+    "published": "2026-11-12T00:00:00+00:00",
+    "sources": [
+      "OpenAI"
+    ],
+    "source_links": [
+      {
+        "source": "OpenAI",
+        "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
+      }
+    ],
+    "status": "official",
+    "score": 40
+  },
+  "title": "Gilbert + Tobin rethinks the business of law with AI",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Gilbert + Tobin rethinks the business of law with AI.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This was announced by OpenAI.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
