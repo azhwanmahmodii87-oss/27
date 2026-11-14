@@ -1,119 +1,323 @@
 {
-  "generated_at": "2026-11-13T05:45:38.703775+00:00",
+  "generated_at": "2026-11-14T05:36:38.895465+00:00",
   "feeds_ok": 10,
   "feeds_total": 10,
   "errors": [],
-  "count": 126,
+  "count": 131,
   "items": [
     {
-      "id": "5c77cce892",
-      "title": "What we know as Nvidia CEO Jensen Huang resigns over affair allegations",
-      "summary": "The billionaire tech executive has left the company following reports of a second extramarital affair.",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-12T15:26:39+00:00",
+      "id": "a36af39a2d",
+      "title": "Silicon Valley claims to know the future. So why did it get the midterms so wrong?",
+      "summary": "The self-styled visionaries of Silicon Valley, leaders like OpenAI chief executive Sam Altman and SpaceX boss Elon Musk, have built careers claiming to see the future. Long-term vision is currency: Meta’s Mark Zuckerberg built a 10-year road map for Facebook in 2016, and Google famously told investors before its public offering that it was unconcerned…",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
+      "published": "2026-11-13T10:00:00+00:00",
       "sources": [
-        "BBC Technology",
-        "Ars Technica",
-        "Wired"
+        "MIT Technology Review"
       ],
       "source_links": [
         {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/"
-        },
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/"
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/"
         }
       ],
-      "status": "confirmed",
-      "score": 72
+      "status": "unverified",
+      "score": 64
     },
     {
-      "id": "8d3be6dc7b",
-      "title": "Who is Nvidia's interim CEO Colette Kress - and who could take over permanently?",
-      "summary": "Chief financial officer Colette Kress in in charge of Nvidia for now, but several others are in the frame as potential successors.",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-12T15:10:32+00:00",
+      "id": "3a0396baac",
+      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+      "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+      "published": "2026-11-13T20:45:10+00:00",
       "sources": [
-        "BBC Technology",
-        "Wired"
+        "The Verge",
+        "TechCrunch"
       ],
       "source_links": [
         {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/cqgm37dv20e8o?at_medium=RSS&at_campaign=rss"
+          "source": "The Verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
         },
         {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/"
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
         }
       ],
       "status": "confirmed",
       "score": 56
     },
     {
-      "id": "bdf6a48ecf",
-      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-      "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+      "id": "3e728567a0",
+      "title": "Tech Now",
+      "summary": "Yasmin Morgan-Griffiths follows a team testing AI early warning systems for landslides.",
       "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T03:57:01+00:00",
+      "url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-14T01:00:00+00:00",
       "sources": [
         "BBC Technology"
       ],
       "source_links": [
         {
           "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/iplayer/episode/m0034hf1?at_medium=RSS&at_campaign=rss"
         }
       ],
       "status": "unverified",
       "score": 48
     },
     {
-      "id": "f7038e353b",
-      "title": "Global Microsoft outage affecting tens of thousands of users",
-      "summary": "Microsoft said the outage was caused by servers unexpected becoming unavailable, straining other systems.",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T02:38:02+00:00",
+      "id": "410953f21d",
+      "title": "The Download: Silicon Valley’s blind spot and Nvidia’s chip-tracking plan",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Silicon Valley claims to know the future. So why did it get the midterms so wrong? —Aaron Zamost, a tech communications consultant and a former executive at Square The self-styled visionaries…",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/",
+      "published": "2026-11-13T13:10:00+00:00",
       "sources": [
-        "BBC Technology"
+        "MIT Technology Review"
       ],
       "source_links": [
         {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss"
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/13/1148551/the-download-silicon-valley-midterms-nvidia-chip-tracking/"
         }
       ],
       "status": "unverified",
       "score": 48
     },
     {
-      "id": "809487f5a4",
-      "title": "The rise of 'housefishing' - when does using AI go from enhancing to misleading?",
-      "summary": "Experts warn that using AI to enhance property images can go too far and mislead prospective buyers.",
+      "id": "da6064d385",
+      "title": "What we know so far about the Microsoft outage",
+      "summary": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
       "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-13T00:13:35+00:00",
+      "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T11:43:27+00:00",
       "sources": [
         "BBC Technology"
       ],
       "source_links": [
         {
           "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss"
         }
       ],
       "status": "unverified",
       "score": 48
+    },
+    {
+      "id": "bda1008eb5",
+      "title": "What happened overnight with the Microsoft global outage?",
+      "summary": "Microsoft is struggling to fix a global outage, with services including Teams, Outlook and AI software Copilot affected by \"connectivity problems\".",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/videos/cwm2591k27e2o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T07:18:17+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/videos/cwm2591k27e2o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
+    {
+      "id": "f4445d5e41",
+      "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+      "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. The FAA tweeted just after 5PM ET that, \"There has been a temporary telecommunications outage […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "published": "2026-11-14T01:53:04+00:00",
+      "sources": [
+        "The Verge",
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/news/1033489/faa-ground-stop"
+        },
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/the-faa-nationwide-ground-stop-is-over/"
+        }
+      ],
+      "status": "confirmed",
+      "score": 48
+    },
+    {
+      "id": "220b6a2868",
+      "title": "Even Grand Theft Auto's original creators haven't been able to play GTA 6",
+      "summary": "The next title in the series is expected to be the biggest video game release ever.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-14T00:37:01+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "f1fbde5a14",
+      "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
+      "summary": "The scandal has cast a spotlight on Singapore's success as a chip hub - and a location for alleged illicit trade.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T23:00:31+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "03f7c69429",
+      "title": "Microsoft outage 'stark reminder' of how much we rely on tech",
+      "summary": "Microsoft has apologised for the issue, which it said was due to a technical failure.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T21:15:41+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "5c153aef3e",
+      "title": "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
+      "summary": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T21:14:22+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "f26e730248",
+      "title": "Pressure grows on Trump's Commerce Secretary Lutnick in fallout from Nvidia scandal",
+      "summary": "Scott Bessent told CNBC that several government agencies \"were in favour of putting Megaspeed on the entity list for months\".",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T19:53:57+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "455cd8b3d0",
+      "title": "Why is Microsoft's outage lasting so long and will emails be lost?",
+      "summary": "Microsoft says it is continuing to restore services including Outlook and Teams following a global outage.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T18:36:57+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg238zrnm5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "52371ef9c4",
+      "title": "Courts, spies and MPs: How the Microsoft outage has been felt around the world",
+      "summary": "From city governments in the US to spy agencies in Australia, the Microsoft outage is being felt around the world.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T17:34:58+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "fe0f0f114c",
+      "title": "NHS, schools and police forces hit by Microsoft outage",
+      "summary": "Major airports and intelligence services are unaffected, while the government is still assessing the impact.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T13:41:25+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "c4585e14c7",
+      "title": "How a sex scandal at Nvidia is putting pressure on the White House",
+      "summary": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T12:22:30+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
     },
     {
       "id": "7a50935106",
@@ -132,45 +336,235 @@
         }
       ],
       "status": "unverified",
-      "score": 48
+      "score": 40
     },
     {
-      "id": "c3469305fa",
-      "title": "How AI visionary Jensen Huang was undone by his own bad decisions",
-      "summary": "Zoe Kleinman explains how the man who built Nvidia from the ground up lost everything in a matter of days.",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-12T16:43:36+00:00",
+      "id": "36de820849",
+      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "published": "2026-11-13T22:43:00+00:00",
       "sources": [
-        "BBC Technology"
+        "TechCrunch"
       ],
       "source_links": [
         {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss"
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/"
         }
       ],
       "status": "unverified",
-      "score": 48
+      "score": 40
     },
     {
-      "id": "3280fcdb9d",
-      "title": "Donald Trump really wants Tim Cook to run Nvidia",
-      "summary": "Jensen Huang resigned this morning as Nvidia's CEO following reports of affairs, including one with an alleged Chinese spy. Right now, the company is being led by its CFO on an interim basis. But President Donald Trump is already throwing around one person he thinks should take over the chipmaking giant: former Apple CEO Tim […]",
+      "id": "19f0948185",
+      "title": "Claim your Google Cloud Credits in Google AI Studio",
+      "summary": "Google Cloud Credits in AI Studio",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/",
+      "published": "2026-11-13T20:30:00+00:00",
+      "sources": [
+        "Google Blog"
+      ],
+      "source_links": [
+        {
+          "source": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/"
+        }
+      ],
+      "status": "official",
+      "score": 40
+    },
+    {
+      "id": "b33ce02481",
+      "title": "AI agent startup LangChain hits $3B valuation",
+      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
+      "published": "2026-11-13T19:37:57+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "16f68f8b1a",
+      "title": "Here’s how you can save on your GTA VI preorder ahead of launch",
+      "summary": "The long-awaited launch of GTA VI is around the corner, happening next Friday, November 19th. While discounts on the game itself will be rare for some time, there’s a clever workaround to save you a few bucks on your digital copy. We found discounts on gift cards for both Sony PlayStation and Microsoft Xbox Series […]",
       "source": "The Verge",
-      "url": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
-      "published": "2026-11-13T00:46:07+00:00",
+      "url": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
+      "published": "2026-11-13T19:14:38+00:00",
       "sources": [
         "The Verge"
       ],
       "source_links": [
         {
           "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang"
+          "url": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale"
         }
       ],
       "status": "unverified",
-      "score": 48
+      "score": 40
+    },
+    {
+      "id": "c36e7c7d98",
+      "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
+      "summary": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
+      "published": "2026-11-13T19:08:57+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "8dba50b38e",
+      "title": "Export-banned Nvidia chips are behind China’s most powerful AI models — uh-oh, Jensen!",
+      "summary": "New research shows the most advanced AI models from China were trained on banned Nvidia chips.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/",
+      "published": "2026-11-13T18:40:30+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "38aac77f42",
+      "title": "Jensen Huang was reckless with the environment, too",
+      "summary": "Under cofounder Jensen Huang, Nvidia has become the engine for the AI boom - and one of the tech industry's biggest environmental liabilities. Its sought-after chips have triggered a new wave of water- and chemical-intensive factories, drained power grids from inside massive data centers, and set the stage for a looming e-waste problem. Under Huang's […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
+      "published": "2026-11-13T17:44:22+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "4c1670c21e",
+      "title": "OpenAI board member worries an AI \"takeover\" of society could be months away",
+      "summary": "Researcher traces a path from AI reward hacking to potential human extinction.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "published": "2026-11-13T17:25:45+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "25f3f889e8",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "published": "2026-11-13T15:58:00+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "7bb8983db9",
+      "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
+      "summary": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
+      "published": "2026-11-13T14:57:55+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "300e8cbc28",
+      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+      "summary": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "published": "2026-11-13T12:52:19+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "32b3b7ec41",
+      "title": "The Hubble Space Telescope Is Sinking. NASA Is Looking for Ways to Keep It Afloat",
+      "summary": "With Hubble expected to reenter the atmosphere by 2034 and several malfunctions on board, NASA is asking commercial space companies for proposals on how to extend the telescope’s lifespan.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/",
+      "published": "2026-11-13T10:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
     },
     {
       "id": "5bac26ac59",
@@ -189,31 +583,7 @@
         }
       ],
       "status": "unverified",
-      "score": 48
-    },
-    {
-      "id": "7df3ce6028",
-      "title": "Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email",
-      "summary": "Microsoft says its systems are experiencing “elevated loads” as the company races to end an outage impacting its business and enterprise customers.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
-      "published": "2026-11-12T20:01:33+00:00",
-      "sources": [
-        "Wired",
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/"
-        },
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/microsofts-outlook-email-hit-by-new-outage/"
-        }
-      ],
-      "status": "confirmed",
-      "score": 48
+      "score": 40
     },
     {
       "id": "eeafc8738e",
@@ -232,69 +602,349 @@
         }
       ],
       "status": "official",
-      "score": 48
-    },
-    {
-      "id": "1a68403d89",
-      "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
-      "summary": "An internal post urging the board to consider employee sentiment about Nvidia’s former CEO has drawn more than 1,600 comments, the majority in full support of reinstalling him.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
-      "published": "2026-11-13T01:17:49+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
-        }
-      ],
-      "status": "unverified",
       "score": 40
     },
     {
-      "id": "26e3054ab9",
-      "title": "Roborock Robot Vacuum Early Black Friday Deals (2026)",
-      "summary": "The brand’s official Black Friday sales start next week, but some of its best vacuums are already discounted.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026/",
-      "published": "2026-11-12T23:54:58+00:00",
+      "id": "1732dcfaa9",
+      "title": "More autonomy, fewer NDAs: Volunteers have new requests for brain implant trials",
+      "summary": "Scientists have been working on ways to decode brain activity for decades. Teams have developed brain implants that can be used to control robotic limbs and computers, and even to “speak.” The people who volunteer for trials of those devices play a vital role in that research, and they ought to be recognized for their…",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
+      "published": "2026-11-13T10:00:00+00:00",
       "sources": [
-        "Wired"
+        "MIT Technology Review"
       ],
       "source_links": [
         {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026/"
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/"
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
-      "id": "600a6c3093",
-      "title": "Whoop launched a social network where every user has a ‘verified heartbeat’",
-      "summary": "Starting Thursday, Whoop members can share their data from its wearables on the app's new Whoop Humans social network. Users can make their metrics, activities, and achievements visible to other Whoop wearers, post Story-like \"Moments\" with photos and captions, and add comments and reactions on other members' posts. Whoop claims its platform is \"entirely human,\" […]",
+      "id": "5ceb59c8a3",
+      "title": "Heat pumps: How much heat does your home really need?",
+      "summary": "Knowing how much heat your home loses is important before installing a new heating system.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/cqy43zk3kk04o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T09:29:25+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cqy43zk3kk04o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "bdf6a48ecf",
+      "title": "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+      "summary": "Huang abruptly quit on Thursday as head of one of the world's most valuable companies after revelations of alleged extramarital affairs.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-13T03:57:01+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "ca7dbf5173",
+      "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday",
+      "summary": "One way or another, the company will get some more data on Saturday.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+      "published": "2026-11-14T00:49:13+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "51d6f88edf",
+      "title": "Amazon has a plan to index the world’s online shopping data",
+      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their […]",
       "source": "The Verge",
-      "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
-      "published": "2026-11-12T23:43:22+00:00",
+      "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "published": "2026-11-13T23:49:11+00:00",
       "sources": [
-        "The Verge",
-        "TechCrunch"
+        "The Verge"
       ],
       "source_links": [
         {
           "source": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network"
-        },
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/whoop-just-launched-a-social-network/"
+          "url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search"
         }
       ],
-      "status": "confirmed",
-      "score": 40
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "b3b148364f",
+      "title": "Amazon’s new Kindle Colorsoft is a premium e-reader with a premium price",
+      "summary": "The latest model is lighter and thinner than its predecessor and features an edge-to-edge display. But if you already own the first-generation Colorsoft, there’s little reason to upgrade.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+      "published": "2026-11-13T23:00:00+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "d9ea77ba9e",
+      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
+      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "published": "2026-11-13T21:20:47+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "2908b8cf10",
+      "title": "The Microsoft Outage Is a Warning for the World",
+      "summary": "Countless businesses, schools, hospitals, and governments have found out the hard way what it means to rely on a single company’s systems to get things done. And next time could be even worse.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/",
+      "published": "2026-11-13T17:15:54+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "868192c1cf",
+      "title": "Connect Google Wallet to Gemini for personal finance insights",
+      "summary": "Personal Intelligence",
+      "source": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+      "published": "2026-11-13T17:00:00+00:00",
+      "sources": [
+        "Google Blog"
+      ],
+      "source_links": [
+        {
+          "source": "Google Blog",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+        }
+      ],
+      "status": "official",
+      "score": 32
+    },
+    {
+      "id": "0db3299879",
+      "title": "The new Apple TV has a YouTube problem",
+      "summary": "People who received the brand new Apple TV 4k today saw some strange error messages as soon as they opened the YouTube app. As the first units arrived, the app was initially only showing a black screen with a QR code and an error message saying \"YouTube is not yet available on this device.\" In […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error",
+      "published": "2026-11-13T16:55:57+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1033076/apple-tv-4k-youtube-error"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "a777d623ea",
+      "title": "Microsoft’s massive Outlook outage might be over",
+      "summary": "Service is recovering for Microsoft Outlook and 365 after an almost two-day outage impacting millions of users around the world. While some apps and features are still running in a degraded state on Friday morning, some people (including Verge staffers) reported that access to their emails had been restored, though the flow of Outlook mail […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage",
+      "published": "2026-11-13T16:17:11+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/tech/1032862/microsoft-outlook-down-outage"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "fbc326b16f",
+      "title": "Microsoft’s global outage may be worse than Amazon's or CrowdStrike's, expert says",
+      "summary": "Governments, hospitals, courts scrambled by global Microsoft outage.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
+      "published": "2026-11-13T15:26:53+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "6055deb6bd",
+      "title": "Microsoft’s latest email outage turned into a full-blown global cloud crisis",
+      "summary": "Microsoft's daylong outage began with Outlook and Teams and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
+      "published": "2026-11-13T13:15:20+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "535a027317",
+      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "summary": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital teams and patients at home. Clinicians stay at the center, reviewing AI […]",
+      "source": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+      "published": "2026-11-13T13:00:42+00:00",
+      "sources": [
+        "NVIDIA Blog"
+      ],
+      "source_links": [
+        {
+          "source": "NVIDIA Blog",
+          "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/"
+        }
+      ],
+      "status": "official",
+      "score": 32
+    },
+    {
+      "id": "c8afe7785b",
+      "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
+      "summary": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
+      "published": "2026-11-13T11:45:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "665912d8dc",
+      "title": "Even Black Friday Will Be More Expensive Than Usual",
+      "summary": "The AI memory crunch is coming for your holiday shopping list.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/even-black-friday-2026-will-be-more-expensive-than-usual/",
+      "published": "2026-11-13T11:30:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/even-black-friday-2026-will-be-more-expensive-than-usual/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "7bd2649d40",
+      "title": "Inside the 42-Year Journey to Bring ‘Neuromancer’ to the Screen",
+      "summary": "William Gibson released his seminal novel Neuromancer in 1984. WIRED has an exclusive look at how it eventually made its way to Apple TV—thanks in no small part to Drake.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/exclusive-apple-tv-neuromancer-creator-interviews/",
+      "published": "2026-11-13T11:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/exclusive-apple-tv-neuromancer-creator-interviews/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "d389fe7b93",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "source": "OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "published": "2026-11-13T08:00:00+00:00",
+      "sources": [
+        "OpenAI"
+      ],
+      "source_links": [
+        {
+          "source": "OpenAI",
+          "url": "https://openai.com/business/customer-stories/shield"
+        }
+      ],
+      "status": "official",
+      "score": 32
     },
     {
       "id": "12bde90bea",
@@ -313,7 +963,7 @@
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
       "id": "db5548fdd2",
@@ -332,7 +982,7 @@
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
       "id": "b1a1bd6554",
@@ -351,45 +1001,7 @@
         }
       ],
       "status": "unverified",
-      "score": 40
-    },
-    {
-      "id": "7d3e0ba9ed",
-      "title": "Google’s new Gemini model is better at understanding complicated questions",
-      "summary": "Google says its new Gemini 4 Hydrogen model can give more helpful answers to complex questions, including \"questions with multiple parts, hard-to-understand typos, or highly specific requests.\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-      "published": "2026-11-12T21:55:32+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen"
-        }
-      ],
-      "status": "unverified",
-      "score": 40
-    },
-    {
-      "id": "25f3f889e8",
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "summary": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "published": "2026-11-12T21:35:00+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
-        }
-      ],
-      "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
       "id": "95f9abced6",
@@ -408,7 +1020,7 @@
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
       "id": "5e21b18511",
@@ -427,7 +1039,7 @@
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
       "id": "d45f135325",
@@ -446,7 +1058,7 @@
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
       "id": "53df1762cb",
@@ -465,26 +1077,7 @@
         }
       ],
       "status": "unverified",
-      "score": 40
-    },
-    {
-      "id": "5453d27f04",
-      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-      "summary": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
-      "published": "2026-11-12T17:36:40+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/"
-        }
-      ],
-      "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
       "id": "0c5bb3762c",
@@ -503,7 +1096,7 @@
         }
       ],
       "status": "official",
-      "score": 40
+      "score": 32
     },
     {
       "id": "f10f7ba221",
@@ -522,45 +1115,7 @@
         }
       ],
       "status": "official",
-      "score": 40
-    },
-    {
-      "id": "573535eed2",
-      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
-      "summary": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
-      "published": "2026-11-12T16:32:33+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/"
-        }
-      ],
-      "status": "unverified",
-      "score": 40
-    },
-    {
-      "id": "1fe1029a7b",
-      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
-      "summary": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
-      "published": "2026-11-12T16:12:44+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/"
-        }
-      ],
-      "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
       "id": "87b1e8a32f",
@@ -579,41 +1134,22 @@
         }
       ],
       "status": "official",
-      "score": 40
+      "score": 32
     },
     {
-      "id": "e380f8e9e9",
-      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
-      "summary": "This is Fireworks' second data breach in as many months.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-      "published": "2026-11-12T15:02:28+00:00",
+      "id": "cd5bf68762",
+      "title": "Meet Colette Kress, Nvidia’s New Interim CEO",
+      "summary": "Nvidia’s longtime chief financial officer helped transform the company into an AI powerhouse. Now she’s taking the reins following Jensen Huang’s resignation on Thursday.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/",
+      "published": "2026-11-12T14:14:33+00:00",
       "sources": [
-        "TechCrunch"
+        "Wired"
       ],
       "source_links": [
         {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/"
-        }
-      ],
-      "status": "unverified",
-      "score": 40
-    },
-    {
-      "id": "b315782d86",
-      "title": "The rise and fall of Jensen Huang - how the tech superstar became mired in scandal",
-      "summary": "Within days, Huang's status as a seemingly untouchable figure leading the global tech race has crumbled.",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-12T17:11:48+00:00",
-      "sources": [
-        "BBC Technology"
-      ],
-      "source_links": [
-        {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss"
+          "source": "Wired",
+          "url": "https://www.wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang/"
         }
       ],
       "status": "unverified",
@@ -636,102 +1172,615 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
-      "id": "c0393272a0",
-      "title": "The Download: preserving minds and weighing open AI risks",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Six wild ideas for perpetuating your mind As we age, we forget most of what we’ve experienced, yet there’s still undeniable continuity: At 30, or 50, or 70, you will still…",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
-      "published": "2026-11-11T13:10:00+00:00",
+      "id": "4fa6f81db5",
+      "title": "FAA has lifted its third-ever nationwide ground stop",
+      "summary": "Secretary of Transportation Sean Duffy blamed obsolete equipment for the outage.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+      "published": "2026-11-13T23:17:38+00:00",
       "sources": [
-        "MIT Technology Review"
+        "Ars Technica"
       ],
       "source_links": [
         {
-          "source": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/"
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/"
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
-      "id": "f355d831da",
-      "title": "New Indian mega library rocked by scandal over 'AI-generated books'",
-      "summary": "The Tamil Nadu government has ordered an internal audit of library collections across the state.",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-11T11:33:24+00:00",
+      "id": "9715216a94",
+      "title": "Best Early Black Friday AirPods Deals (2026)",
+      "summary": "Black Friday is still weeks away, but AirPods discounts are dropping early.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-early-black-friday-airpods-deals-11-13-2026/",
+      "published": "2026-11-13T22:30:29+00:00",
       "sources": [
-        "BBC Technology"
+        "Wired"
       ],
       "source_links": [
         {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss"
+          "source": "Wired",
+          "url": "https://www.wired.com/story/best-early-black-friday-airpods-deals-11-13-2026/"
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
-      "id": "1e24b77205",
-      "title": "Xbox announces Wolfenstein 3",
-      "summary": "It's been nearly a decade since Bethesda's MachineGames released Wolfenstein II: The New Colossus in 2017, and now Xbox is ready to announce a sequel from the studio. Wolfenstein 3 was officially announced today, just days after Bethesda also confirmed that the next Elder Scrolls game will be called The Elder Scrolls VI: Sentinel. In […]",
+      "id": "7f2737bf61",
+      "title": "Millions of Americans are not taking their GLP-1 drugs as prescribed",
+      "summary": "Cost and access barriers are pushing people to modified use and unapproved versions.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
+      "published": "2026-11-13T21:59:01+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "85d7d1a621",
+      "title": "US government grounds all flights across the United States ‘due to extraordinary circumstances’",
+      "summary": "A spokesperson for the FAA told TechCrunch that it issued the ground stop \"following communication issues impacting multiple Air Route Traffic Control Centers,\" which manage the airspace across the United States.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/",
+      "published": "2026-11-13T21:44:38+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "e8f4956932",
+      "title": "FAA Grounds All US Flights Until Further Notice",
+      "summary": "The government cited a nationwide communications failure among air traffic control systems as the reason for the sudden grounding on Friday.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/faa-grounds-all-us-flights-until-further-notice/",
+      "published": "2026-11-13T21:42:57+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/faa-grounds-all-us-flights-until-further-notice/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "4bcbe5e459",
+      "title": "CMF’s milk carton-shaped Bluetooth speaker is down to a new low price",
+      "summary": "Bluetooth speakers are often boring boxes in plain colors, but not this one! As part of Nothing’s ongoing early Black Friday promo, you can grab its unique, milk carton-shaped CMF Speaker S from Amazon and Nothing for just $39. That’s a solid $20 discount and the lowest price we’ve seen on Nothing’s newfangled wireless speaker, […]",
       "source": "The Verge",
-      "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
-      "published": "2026-11-13T00:11:44+00:00",
+      "url": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
+      "published": "2026-11-13T20:30:00+00:00",
       "sources": [
         "The Verge"
       ],
       "source_links": [
         {
           "source": "The Verge",
-          "url": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3"
+          "url": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale"
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
-      "id": "5b0f2c68f6",
-      "title": "Microsoft Outlook is still down",
-      "summary": "Since just before 1PM ET on Thursday, reports have come in from around the world that people can't access their Outlook email, either through the web or apps. Microsoft quickly acknowledged the issue from its Microsoft 365 Status account, saying that \"We've determined a portion of infrastructure is experiencing elevated load across multiple regions, which […]",
+      "id": "49fa348489",
+      "title": "This young startup wants to power floating data centers with the ocean’s heat, and investors are already on board",
+      "summary": "Drogue is harvesting heat from the ocean to power data centers on floating vessels. The first prototype should be bobbing around the ocean, crunching bits, in less than two years.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/",
+      "published": "2026-11-13T20:07:24+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/this-young-startup-wants-to-power-floating-data-centers-with-the-oceans-heat-and-investors-are-already-on-board/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "984c8a9218",
+      "title": "In elephants, the resilience of communities has its limits",
+      "summary": "In Sri Lanka, ecological change is shrinking a park's elephant population.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/",
+      "published": "2026-11-13T20:03:13+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/11/in-elephants-the-resilience-of-communities-has-its-limits/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "d8b1fb7f9e",
+      "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
+      "summary": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-13-2026/",
+      "published": "2026-11-13T19:57:56+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-13-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "f0039e9a65",
+      "title": "Kalshi ditches Trump Jr. as advisor; CEO admitted \"optics\" weren't good",
+      "summary": "Trump son advised Kalshi and got equity while Trump admin helped Kalshi in lawsuits.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/",
+      "published": "2026-11-13T19:49:16+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/trump-jr-out-as-kalshi-advisor-after-his-firms-big-investment-in-polymarket/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "450f185ae2",
+      "title": "You can adjust the position of the trackball on Keychron’s new wireless mouse",
+      "summary": "The Nape Pro was Keychron's first trackball device that was introduced at CES 2026 with a slim and compact design allowing it to be positioned right up against a keyboard. The company's new T1 HE instead looks more like other trackball mice already available from companies like Logitech and Kensington with a 34mm ball positioned […]",
       "source": "The Verge",
-      "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
-      "published": "2026-11-12T23:24:13+00:00",
+      "url": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable",
+      "published": "2026-11-13T18:10:41+00:00",
       "sources": [
         "The Verge"
       ],
       "source_links": [
         {
           "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down"
+          "url": "https://www.theverge.com/tech/1033159/keychron-t1-he-trackball-wireless-mouse-adjustable"
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
-      "id": "5a7ec30197",
-      "title": "Xbox owners are getting more customizations for backgrounds and the Guide menu",
-      "summary": "Microsoft is starting to test new customization options for Xbox consoles today. Xbox Insiders will be able to start testing new rotating backgrounds, new library options for digital games, and the ability to move the Xbox Guide menu to the right-hand side. \"Xbox Insiders can now save favorite dynamic backgrounds and shuffle through them automatically,\" […]",
+      "id": "97e4e58b62",
+      "title": "The smallest version of Camp Snap’s retro digital camcorder fits on your keychain",
+      "summary": "Last week, Camp Snap launched a miniaturized version of its screen-free CS-8 video camera that was half the size of the original with a smaller grip designed to be easier for kids to hold. But it turns out the company wasn't done shrinking its hardware. Camp Snap's new CS-8 Micro is even smaller than the […]",
       "source": "The Verge",
-      "url": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature",
-      "published": "2026-11-12T23:00:00+00:00",
+      "url": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
+      "published": "2026-11-13T17:12:56+00:00",
       "sources": [
         "The Verge"
       ],
       "source_links": [
         {
           "source": "The Verge",
-          "url": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature"
+          "url": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain"
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
+    },
+    {
+      "id": "a57a766aea",
+      "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
+      "summary": "\"SignDrop\" exploit lets local users gain all-powerful System rights.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
+      "published": "2026-11-13T16:26:32+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "2c66a6d644",
+      "title": "Jensen Huang and the End of the Founder Fairy Tale",
+      "summary": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
+      "published": "2026-11-13T16:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "7f43ea84d2",
+      "title": "It's the end of the world as we know it, per a physicist's 1960 prediction",
+      "summary": "Heinz von Foerster thought population would grow exponentially and \"squeeze\" us all to death.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/",
+      "published": "2026-11-13T15:09:39+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "6a3265847a",
+      "title": "Introducing ChatGPT Wallet",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "source": "OpenAI",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "published": "2026-11-13T15:00:00+00:00",
+      "sources": [
+        "OpenAI"
+      ],
+      "source_links": [
+        {
+          "source": "OpenAI",
+          "url": "https://openai.com/index/introducing-chatgpt-wallet"
+        }
+      ],
+      "status": "official",
+      "score": 24
+    },
+    {
+      "id": "61891a3ad3",
+      "title": "Screenless GPS: Slate Auto says, \"Remember the road atlas\"",
+      "summary": "What’s more fitting than a spiral-bound map for a bare-bones two-door pickup?",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/",
+      "published": "2026-11-13T14:45:04+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/culture/2026/11/screenless-gps-slate-auto-says-remember-the-road-atlas/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "eac8d83727",
+      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+      "summary": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "published": "2026-11-13T14:44:48+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "a91f6ab6a2",
+      "title": "Scientists warn 1.5°C climate change threshold could arrive by 2029",
+      "summary": "Climate action has stalled for five years as fossil fuel development keeps growing.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/",
+      "published": "2026-11-13T14:29:15+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/11/scientists-warn-the-1-5c-climate-change-threshold-could-arrive-by-2029/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "f269d802e1",
+      "title": "3 Best Walking Pad Treadmills for Homes and Offices (2026)",
+      "summary": "Our team clocked serious hours walking, working, and sometimes jogging to find the best under-desk treadmills for home offices and small spaces.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-walking-pads/",
+      "published": "2026-11-13T12:34:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/best-walking-pads/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "074fe42fb2",
+      "title": "Jensen Huang didn’t show confidence in his successor, report says",
+      "summary": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+      "published": "2026-11-13T12:28:23+00:00",
+      "sources": [
+        "TechCrunch"
+      ],
+      "source_links": [
+        {
+          "source": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "d1a1b5360f",
+      "title": "Rocket Report: Starship set for historic test flight; a century of Electron",
+      "summary": "\"You can simplify it as a big tank feeding engines.\"",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
+      "published": "2026-11-13T12:00:40+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "62a0fe1441",
+      "title": "TCL QM7L Mini-LED TV Review (2026)",
+      "summary": "$1,500 buys you vibrant color, deep blacks, and a fast screen fit for just about anything. Just be sure the wide pedestal fits your setup.",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/tcl-qm7l/",
+      "published": "2026-11-13T12:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/review/tcl-qm7l/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "0ba580c20e",
+      "title": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride",
+      "summary": "Specialized’s second-fastest bike may be the smart buy.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/",
+      "published": "2026-11-13T11:50:38+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "650a6679a0",
+      "title": "‘A Servant Class, Not a Working Class’: Stephen Miller’s Biographer on What Comes Next",
+      "summary": "Jean Guerrero, Stephen Miller’s biographer, sees him as “a case study in oligarchic capture”—and as a way for Donald Trump to double down.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-servant-class-not-a-working-class-stephen-millers-biographer-on-what-comes-next/",
+      "published": "2026-11-13T11:15:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/a-servant-class-not-a-working-class-stephen-millers-biographer-on-what-comes-next/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "39e4f12754",
+      "title": "‘Call Him Out’: Cybertruck Loyalists Are in Mourning—and They Want Answers From Elon Musk",
+      "summary": "Tesla’s unpredictable CEO is ready to move on from the company’s most controversial vehicle, but owners aren’t about to let him off the hook for what they see as a poor decision.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/cybertruck-fans-demand-answers-from-elon-musk-about-the-vehicles-demise/",
+      "published": "2026-11-13T10:30:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/cybertruck-fans-demand-answers-from-elon-musk-about-the-vehicles-demise/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "9a170a95d3",
+      "title": "Bitdefender Antivirus Plus Review: Undercutting the Competition",
+      "summary": "It’s not promoted very much, but Bitdefender’s stand-alone Antivirus Plus software is both effective and affordable.",
+      "source": "Wired",
+      "url": "https://www.wired.com/review/bitdefender-antivirus-plus/",
+      "published": "2026-11-13T10:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/review/bitdefender-antivirus-plus/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "b07b870ba7",
+      "title": "Gametime Promo Code: Save on Tickets in November 2026",
+      "summary": "Grab last-minute seats for less with a verified Gametime discount code for up to 10% off, first-purchase coupons, and lowest price guarantee credits.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/gametime-promo-code/",
+      "published": "2026-11-13T06:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/gametime-promo-code/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "a61e469ca3",
+      "title": "Peacock Promo Codes: 40% Off November 2026",
+      "summary": "Stream your favorite shows for up to $80 off this month, and save on subscription plans with the latest Peacock TV coupons from WIRED.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/peacock-promo-code/",
+      "published": "2026-11-13T06:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/peacock-promo-code/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "7c79f703ce",
+      "title": "Western Digital Promo Code: 15% Off",
+      "summary": "Get 15% off your first order at Western Digital when you register your email.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/western-digital-promo-code/",
+      "published": "2026-11-13T06:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/western-digital-promo-code/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "b84552dde9",
+      "title": "Logitech Promo Codes and Deals: Up to $100 Off",
+      "summary": "Score up to $100 off refurbished premium products, free shipping on orders of $29+, and more at Logitech.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/logitech-promo-code/",
+      "published": "2026-11-13T06:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/logitech-promo-code/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "1a68403d89",
+      "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
+      "summary": "An internal post urging the board to consider employee sentiment about Nvidia’s former CEO has drawn more than 1,600 comments, the majority in full support of reinstalling him.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "published": "2026-11-13T01:17:49+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
     },
     {
       "id": "98c10a4a6b",
@@ -750,26 +1799,7 @@
         }
       ],
       "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "d9ea77ba9e",
-      "title": "FAA expands AI advice to manage air traffic congestion across entire US airspace",
-      "summary": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-      "published": "2026-11-12T22:28:47+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "549000f4a0",
@@ -788,64 +1818,7 @@
         }
       ],
       "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "88b20c5afa",
-      "title": "‘It’s a mistake’: reactions from tech leaders on Jensen Huang’s resignation",
-      "summary": "Nvidia announced this morning that Jensen Huang has resigned as CEO following reports of two affairs, including one with an alleged Chinese spy and one with a direct report. The situation surrounding Huang has unfolded quickly, with The New York Times only reporting on Friday that Huang and the suspected spy were \"close\" before other […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
-      "published": "2026-11-12T21:45:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "30c0aaf8ab",
-      "title": "The Oura Ring 4 is almost as good as the newer model, but $150 cheaper",
-      "summary": "The previous-generation Oura Ring 4 is on sale for as low as $249 at Amazon, Best Buy, and Target, $100 off the retail price, and the first big discount on the device since July. The price varies a bit by size and color, with most silver and black models in stock at the lowest price […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
-      "published": "2026-11-12T21:28:53+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "714bfad774",
-      "title": "Here are the 25 original Xbox games you can now play on PC",
-      "summary": "For the 25th anniversary of Xbox, Microsoft is beginning to make good on its paid \"next-gen game preservation\" promise. Starting today, you can play 25 different original Xbox games on your Windows PC, as long as you have (or are willing to pay) for digital copies. In July, Microsoft originally launched the idea with just […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
-      "published": "2026-11-12T21:00:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "dbe533271d",
@@ -864,7 +1837,7 @@
         }
       ],
       "status": "official",
-      "score": 32
+      "score": 24
     },
     {
       "id": "6679981ef1",
@@ -883,7 +1856,26 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
+    },
+    {
+      "id": "7df3ce6028",
+      "title": "Major Microsoft Outlook Outage Leaves People With Email Jobs Unable to Email",
+      "summary": "Microsoft says its systems are experiencing “elevated loads” as the company races to end an outage impacting its business and enterprise customers.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/",
+      "published": "2026-11-12T20:01:33+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/major-microsoft-outlook-outage-hits-365-customers-north-america/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
     },
     {
       "id": "b5089ba29c",
@@ -902,7 +1894,7 @@
         }
       ],
       "status": "official",
-      "score": 32
+      "score": 24
     },
     {
       "id": "531d5e0cfc",
@@ -921,7 +1913,7 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "a02a71a189",
@@ -940,7 +1932,7 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "69c9b1461a",
@@ -959,7 +1951,7 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "93a67b3cde",
@@ -978,7 +1970,7 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "22e6cfe59b",
@@ -997,7 +1989,7 @@
         }
       ],
       "status": "official",
-      "score": 32
+      "score": 24
     },
     {
       "id": "6d62e70da2",
@@ -1016,64 +2008,7 @@
         }
       ],
       "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "57f4d05d9a",
-      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
-      "summary": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
-      "published": "2026-11-12T17:17:58+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "6490afc87f",
-      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
-      "summary": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
-      "published": "2026-11-12T17:00:52+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "2a79de7ac6",
-      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-      "summary": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
-      "published": "2026-11-12T17:00:00+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "880274c466",
@@ -1092,7 +2027,7 @@
         }
       ],
       "status": "official",
-      "score": 32
+      "score": 24
     },
     {
       "id": "8c2d55fc91",
@@ -1111,64 +2046,7 @@
         }
       ],
       "status": "official",
-      "score": 32
-    },
-    {
-      "id": "5ccccfec60",
-      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
-      "summary": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-      "published": "2026-11-12T15:37:29+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "7ece2c08dd",
-      "title": "Norwest pushes deeper into AI with new $4B fund",
-      "summary": "This is the investment firm's largest fund to date.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-      "published": "2026-11-12T15:18:14+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "2f49e9341f",
-      "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
-      "summary": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
-      "published": "2026-11-12T14:50:17+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "fd108dacdc",
@@ -1187,7 +2065,7 @@
         }
       ],
       "status": "official",
-      "score": 32
+      "score": 24
     },
     {
       "id": "577daab1e6",
@@ -1206,7 +2084,7 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "61d6ccad0b",
@@ -1225,7 +2103,7 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "5d89409219",
@@ -1244,7 +2122,7 @@
         }
       ],
       "status": "official",
-      "score": 32
+      "score": 24
     },
     {
       "id": "8906b43f15",
@@ -1263,7 +2141,26 @@
         }
       ],
       "status": "official",
-      "score": 32
+      "score": 24
+    },
+    {
+      "id": "21f7db7ecc",
+      "title": "Jensen Huang Resigns as Nvidia CEO",
+      "summary": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/",
+      "published": "2026-11-12T13:58:06+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/nvidia-ceo-jensen-huang-steps-down/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
     },
     {
       "id": "723a9c8d2a",
@@ -1282,26 +2179,7 @@
         }
       ],
       "status": "official",
-      "score": 32
-    },
-    {
-      "id": "890a266200",
-      "title": "Review: Apple's M6 iMac is pricey, but it's still a good choice for a clean desk",
-      "summary": "Apple's M6 keeps the iMac current without shaking things up much.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/",
-      "published": "2026-11-12T12:00:37+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/features/2026/11/review-apples-m6-imac-is-pricey-but-its-still-a-good-choice-for-a-clean-desk/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "eb1adc930b",
@@ -1317,177 +2195,6 @@
         {
           "source": "Wired",
           "url": "https://www.wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "846b6caadf",
-      "title": "Supporting research on AI and children’s safety",
-      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/children-first-declaration",
-      "published": "2026-11-12T00:00:00+00:00",
-      "sources": [
-        "OpenAI"
-      ],
-      "source_links": [
-        {
-          "source": "OpenAI",
-          "url": "https://openai.com/index/children-first-declaration"
-        }
-      ],
-      "status": "official",
-      "score": 32
-    },
-    {
-      "id": "a35e8fee7d",
-      "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
-      "summary": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
-      "published": "2026-11-11T19:55:54+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "ca743e5706",
-      "title": "NASA's secret weapon in the lunar space race may be ... procurement reform?",
-      "summary": "\"The pace that's occurring, and the nature of the procurements, is unprecedented.\"",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
-      "published": "2026-11-11T19:00:26+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "23ef94ceb2",
-      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-      "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-      "published": "2026-11-11T18:16:40+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "509d15026e",
-      "title": "A Startup Wants to Fight AI Bioweapons With AI",
-      "summary": "Radical Numerics has developed a model that it says can identify natural and AI-engineered pathogens without an internet connection.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
-      "published": "2026-11-11T17:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "e7f3877710",
-      "title": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
-      "summary": "China’s use of sexpionage is a well-established intelligence tactic with recent, high-profile examples. So how did the world’s most powerful AI executive fall for it?",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
-      "published": "2026-11-11T15:30:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "c0cb1e4cbf",
-      "title": "Lego marketplace BrickLink offline after 'unusual activity' detected",
-      "summary": "Known as the eBay of Lego, it has been down for three days and is yet to disclose what caused the shutdown.",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/c6rmgw8zynr4o?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-11T22:26:18+00:00",
-      "sources": [
-        "BBC Technology"
-      ],
-      "source_links": [
-        {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/c6rmgw8zynr4o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "6391a2f656",
-      "title": "What to know about this year’s UN climate talks",
-      "summary": "It’s that time of year again: Thousands of delegates, lobbyists, and journalists are gathered for the annual UN climate talks, taking place this time in Antalya, Turkey. COP31 officially kicked off on November 8, marking the beginning of negotiations on one of the biggest stages of the climate world. Turkey and Australia are cohosting this…",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
-      "published": "2026-11-11T17:00:00+00:00",
-      "sources": [
-        "MIT Technology Review"
-      ],
-      "source_links": [
-        {
-          "source": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "489385c227",
-      "title": "Humble Bundle redesign removes two-factor verification from settings",
-      "summary": "The Humble Bundle storefront for buying games and other software recently got a new look, but on the settings page, it no longer offers a way to add or update two-factor verification methods, as reported by Kotaku. PC Gamer also points out that there are Humble Bundle support pages discussing two-factor verification, and the writer […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
-      "published": "2026-11-12T23:30:52+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings"
         }
       ],
       "status": "unverified",
@@ -1510,7 +2217,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "dc31a1905c",
@@ -1529,7 +2236,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "9313fefcbe",
@@ -1548,7 +2255,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "9283fc2b60",
@@ -1567,7 +2274,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "f2fcf690a1",
@@ -1586,64 +2293,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "f6ff2901ac",
-      "title": "Netflix releases new trailer for Ray Gunn",
-      "summary": "\"It's hard being the only honest players in a crooked game.\"",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/culture/2026/11/netflix-releases-new-trailer-for-ray-gunn/",
-      "published": "2026-11-12T18:38:38+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/culture/2026/11/netflix-releases-new-trailer-for-ray-gunn/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "71af775539",
-      "title": "Building a rocket is hard. AST SpaceMobile thinks it's \"simple.\"",
-      "summary": "\"We're not doing this thing because we like rockets.\"",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/space/2026/11/building-a-rocket-is-hard-ast-spacemobile-thinks-its-simple/",
-      "published": "2026-11-12T18:28:22+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/11/building-a-rocket-is-hard-ast-spacemobile-thinks-its-simple/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "b0992a242e",
-      "title": "Man's secret use of synthetic testosterone for cows nearly destroyed his heart",
-      "summary": "Doctors warn that such life-threatening cases are becoming more common.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/health/2026/11/mans-secret-use-of-synthetic-testosterone-for-cows-nearly-destroyed-his-heart/",
-      "published": "2026-11-12T18:17:19+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/health/2026/11/mans-secret-use-of-synthetic-testosterone-for-cows-nearly-destroyed-his-heart/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "eba275fa7e",
@@ -1662,26 +2312,7 @@
         }
       ],
       "status": "official",
-      "score": 24
-    },
-    {
-      "id": "798e17cf02",
-      "title": "The amazing disappearing exoplanet",
-      "summary": "An exoplanet seems to have stopped transiting in front of its host star.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/science/2026/11/the-amazing-disappearing-exoplanet/",
-      "published": "2026-11-12T17:18:10+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/science/2026/11/the-amazing-disappearing-exoplanet/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "b6ebe88e6c",
@@ -1700,26 +2331,7 @@
         }
       ],
       "status": "official",
-      "score": 24
-    },
-    {
-      "id": "70adedc3e4",
-      "title": "Jensen Huang agrees to testify before Congress",
-      "summary": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
-      "published": "2026-11-12T16:36:37+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "c50db1e5e8",
@@ -1738,7 +2350,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "bb5724ecab",
@@ -1757,26 +2369,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "950d22e8df",
-      "title": "Hundreds of streaming services and nothing to watch",
-      "summary": "Most viewers wish there was a TV Guide for streaming.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/",
-      "published": "2026-11-12T14:00:19+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/11/hundreds-of-streaming-services-and-nothing-to-watch/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "cd177c1bd7",
@@ -1795,7 +2388,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "1f06d340d3",
@@ -1814,7 +2407,7 @@
         }
       ],
       "status": "official",
-      "score": 24
+      "score": 16
     },
     {
       "id": "e1bcb15a2e",
@@ -1833,7 +2426,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "d4ce618e35",
@@ -1852,7 +2445,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "0b0d8e55f8",
@@ -1871,7 +2464,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "98ae3f4d7f",
@@ -1890,7 +2483,7 @@
         }
       ],
       "status": "official",
-      "score": 24
+      "score": 16
     },
     {
       "id": "3a93ec933e",
@@ -1909,519 +2502,6 @@
         }
       ],
       "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "f6a44dad28",
-      "title": "TurboTax Full Service Coupons This November 2026",
-      "summary": "Tax season doesn’t have to be stressful. Score 10% off full service expert on federal tax filings and more exclusive TurboTax discount codes on WIRED.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/turbotax-coupon/",
-      "published": "2026-11-12T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/turbotax-coupon/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "c6583236e3",
-      "title": "Lovehoney Coupon Offers: 70% Off",
-      "summary": "Save on Lovehoney, including bestselling toys, lingerie, and popular gift sets for date nights, self-care, and couples’ play.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/lovehoney-discount-code/",
-      "published": "2026-11-12T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/lovehoney-discount-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "f43f5682a3",
-      "title": "Wayfair Coupons: Up to 80% Off November 2026",
-      "summary": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/wayfair-promo-code/",
-      "published": "2026-11-12T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/wayfair-promo-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "77e3fff695",
-      "title": "Lenovo Coupon Codes: 15% Off in November 2026",
-      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/lenovo-coupon-code/",
-      "published": "2026-11-12T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/lenovo-coupon-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "c967d5e194",
-      "title": "Hydrow Discount Code: Save Up to $150 | November 2026",
-      "summary": "Save on rowers and accessories with Hydrow coupons, including an exclusive discount of $50.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/hydrow-discount-code/",
-      "published": "2026-11-12T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/hydrow-discount-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "85a51be3fc",
-      "title": "Nike Promo Codes and Discounts: 30% for November 2026",
-      "summary": "Check out our deals for Nike this October 2026, including 15% off select purchases.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/nike-promo-code/",
-      "published": "2026-11-12T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/nike-promo-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "dfaaca9863",
-      "title": "Ring Promo Code: 50% Off",
-      "summary": "Discover how to save on Ring cameras, doorbells, outdoor cameras, and more.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/ring-promo-code/",
-      "published": "2026-11-12T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/ring-promo-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "db3457ab4c",
-      "title": "L.L.Bean Promo Codes and Coupons: 75% Off",
-      "summary": "Find the best L.L.Bean promo codes and coupons for 10% off your first order, major sale discounts, free shipping on $75+, and extra savings for select groups.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/ll-bean-promo-code/",
-      "published": "2026-11-12T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/ll-bean-promo-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "32cb6efc61",
-      "title": "Vitamix Promo Codes and Deals: $25 Off + Free Shipping",
-      "summary": "Score discounts on blenders, food processors, immersion blenders, and more with our selection of Vitamix coupons and deals.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/vitamix-promo-code/",
-      "published": "2026-11-12T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/vitamix-promo-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "9baf1f40a1",
-      "title": "Gilbert + Tobin rethinks the business of law with AI",
-      "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "published": "2026-11-12T00:00:00+00:00",
-      "sources": [
-        "OpenAI"
-      ],
-      "source_links": [
-        {
-          "source": "OpenAI",
-          "url": "https://openai.com/index/gilbert-tobin-sam-nickless"
-        }
-      ],
-      "status": "official",
-      "score": 24
-    },
-    {
-      "id": "6f3112eb90",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
-      "source": "Google Blog",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "published": "2026-11-11T18:00:00+00:00",
-      "sources": [
-        "Google Blog"
-      ],
-      "source_links": [
-        {
-          "source": "Google Blog",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
-        }
-      ],
-      "status": "official",
-      "score": 24
-    },
-    {
-      "id": "4fdd4acfcc",
-      "title": "Talk it through with Gemini, now on Apple CarPlay",
-      "summary": "an MP4 video of Gemini in Apple CarPlay",
-      "source": "Google Blog",
-      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/",
-      "published": "2026-11-11T17:00:00+00:00",
-      "sources": [
-        "Google Blog"
-      ],
-      "source_links": [
-        {
-          "source": "Google Blog",
-          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-on-apple-carplay/"
-        }
-      ],
-      "status": "official",
-      "score": 24
-    },
-    {
-      "id": "b309811050",
-      "title": "Google’s ongoing commitment to the veteran community",
-      "summary": "Google logo with a box of medals in front of it",
-      "source": "Google Blog",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/veterans-day-2026/",
-      "published": "2026-11-11T17:00:00+00:00",
-      "sources": [
-        "Google Blog"
-      ],
-      "source_links": [
-        {
-          "source": "Google Blog",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/creating-opportunity/veterans-day-2026/"
-        }
-      ],
-      "status": "official",
-      "score": 24
-    },
-    {
-      "id": "0145f54793",
-      "title": "Google Cloud leaders share what to expect in cybersecurity for 2027.",
-      "summary": "In our Security 2027 analysis, leaders from across Google, Google Cloud, and Mandiant break down the critical trends shaping the next era of defense.",
-      "source": "Google Blog",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cybersecurity-2027/",
-      "published": "2026-11-11T17:00:00+00:00",
-      "sources": [
-        "Google Blog"
-      ],
-      "source_links": [
-        {
-          "source": "Google Blog",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cybersecurity-2027/"
-        }
-      ],
-      "status": "official",
-      "score": 24
-    },
-    {
-      "id": "6a7beae0df",
-      "title": "Get certified as a Google Cloud Professional Agentic Architect.",
-      "summary": "Today we announced Google Cloud's new Professional Agentic Architect certification.",
-      "source": "Google Blog",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect/",
-      "published": "2026-11-11T17:00:00+00:00",
-      "sources": [
-        "Google Blog"
-      ],
-      "source_links": [
-        {
-          "source": "Google Blog",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/professional-agentic-architect/"
-        }
-      ],
-      "status": "official",
-      "score": 24
-    },
-    {
-      "id": "cf6d3f7f10",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-      "source": "Google Blog",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "published": "2026-11-11T16:00:00+00:00",
-      "sources": [
-        "Google Blog"
-      ],
-      "source_links": [
-        {
-          "source": "Google Blog",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
-        }
-      ],
-      "status": "official",
-      "score": 24
-    },
-    {
-      "id": "c4e2b2eb1e",
-      "title": "The Best Early Black Friday MacBook Air Deal: $200 Off",
-      "summary": "The holiday is still two weeks out, but this MacBook Air discount may be the must-buy laptop deal of the season.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/early-black-friday-macbook-air-deal/",
-      "published": "2026-11-12T02:33:02+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/early-black-friday-macbook-air-deal/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "1ed32abc2e",
-      "title": "Walking Pad Deals to Shop Ahead of Black Friday (2026)",
-      "summary": "Don’t let cold weather stop you from getting your steps in. These under-desk treadmills are already marked down.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-black-friday-walking-pad-treadmill-deals-11-11-26/",
-      "published": "2026-11-12T01:53:24+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/best-black-friday-walking-pad-treadmill-deals-11-11-26/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "993a15b733",
-      "title": "Pete Hegseth Is About to Get His Ass Kicked",
-      "summary": "House Democrats are already planning to make their impeachment case against the defense secretary as airtight—and appealing to Republicans—as possible.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/pete-hegseth-is-about-to-get-his-ass-kicked/",
-      "published": "2026-11-11T22:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/pete-hegseth-is-about-to-get-his-ass-kicked/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "0589ad9eb3",
-      "title": "T-Mobile illegally imposed 50GB cap on low-income home Internet plan, NY says",
-      "summary": "Law requires 25Mbps home Internet. T-Mobile lowers speed to 600Kbps after 50GB cap.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/",
-      "published": "2026-11-11T20:32:21+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/11/t-mobile-illegally-imposed-50-gb-cap-on-low-income-home-internet-plan-ny-says/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "22c32ba0a1",
-      "title": "Anduril says its first satellite can see adversaries maneuver in orbital night",
-      "summary": "\"What's unique is it's got a huge dynamic range. We can see things in full dark.\"",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
-      "published": "2026-11-11T20:22:03+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "e32543f1e3",
-      "title": "Trump admin loses fight to spy on random journalists’ LinkedIn DMs",
-      "summary": "Confidential sources “lifeblood” of free press, court rules in LinkedIn fight.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/",
-      "published": "2026-11-11T18:05:26+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/11/trump-admin-loses-fight-to-spy-on-random-journalists-linkedin-dms/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "793fcbfa18",
-      "title": "Built on Googlebook: Play Henry Cavill’s video game to support Movember",
-      "summary": "The video shows Henry Cavill making his video game on Googlebook.",
-      "source": "Google Blog",
-      "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-googlebook-mustache-protocol/",
-      "published": "2026-11-11T18:00:00+00:00",
-      "sources": [
-        "Google Blog"
-      ],
-      "source_links": [
-        {
-          "source": "Google Blog",
-          "url": "https://blog.google/products-and-platforms/devices/googlebook/henry-cavill-googlebook-mustache-protocol/"
-        }
-      ],
-      "status": "official",
-      "score": 16
-    },
-    {
-      "id": "4d4ca57984",
-      "title": "The AO3 Shutdown Is Pitting Fanfic Readers Against Authors",
-      "summary": "“It has left a sour taste in my mouth,” says a Heated Rivalry fanfic author who found her work uploaded to AO3 mirror sites without her consent.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
-      "published": "2026-11-11T16:13:03+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "c334162848",
-      "title": "Duolingo, Strava, and Ticketmaster Are All Caught Up in EU’s New Digital Fairness Rules",
-      "summary": "Winning streaks can be turned off and influencers will be forced to reveal when they’re being paid under the new Digital Fairness Act aimed at tackling “dark patterns” on platforms and services.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/duolingo-strava-and-ticketmaster-are-all-caught-up-in-eus-new-digital-fairness-rules/",
-      "published": "2026-11-11T13:36:15+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/duolingo-strava-and-ticketmaster-are-all-caught-up-in-eus-new-digital-fairness-rules/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "676fc6d8cf",
-      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "summary": "A portrait of Dr Nontobeko Ntombela, Senior Lecturer, Department of Curatorial, Public and Visual Cultures, Wits School of Arts, University of the Witwatersrand",
-      "source": "Google Blog",
-      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-      "published": "2026-11-11T09:00:00+00:00",
-      "sources": [
-        "Google Blog"
-      ],
-      "source_links": [
-        {
-          "source": "Google Blog",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/"
-        }
-      ],
-      "status": "official",
-      "score": 16
-    },
-    {
-      "id": "7edea1c555",
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "source": "OpenAI",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "published": "2026-11-11T08:00:00+00:00",
-      "sources": [
-        "OpenAI"
-      ],
-      "source_links": [
-        {
-          "source": "OpenAI",
-          "url": "https://openai.com/index/chatgpt-plus-for-veterans"
-        }
-      ],
-      "status": "official",
       "score": 16
     }
   ]

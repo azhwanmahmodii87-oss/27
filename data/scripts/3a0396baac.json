@@ -1,0 +1,46 @@
+{
+  "news": {
+    "id": "3a0396baac",
+    "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+    "summary": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+    "published": "2026-11-13T20:45:10+00:00",
+    "sources": [
+      "The Verge",
+      "TechCrunch"
+    ],
+    "source_links": [
+      {
+        "source": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet"
+      },
+      {
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/"
+      }
+    ],
+    "status": "confirmed",
+    "score": 56
+  },
+  "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\" After adding a card […]",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This story was reported by The Verge and TechCrunch.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
