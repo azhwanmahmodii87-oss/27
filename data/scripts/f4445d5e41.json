@@ -1,0 +1,42 @@
+{
+  "news": {
+    "id": "f4445d5e41",
+    "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+    "summary": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights will resume. It's unclear how […]",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/news/1033489/faa-ground-stop",
+    "published": "2026-11-14T01:53:04+00:00",
+    "sources": [
+      "The Verge",
+      "Wired"
+    ],
+    "source_links": [
+      {
+        "source": "The Verge",
+        "url": "https://www.theverge.com/news/1033489/faa-ground-stop"
+      },
+      {
+        "source": "Wired",
+        "url": "https://www.wired.com/story/the-faa-nationwide-ground-stop-is-over/"
+      }
+    ],
+    "status": "confirmed",
+    "score": 32
+  },
+  "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. FAA lifts nationwide ground stop that blocked takeoffs for hours.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights will resume.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "This story was reported by The Verge and Wired.",
+      "search": "futuristic technology"
+    }
+  ],
+  "method": "template"
+}
