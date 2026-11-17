@@ -1,0 +1,42 @@
+{
+  "news": {
+    "id": "b717cb0a4e",
+    "title": "California sues OpenAI over Hugging Face attack",
+    "summary": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+    "source": "BBC Technology",
+    "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-16T23:12:24+00:00",
+    "sources": [
+      "BBC Technology",
+      "The Verge"
+    ],
+    "source_links": [
+      {
+        "source": "BBC Technology",
+        "url": "https://www.bbc.co.uk/news/articles/c6wy4xv2mxglo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "source": "The Verge",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit"
+      }
+    ],
+    "status": "confirmed",
+    "score": 56
+  },
+  "title": "California sues OpenAI over Hugging Face attack",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. California sues OpenAI over Hugging Face attack.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "Attorney General Rob Bonta alleges OpenAI misled and endangered the public",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This story was reported by BBC Technology and The Verge.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
