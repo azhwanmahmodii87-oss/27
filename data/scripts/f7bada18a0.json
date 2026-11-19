@@ -1,0 +1,41 @@
+{
+  "news": {
+    "id": "f7bada18a0",
+    "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+    "summary": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+    "published": "2026-11-18T14:00:31+00:00",
+    "sources": [
+      "NVIDIA Blog"
+    ],
+    "source_links": [
+      {
+        "source": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/"
+      }
+    ],
+    "status": "official",
+    "score": 48
+  },
+  "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. NVIDIA RTX Spark Compact Desktops Out Now.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room for larger local models alongside RTX-accelerated creative and development […]",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This was announced by NVIDIA Blog.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
