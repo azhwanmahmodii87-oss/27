@@ -1,0 +1,42 @@
+{
+  "news": {
+    "id": "5feec91c64",
+    "title": "Meta’s new Muse Charm device may cost $300",
+    "summary": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+    "published": "2026-11-19T21:58:06+00:00",
+    "sources": [
+      "TechCrunch",
+      "The Verge"
+    ],
+    "source_links": [
+      {
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/"
+      },
+      {
+        "source": "The Verge",
+        "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price"
+      }
+    ],
+    "status": "confirmed",
+    "score": 56
+  },
+  "title": "Meta’s new Muse Charm device may cost $300",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Meta’s new Muse Charm device may cost $300.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This story was reported by TechCrunch and The Verge.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
