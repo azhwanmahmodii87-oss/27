@@ -1,0 +1,37 @@
+{
+  "news": {
+    "id": "3ee7261bdb",
+    "title": "Combatting adversarial distillation",
+    "summary": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+    "source": "OpenAI",
+    "url": "https://openai.com/index/combatting-adversarial-distillation",
+    "published": "2026-11-20T10:00:00+00:00",
+    "sources": [
+      "OpenAI"
+    ],
+    "source_links": [
+      {
+        "source": "OpenAI",
+        "url": "https://openai.com/index/combatting-adversarial-distillation"
+      }
+    ],
+    "status": "official",
+    "score": 40
+  },
+  "title": "Combatting adversarial distillation",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Combatting adversarial distillation.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This was announced by OpenAI.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
