@@ -1,0 +1,45 @@
+{
+  "news": {
+    "id": "03a5543eea",
+    "title": "Get your year-end tasks done with new Connected Apps.",
+    "summary": "Google Connected Apps simplify your year-end tasks. Manage groceries, credit scores, and home services directly in Search. Get the details for November 2026.",
+    "source": "Google Blog",
+    "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/",
+    "published": "2026-11-20T18:00:00+00:00",
+    "sources": [
+      "Google Blog"
+    ],
+    "source_links": [
+      {
+        "source": "Google Blog",
+        "url": "https://blog.google/products-and-platforms/products/search/connected-apps-holiday-errands/"
+      }
+    ],
+    "status": "official",
+    "score": 24
+  },
+  "title": "Get your year-end tasks done with new Connected Apps",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Get your year-end tasks done with new Connected Apps.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "Google Connected Apps simplify your year-end tasks.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "Manage groceries, credit scores, and home services directly in Search.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "Get the details for November 2026.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "This was announced by Google Blog.",
+      "search": "futuristic technology"
+    }
+  ],
+  "method": "template"
+}
