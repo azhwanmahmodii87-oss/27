@@ -1,0 +1,42 @@
+{
+  "news": {
+    "id": "eba69e06e7",
+    "title": "How important are Nvidia and Jensen Huang to the US economy?",
+    "summary": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
+    "source": "BBC Technology",
+    "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-23T16:12:35+00:00",
+    "sources": [
+      "BBC Technology",
+      "Wired"
+    ],
+    "source_links": [
+      {
+        "source": "BBC Technology",
+        "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "source": "Wired",
+        "url": "https://www.wired.com/story/jensens-back-stocks-up-what-the-hell-sure/"
+      }
+    ],
+    "status": "confirmed",
+    "score": 64
+  },
+  "title": "How important are Nvidia and Jensen Huang to the US economy?",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. How important are Nvidia and Jensen Huang to the US economy?.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "The Nvidia chief executive has been at the centre of the artificial intelligence boom.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This story was reported by BBC Technology and Wired.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
