@@ -1,0 +1,42 @@
+{
+  "news": {
+    "id": "63f625d0ff",
+    "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+    "summary": "The verdict follows a months-long trial in New York.",
+    "source": "BBC Technology",
+    "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+    "published": "2026-11-25T02:59:27+00:00",
+    "sources": [
+      "BBC Technology",
+      "The Verge"
+    ],
+    "source_links": [
+      {
+        "source": "BBC Technology",
+        "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
+      },
+      {
+        "source": "The Verge",
+        "url": "https://www.theverge.com/tech/1041820/huawei-guilty-trade-secrets-trial"
+      }
+    ],
+    "status": "confirmed",
+    "score": 56
+  },
+  "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Huawei found guilty of stealing trade secrets but acquitted of racketeering.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "The verdict follows a months-long trial in New York.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "This story was reported by BBC Technology and The Verge.",
+      "search": "futuristic technology"
+    }
+  ],
+  "method": "template"
+}
