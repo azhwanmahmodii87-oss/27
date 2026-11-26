@@ -1,0 +1,42 @@
+{
+  "news": {
+    "id": "abaf9046e3",
+    "title": "FCC approves SpaceX plan to put AI data centers in space",
+    "summary": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
+    "source": "TechCrunch",
+    "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
+    "published": "2026-11-25T20:56:44+00:00",
+    "sources": [
+      "TechCrunch",
+      "The Verge"
+    ],
+    "source_links": [
+      {
+        "source": "TechCrunch",
+        "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
+      },
+      {
+        "source": "The Verge",
+        "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers"
+      }
+    ],
+    "status": "confirmed",
+    "score": 64
+  },
+  "title": "FCC approves SpaceX plan to put AI data centers in space",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. FCC approves SpaceX plan to put AI data centers in space.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
+      "search": "artificial intelligence data center"
+    },
+    {
+      "narration": "This story was reported by TechCrunch and The Verge.",
+      "search": "artificial intelligence data center"
+    }
+  ],
+  "method": "template"
+}
