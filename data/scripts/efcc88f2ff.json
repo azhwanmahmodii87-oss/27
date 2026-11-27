@@ -1,0 +1,37 @@
+{
+  "news": {
+    "id": "efcc88f2ff",
+    "title": "15 years of investing in Colombia’s talent and future",
+    "summary": "An illustration of Colombia with 'Google' written in front of it",
+    "source": "Google Blog",
+    "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/15-years-investing-colombia-talent-future/",
+    "published": "2026-11-26T18:00:00+00:00",
+    "sources": [
+      "Google Blog"
+    ],
+    "source_links": [
+      {
+        "source": "Google Blog",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/15-years-investing-colombia-talent-future/"
+      }
+    ],
+    "status": "official",
+    "score": 32
+  },
+  "title": "15 years of investing in Colombia’s talent and future",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. 15 years of investing in Colombia’s talent and future.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "An illustration of Colombia with 'Google' written in front of it",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "This was announced by Google Blog.",
+      "search": "futuristic technology"
+    }
+  ],
+  "method": "template"
+}
