@@ -1,10 +1,29 @@
 {
-  "generated_at": "2026-11-27T05:49:23.800428+00:00",
+  "generated_at": "2026-11-28T05:45:38.376552+00:00",
   "feeds_ok": 10,
   "feeds_total": 10,
   "errors": [],
-  "count": 89,
+  "count": 53,
   "items": [
+    {
+      "id": "aa1484b5c9",
+      "title": "How gamers are using AI and leaked files to clone Grand Theft Auto 6",
+      "summary": "With an official PC version potentially still months away, fans are getting impatient.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-28T01:30:50+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/news/articles/c64gn8pe5eeqo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
     {
       "id": "1f43fa462c",
       "title": "Musk's plan to send a million SpaceX data satellites into space approved",
@@ -22,7 +41,45 @@
         }
       ],
       "status": "unverified",
-      "score": 56
+      "score": 48
+    },
+    {
+      "id": "6208c99de3",
+      "title": "The absolute best Black Friday deals you can still get",
+      "summary": "Black Friday is nearly over, but many of this year’s best deals are still available. You can still find some of the lowest prices we’ve seen in-store and online for video games, wireless earbuds, TVs, robot vacuums, and so much more. We can’t guarantee a deal you’ve had your eye on will last through Cyber […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas",
+      "published": "2026-11-28T03:28:32+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1039190/best-black-friday-2026-deals-tech-gadgets-gift-ideas"
+        }
+      ],
+      "status": "unverified",
+      "score": 48
+    },
+    {
+      "id": "3e728567a0",
+      "title": "Tech Now",
+      "summary": "Ammie Sekhon looks at robotics that could one day help spacecraft act independently.",
+      "source": "BBC Technology",
+      "url": "https://www.bbc.co.uk/iplayer/episode/m00353dd?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-28T01:00:00+00:00",
+      "sources": [
+        "BBC Technology"
+      ],
+      "source_links": [
+        {
+          "source": "BBC Technology",
+          "url": "https://www.bbc.co.uk/iplayer/episode/m00353dd?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
     },
     {
       "id": "9c61252346",
@@ -41,7 +98,45 @@
         }
       ],
       "status": "unverified",
-      "score": 48
+      "score": 40
+    },
+    {
+      "id": "1c19dac525",
+      "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+      "summary": "If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 in June, you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+      "published": "2026-11-28T03:30:00+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
+    },
+    {
+      "id": "cd80e84515",
+      "title": "A New Breed of Chip Runs AI Models Using Waves of Light",
+      "summary": "German company Q.ANT is trying to cut the amount of energy required to run AI models by using light to perform the toughest calculations.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/",
+      "published": "2026-11-27T07:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/a-new-breed-of-chip-runs-ai-models-using-waves-of-light/"
+        }
+      ],
+      "status": "unverified",
+      "score": 40
     },
     {
       "id": "b6059b7415",
@@ -60,26 +155,64 @@
         }
       ],
       "status": "unverified",
-      "score": 48
+      "score": 40
     },
     {
-      "id": "22ed127251",
-      "title": "Why is there a shortage of 'wizard' elevator mechanics?",
-      "summary": "The pay is good and there's lots of work, so what's behind the shortage of elevator mechanics?",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/c52e8k19y94mo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-27T00:02:19+00:00",
+      "id": "b89b021ad7",
+      "title": "The Download: Innovators Under 35 nominations are open, and a bionic window into the mind",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Our 2027 Innovators Under 35 competition is now open Every year, MIT Technology Review honors 35 of the world’s brightest young scientists, entrepreneurs, and inventors in our Innovators Under 35 list.…",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/",
+      "published": "2026-11-27T13:00:00+00:00",
       "sources": [
-        "BBC Technology"
+        "MIT Technology Review"
       ],
       "source_links": [
         {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/c52e8k19y94mo?at_medium=RSS&at_campaign=rss"
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/27/1149960/the-download-the-download-innovators-under-35-nominations-bionic-hand/"
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
+    },
+    {
+      "id": "2de9db4070",
+      "title": "Our 2027 Innovators Under 35 competition is now open",
+      "summary": "Every year, the editors at MIT Technology Review select 35 of the world’s top young scientists, entrepreneurs, and inventors to honor as our newest class of Innovators Under 35. And starting today, our 2027 competition is officially open for nominations. We’re on the hunt for researchers and founders who are engineering solutions to some of…",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/",
+      "published": "2026-11-27T10:48:47+00:00",
+      "sources": [
+        "MIT Technology Review"
+      ],
+      "source_links": [
+        {
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/27/1149857/2027-innovators-under-35-competition-nominate/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "88faf4ca45",
+      "title": "How cutting-edge prosthetics can help probe the human mind",
+      "summary": "Over the last few weeks, I’ve been talking to Alexander (Avi) Davidson. There are a lot of remarkable things about Avi. He sustained a horrific injury as a teenager, which left him paralyzed and without a left hand. Today, he uses his own experience to guide his practice as a trauma therapist. He’s also taking…",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/",
+      "published": "2026-11-27T10:00:00+00:00",
+      "sources": [
+        "MIT Technology Review"
+      ],
+      "source_links": [
+        {
+          "source": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/2026/11/27/1149946/cutting-edge-prosthetics-allow-researchers-to-probe-the-human-mind/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
     },
     {
       "id": "a1016f3d2e",
@@ -98,45 +231,235 @@
         }
       ],
       "status": "unverified",
-      "score": 40
+      "score": 32
     },
     {
-      "id": "99d96f5e76",
-      "title": "Zoe Kleinman: Nobody is irreplaceable - unless you're Jensen Huang",
-      "summary": "The BBC's technology and AI editor on how Nvidia's boss made himself impossible to fire.",
+      "id": "9f5da56d05",
+      "title": "We found 60-odd Black Friday deals we love for $100 or less",
+      "summary": "Between holiday travel, gifts, and the rising cost of just about everything, expenses can quickly add up during this time of year. Thankfully, you don’t have to dip too far into your savings to take advantage of some of the better Black Friday deals we’ve seen. Below, we’ve rounded up a range of great stuff […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026",
+      "published": "2026-11-28T01:30:00+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1043445/black-friday-best-cheap-tech-deals-under-100-2026"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "be5b9a1935",
+      "title": "2026’s Best Black Friday Deals: We’ve Been Tracking Since 4 AM",
+      "summary": "It's time to shop the very best Black Friday deals on the very best tech gadgets we recommend.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-black-friday-deals-11-27-2026/",
+      "published": "2026-11-28T00:14:33+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/best-black-friday-deals-11-27-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "aeec31d92b",
+      "title": "This purple electric Chinese minivan can go up to 559 miles on a charge",
+      "summary": "Electric minivans could be the ultimate in utility, with room for passengers, gear, and huge batteries. While VW's ID Buzz only gave us 200 miles of real-world driving on a charge in 2023, China's BYD has just announced a flagship purple peoplemover that can go an estimated 559 miles (900 km) on electricity. It's called […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
+      "published": "2026-11-28T00:02:49+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "9dae788395",
+      "title": "Yeti Coolers Are up to 30% Off for Black Friday (2026)",
+      "summary": "Yeti’s Black Friday deals cover everything from a cooler for the tailgate to a Rambler for your desk.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/yeti-black-friday-sale-11-2026/",
+      "published": "2026-11-27T23:54:42+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/yeti-black-friday-sale-11-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "e00fd2a190",
+      "title": "The best robot vacuums we’ve tested are up to 60 percent off for Black Friday",
+      "summary": "Black Friday is here, and if you want a little help keeping your floors clean this holiday season, now is a great time to pick up a robot vacuum. Some of the best models we’ve tested over the last year or two are on sale for up to 60 percent off, whether you’re after a […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026",
+      "published": "2026-11-27T23:32:17+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1044487/best-black-friday-robot-vacuum-mop-deals-2026"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "a0504b9bad",
+      "title": "Sony’s 1000XM4C headphones are a Black Friday bargain at $198",
+      "summary": "Instead of purely looking forward with its headphone designs, Sony went back to its popular WH-1000XM4 design and made some improvements to make it even better. The 2026 version, called the WH-1000XM4C, sounds nearly as good as the pricier XM6 model (currently $348), but is down to $198 during Black Friday at Amazon, Best Buy, […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale",
+      "published": "2026-11-27T23:32:00+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1043976/sony-wh1000xm4c-noise-canceling-headphones-black-friday-2026-deal-sale"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "8f79b5feff",
+      "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
+      "summary": "Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update on PlayStation 5, Switch 2, and PC on December 15th. Unfortunately for Xbox owners, the developer says it \"can't commit to any additional platforms for the foreseeable future.\" In a statement posted on X, Playtronic said that […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+      "published": "2026-11-27T23:30:32+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "dd33b63185",
+      "title": "The new iPad Mini is getting its first major discount for Black Friday",
+      "summary": "We were big fans of Apple’s new iPad Mini when we reviewed it in early November, but its steep starting price of $699 was hard to swallow. Thankfully, the small tablet is already getting a sizable discount for Black Friday. Right now, Amazon and Walmart are both selling the 2026 iPad Mini with Wi-Fi and […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026",
+      "published": "2026-11-27T22:30:00+00:00",
+      "sources": [
+        "The Verge"
+      ],
+      "source_links": [
+        {
+          "source": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1042705/ipad-mini-black-friday-deal-sale-2026"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "10e5b3061f",
+      "title": "Apple Black Friday Deals (2026): AirPods, iPads, MacBooks, and More",
+      "summary": "Save on AirPods, iPads, MacBooks, and tons of accessories for Black Friday.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/black-friday-apple-deals-11-27-2026/",
+      "published": "2026-11-27T16:24:22+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/black-friday-apple-deals-11-27-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "5fa7c52c93",
+      "title": "Scientists Use ‘Grand Theft Auto’ to Model the Effects of Climate Change",
+      "summary": "The game’s high-resolution 3D maps based on real locations can be used to simulate the effects of rising sea levels and coastal flooding.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/scientists-use-grand-theft-auto-to-model-the-effects-of-climate-change/",
+      "published": "2026-11-27T10:30:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/scientists-use-grand-theft-auto-to-model-the-effects-of-climate-change/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "6c8d310ac8",
+      "title": "I Found the Best Black Friday Streaming Deals (2026): Apple TV, Disney, and Paramount Over Half Off",
+      "summary": "Streaming apps are offering their biggest subscription deals of the year. Here’s how to take advantage.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/black-friday-streaming-deals-11-27-2026/",
+      "published": "2026-11-27T10:04:47+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/black-friday-streaming-deals-11-27-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 32
+    },
+    {
+      "id": "22ed127251",
+      "title": "Why is there a shortage of 'wizard' elevator mechanics?",
+      "summary": "The pay is good and there's lots of work, so what's behind the shortage of elevator mechanics?",
       "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/c3rrgqj2zx5yo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T10:03:12+00:00",
+      "url": "https://www.bbc.co.uk/news/articles/c52e8k19y94mo?at_medium=RSS&at_campaign=rss",
+      "published": "2026-11-27T00:02:19+00:00",
       "sources": [
         "BBC Technology"
       ],
       "source_links": [
         {
           "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/c3rrgqj2zx5yo?at_medium=RSS&at_campaign=rss"
+          "url": "https://www.bbc.co.uk/news/articles/c52e8k19y94mo?at_medium=RSS&at_campaign=rss"
         }
       ],
       "status": "unverified",
-      "score": 40
-    },
-    {
-      "id": "abaf9046e3",
-      "title": "FCC approves SpaceX plan to put AI data centers in space",
-      "summary": "The FCC dismissed some of the key concerns raised by opponents, including potential threats to scientific research, because the agency determined they fell outside its regulatory authority.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/",
-      "published": "2026-11-25T20:56:44+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space/"
-        }
-      ],
-      "status": "unverified",
-      "score": 40
+      "score": 24
     },
     {
       "id": "d75888debc",
@@ -155,102 +478,311 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
-      "id": "28ab121622",
-      "title": "How data centers are driving a US natural-gas boom",
-      "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other power sources, including renewables like…",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
-      "published": "2026-11-25T17:00:00+00:00",
+      "id": "4c14dd8e7e",
+      "title": "Many of our favorite Blu-ray movies are over 50 percent off for Black Friday",
+      "summary": "No shade to those who love their subscription services, but viewing physical movies is a time-honored tradition that shouldn’t go away. Watching them doesn’t feel all that different, but deciding which movie to watch feels less annoying; sifting through a movie collection on your shelf or in a storage binder is so much more fun […]",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale",
+      "published": "2026-11-27T23:30:00+00:00",
       "sources": [
-        "MIT Technology Review"
+        "The Verge"
       ],
       "source_links": [
         {
-          "source": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/"
+          "source": "The Verge",
+          "url": "https://www.theverge.com/gadgets/1040471/4k-bluray-movie-film-black-friday-deal-sale"
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
-      "id": "c33e7c5104",
-      "title": "The Download: AI swamping open records, and firefighting for permafrost",
-      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data…",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
-      "published": "2026-11-25T13:10:00+00:00",
-      "sources": [
-        "MIT Technology Review"
-      ],
-      "source_links": [
-        {
-          "source": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "ef600cb9ef",
-      "title": "EA adds AI-generated John Motson to FC 27 video game",
-      "summary": "The AI-generated Motson will appear in the game on 26 November, with the consent of his son and wife.",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T10:11:34+00:00",
-      "sources": [
-        "BBC Technology"
-      ],
-      "source_links": [
-        {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/c65y10j841jpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "b3f3792ca0",
-      "title": "AI is straining America’s open records systems",
-      "summary": "In Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the town’s zoning supervisor and presiding elections officer. During morning office hours at the town hall—a wood-frame structure built as a church in 1858—he also fielded public records requests. Recently, he…",
-      "source": "MIT Technology Review",
-      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
-      "published": "2026-11-25T10:00:00+00:00",
-      "sources": [
-        "MIT Technology Review"
-      ],
-      "source_links": [
-        {
-          "source": "MIT Technology Review",
-          "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "4f0edfcb24",
-      "title": "The Best Black Friday Deals Are Now Live: Our Expert Picks for 2026",
-      "summary": "The early bird gets the worm. Here are the best Black Friday deals for 2026 you can get right now.",
+      "id": "f63d5030b1",
+      "title": "Save Up to $100 on Shark Depuffi and FacialPro Glow (2026)",
+      "summary": "If you’ve been eyeing Shark’s beauty tools, consider this your sign.",
       "source": "Wired",
-      "url": "https://www.wired.com/story/best-black-friday-deals-11-26-2026/",
-      "published": "2026-11-27T00:56:52+00:00",
+      "url": "https://www.wired.com/story/shark-depuffi-black-friday-deals-11-27-2026/",
+      "published": "2026-11-27T23:27:04+00:00",
       "sources": [
         "Wired"
       ],
       "source_links": [
         {
           "source": "Wired",
-          "url": "https://www.wired.com/story/best-black-friday-deals-11-26-2026/"
+          "url": "https://www.wired.com/story/shark-depuffi-black-friday-deals-11-27-2026/"
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
+    },
+    {
+      "id": "0fe2e7e45e",
+      "title": "Best Black Friday Deals on My Favorite Shark Vacuums: Up to $600 Off (2026)",
+      "summary": "Shark’s vacuums impress me again and again, and my favorite models are deeply discounted right now..",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/shark-vacuum-black-friday-deals-11-27-2026/",
+      "published": "2026-11-27T22:11:06+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/shark-vacuum-black-friday-deals-11-27-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "89de023b2b",
+      "title": "Best Amazon Device Black Friday Deals I’ve Found (2026): Kindles, Echo Speakers",
+      "summary": "From Kindle e-readers to Alexa-powered smart speakers, these are the Amazon device Black Friday sales you won't want to miss.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-amazon-device-black-friday-deals-11-27-2026/",
+      "published": "2026-11-27T20:51:30+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/best-amazon-device-black-friday-deals-11-27-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "4677b50f98",
+      "title": "Black Friday Deals on Household Essentials and Affordable Toys to Donate",
+      "summary": "We found deals on diapers, paper towels, and toys for yourself or your community this holiday season.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/black-friday-deals-essentials-11-27-2026/",
+      "published": "2026-11-27T19:26:33+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/black-friday-deals-essentials-11-27-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "149e2d05c6",
+      "title": "The best Black Friday deals Ars could find",
+      "summary": "Perhaps some commerce, to help all the Turkey Day leftovers go down easier?",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/",
+      "published": "2026-11-27T17:05:37+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/shopping/2026/11/the-best-black-friday-deals-ars-could-find/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "525adb516e",
+      "title": "Walking Pad Deals to Shop This Black Friday (2026)",
+      "summary": "Don’t let cold weather stop you from getting your steps in. These under-desk treadmills are on sale.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/best-black-friday-walking-pad-treadmill-deals-11-27-26/",
+      "published": "2026-11-27T15:43:33+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/best-black-friday-walking-pad-treadmill-deals-11-27-26/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "caf92f6bc1",
+      "title": "Our Favorite Merino Wool is 30% Off During the Unbound Merino Black Friday Sale (2026)",
+      "summary": "WIRED’s pick for the best travel T-shirt is on sale for Black Friday. Expand your merino wardrobe with these deals. Hurry though, the sale ends tonight.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/unbound-merino-black-friday-sale-2026/",
+      "published": "2026-11-27T13:10:54+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/unbound-merino-black-friday-sale-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "9eceab4392",
+      "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+      "summary": "Intel faced pressure to surrender a 10% stake to unlock billions in promised grants.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+      "published": "2026-11-27T12:05:01+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "44fa958132",
+      "title": "Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026",
+      "summary": "We polled the Ars staff about their favorite pickups this year; here's the list.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
+      "published": "2026-11-27T11:30:04+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "6e9bd1a572",
+      "title": "Welcome to the Repair Café, Where Neighbors Fight Throwaway Culture",
+      "summary": "In church basements and warehouses, Americans are building cozy yet radical spaces to encourage each other to fix broken items instead of throwing them away.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/welcome-to-the-repair-cafe-where-neighbors-fight-throw-away-culture/",
+      "published": "2026-11-27T11:30:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/welcome-to-the-repair-cafe-where-neighbors-fight-throw-away-culture/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "3f40edc284",
+      "title": "Best Kitchen Gifts for Home Cooks (2026)",
+      "summary": "Give them a sourdough starter they can keep alive, fresh basil in December, or a cutting board handsome enough to leave out.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-best-gifts-for-cooks-who-love-cooking/",
+      "published": "2026-11-27T11:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/the-best-gifts-for-cooks-who-love-cooking/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "439601b375",
+      "title": "The British Government is Turning Everyone Into a Prepper",
+      "summary": "Forget guns and underground bunkers. Britain’s burgeoning survivalist movement is more worried about backup power, baby formula, and making friends with the neighbors.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/the-british-government-is-turning-everyone-into-a-prepper/",
+      "published": "2026-11-27T10:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/the-british-government-is-turning-everyone-into-a-prepper/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "c4c95bb460",
+      "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
+      "summary": "There’s just one thing we still don’t know: How much will they cost?",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
+      "published": "2026-11-27T08:00:53+00:00",
+      "sources": [
+        "Ars Technica"
+      ],
+      "source_links": [
+        {
+          "source": "Ars Technica",
+          "url": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "5e549f91f1",
+      "title": "Ulta Promo Codes: Up to 20% Off in November 2026",
+      "summary": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ulta-coupon/",
+      "published": "2026-11-27T06:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/ulta-coupon/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
+    },
+    {
+      "id": "c10f53291e",
+      "title": "eBay Coupons: 20% Off in November 2026",
+      "summary": "Save up to 60% on a selection of items at eBay, including electronics, home products, card games, car parts and more.",
+      "source": "Wired",
+      "url": "https://www.wired.com/story/ebay-coupon-code/",
+      "published": "2026-11-27T06:00:00+00:00",
+      "sources": [
+        "Wired"
+      ],
+      "source_links": [
+        {
+          "source": "Wired",
+          "url": "https://www.wired.com/story/ebay-coupon-code/"
+        }
+      ],
+      "status": "unverified",
+      "score": 24
     },
     {
       "id": "dc76706c9d",
@@ -269,7 +801,7 @@
         }
       ],
       "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "efcc88f2ff",
@@ -288,45 +820,7 @@
         }
       ],
       "status": "official",
-      "score": 32
-    },
-    {
-      "id": "9e1876a807",
-      "title": "The MacBook Neo is receiving a rare $100 discount for Black Friday",
-      "summary": "If you’re looking for a new laptop or a gift for the student in your life, you can save $100 on the MacBook Neo at several retailers, in both storage sizes and all four colors. The 256GB model is currently discounted to $599.99 at Amazon and Costco, while the 512GB model with Touch ID is […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale",
-      "published": "2026-11-26T17:07:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1035932/apple-macbook-neo-black-friday-2026-deal-sale"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "025ccc2824",
-      "title": "Android app developers will soon have to share their address publicly",
-      "summary": "Independent Android app developers are worried about their privacy after Google announced that from next year many of them will be required to share a phone number and address publicly. The policy change is intended to meet European Union regulations under the Digital Services Act, but Google says contact details will be made public worldwide. […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
-      "published": "2026-11-26T17:06:24+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
+      "score": 24
     },
     {
       "id": "2c5b76a091",
@@ -342,177 +836,6 @@
         {
           "source": "TechCrunch",
           "url": "https://techcrunch.com/2026/11/26/a-month-with-the-iphone-duo-has-changed-how-i-use-my-phone/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "b1720d681e",
-      "title": "Disney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday",
-      "summary": "Black Friday isn’t just a good time to save on a new TV but also a chance to spend less on what you watch on it. The shopping holiday often brings steep streaming discounts, and this year is no exception, with some streamers offering more than 50 percent off. HBO Max, Apple TV, and Hulu […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026",
-      "published": "2026-11-26T16:00:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1041762/best-black-friday-streaming-deals-2026"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "147c8b6b26",
-      "title": "Here’s Everything You Can Do With With the New Gemini AI on Android Auto",
-      "summary": "Android Auto is now smarter than before, thanks to the addition of Gemini. You can navigate more easily and even bounce ideas off of it along the way.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/",
-      "published": "2026-11-26T12:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/heres-everything-you-can-do-with-with-the-new-gemini-ai-on-android-auto/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "3479c4ea1c",
-      "title": "Meta Refused to Share Muse for Testing, UK Financial Watchdog Complains",
-      "summary": "The FCA warned against “another force of attack” from agents after the company declined a request to work on joint testing ahead of rolling out its personal agent in the UK on Tuesday.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/",
-      "published": "2026-11-26T10:51:27+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/meta-refused-to-share-muse-for-testing-uk-financial-watchdog-complains/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "1fdf50f9ff",
-      "title": "Best Robot Vacuum of 2026: Shark, Eufy, Roborock",
-      "summary": "My hands-on tests reveal which models can scrub stains, reach difficult corners, and navigate a chaotic home.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-robot-vacuum/",
-      "published": "2026-11-26T10:44:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/best-robot-vacuum/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "0482fd88fd",
-      "title": "Google search alternative Kagi launches Gmail rival",
-      "summary": "The pitch is an unusual combination of privacy promises and AI features.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
-      "published": "2026-11-25T20:57:09+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "41566de506",
-      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-      "summary": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-      "published": "2026-11-25T19:44:24+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "08a9d239a4",
-      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "summary": "Amazon and Meta are discussing a potential deal that would end a two-month-long blockade of Muse.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-      "published": "2026-11-25T14:10:18+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/"
-        }
-      ],
-      "status": "unverified",
-      "score": 32
-    },
-    {
-      "id": "11dbf28397",
-      "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
-      "summary": "The verdict follows a months-long trial in New York.",
-      "source": "BBC Technology",
-      "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
-      "published": "2026-11-25T10:52:09+00:00",
-      "sources": [
-        "BBC Technology"
-      ],
-      "source_links": [
-        {
-          "source": "BBC Technology",
-          "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "270c8bf884",
-      "title": "Netflix’s coziest show has made a very quiet return",
-      "summary": "The bigger Netflix gets, the easier it is to miss stuff. This is true of all digital platforms, of course, but it's especially true of Netflix of late, as the streaming service's lineup now also includes a growing library of reality shows, live-programming, and even games. It makes it easy for some of the best […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3",
-      "published": "2026-11-26T21:00:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/entertainment/1043489/midnight-diner-season3"
         }
       ],
       "status": "unverified",
@@ -535,26 +858,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "add3061b23",
-      "title": "The Garmin Forerunner 265S is down to $300, its best price of the year",
-      "summary": "The Forerunner 265S may not be the newest or flashiest Garmin, but it’s one that I’ve always loved most in testing. For runners with smaller wrists, it fits nicely. The battery life is pretty good thanks in part to its OLED touchscreen. When I reviewed it a few years ago, I called it the Goldilocks […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday",
-      "published": "2026-11-26T19:00:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1042483/garmin-forerunner-265s-fitness-tracker-wearable-deal-sale-black-friday"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "c7cb109c97",
@@ -573,45 +877,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "7a8045b373",
-      "title": "The best Black Friday deals we’ve already found",
-      "summary": "The countdown to Black Friday is on, and many discounts have already arrived. Although the shopping holiday isn’t officially until tomorrow, November 27th, retailers are already dropping early deals on some of our favorite tech. Of course, with prices rising across the board, a good discount doesn’t necessarily mean you’re getting a historically low price. […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-      "published": "2026-11-26T16:55:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "71db62118d",
-      "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
-      "summary": "US District Judge Loren AliKhan has blocked the Federal Communications Commission from conducting an early review of ABC's broadcast licenses in a preliminary injunction, and rejected its efforts to dismiss ABC's First Amendment lawsuit. ABC has accused the FCC of violating its free speech rights and claims the agency \"waged a retaliatory campaign\" against the […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
-      "published": "2026-11-26T16:38:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "2d9c4d8b9b",
@@ -630,45 +896,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "11f6355974",
-      "title": "GTA VI developers vote against unionization",
-      "summary": "Workers at Grand Theft Auto VI developer Rockstar Games won't unionize, after the vote for a formal recognition agreement failed, with only 25 percent of votes in favor of unionization. The Independent Workers Union of Great Britain (IWGB) said that Rockstar workers in the union will continue organizing even without formal recognition. Voting ran from […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
-      "published": "2026-11-26T15:55:24+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "43ad0bece0",
-      "title": "Why GTA VI’s version of Florida feels so real",
-      "summary": "There are plenty of reasons why Grand Theft Auto VI is so popular: the 13 years of anticipation, the relatable lead characters and romantic storyline, the sheer level of depth. But another major factor is the sense of place. The GTA series is unmatched when it comes to re-creating the feeling of a bustling, real-world […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/entertainment/1042629/gta-6-city-design",
-      "published": "2026-11-26T15:00:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/entertainment/1042629/gta-6-city-design"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "4fbdf5eaaa",
@@ -687,26 +915,7 @@
         }
       ],
       "status": "official",
-      "score": 24
-    },
-    {
-      "id": "8120bb8b1b",
-      "title": "Here’s where you can save (a little) on the Ocarina of Time remake",
-      "summary": "A lot of people have The Legend of Zelda: Ocarina of Time for the Nintendo Switch 2 on their holiday wishlist. In case you haven’t bought it yet, I wanted to share some small but welcome deals happening on the physical and digital versions of the game. Costco members can currently grab the cartridge edition […]",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/gadgets/1040110/zelda-ocarina-of-time-switch-2-black-friday-2026-deal-sale",
-      "published": "2026-11-26T14:00:00+00:00",
-      "sources": [
-        "The Verge"
-      ],
-      "source_links": [
-        {
-          "source": "The Verge",
-          "url": "https://www.theverge.com/gadgets/1040110/zelda-ocarina-of-time-switch-2-black-friday-2026-deal-sale"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "49e9fdf7b5",
@@ -725,7 +934,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "b692b4c08a",
@@ -744,7 +953,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "ce2baeaddb",
@@ -763,7 +972,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "f7fc7a21a1",
@@ -782,7 +991,7 @@
         }
       ],
       "status": "unverified",
-      "score": 24
+      "score": 16
     },
     {
       "id": "b707277113",
@@ -798,899 +1007,6 @@
         {
           "source": "Ars Technica",
           "url": "https://arstechnica.com/features/2026/11/from-minimalist-to-maximalist-ars-staffers-show-off-their-home-offices/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "40f402bb53",
-      "title": "8 Best Keyboards (2026): My Honest Picks After Testing Dozens",
-      "summary": "As a professional keyboard nerd, I’ve tested dozens and dozens of models. One of these eight picks should suit your needs—no matter your budget.",
-      "source": "Wired",
-      "url": "https://www.wired.com/gallery/best-keyboards/",
-      "published": "2026-11-26T12:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/gallery/best-keyboards/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "5dba6a5a1b",
-      "title": "A First Drive With the Fiat Topolino in New York City",
-      "summary": "Fiat’s $15,000, 25-mph electric quadricycle is built for beach towns and gated communities. Naturally, I took it across the Manhattan Bridge.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/fiat-topolino-first-drive/",
-      "published": "2026-11-26T11:45:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/fiat-topolino-first-drive/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "d7274ffe57",
-      "title": "Thuma Dupes: Japanese Joinery Bed Frames That Stack Up (2026)",
-      "summary": "Everyone loves Thuma bed frames for their Japanese-style joinery, but they’re pricey. We tested six less expensive frames with similar quality and performance.",
-      "source": "Wired",
-      "url": "https://www.wired.com/gallery/japanese-joinery-bed-frames/",
-      "published": "2026-11-26T11:15:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/gallery/japanese-joinery-bed-frames/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "7be648508b",
-      "title": "How Do Cooking Pros Decide the ‘Best’ Recipe for Something?",
-      "summary": "It requires a lot of research, trial and error, and even some creative writing to afford you the best and most consistent results.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/how-do-cooking-pros-decide-what-the-best-recipe-is/",
-      "published": "2026-11-26T10:30:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/how-do-cooking-pros-decide-what-the-best-recipe-is/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "d27a6e200f",
-      "title": "The Best Bed Frames, Tested in Our Own Rooms (2026)",
-      "summary": "Looking for the best bed frame? Our top recommendation is the Classic Bed from Thuma, but we’ve got options for all budgets and tastes.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-bed-frames/",
-      "published": "2026-11-26T10:19:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/best-bed-frames/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "a3b959284f",
-      "title": "Octopuses Use a Multi-Step Process to Squeeze Into Tiny Spaces",
-      "summary": "This flexible movement could potentially be applied to the design of soft robots that operate in confined spaces.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/octopuses-use-a-multi-step-process-to-squeeze-into-tiny-spaces/",
-      "published": "2026-11-26T10:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/octopuses-use-a-multi-step-process-to-squeeze-into-tiny-spaces/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "77e3fff695",
-      "title": "Lenovo Coupon Codes: 15% Off in November 2026",
-      "summary": "Whether you’re shopping for a ThinkPad, Yoga laptop, or Legion gaming PC, these Lenovo discount codes and promotions can help you save big on your next tech upgrade.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/lenovo-coupon-code/",
-      "published": "2026-11-26T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/lenovo-coupon-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "6a613e3057",
-      "title": "Office Depot Coupons: $20 Off November 2026",
-      "summary": "From furniture and ink to professional printing services, use an Office Depot discount code to maximize your savings on every workspace essential.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/office-depot-promo-codes/",
-      "published": "2026-11-26T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/office-depot-promo-codes/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "47b4c1ba87",
-      "title": "LG Promo Code: 40% Off for November 2026",
-      "summary": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/lg-promo-code/",
-      "published": "2026-11-26T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/lg-promo-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "b7460750ef",
-      "title": "Paramount+ Coupon Codes and Deals for 2026",
-      "summary": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/paramount-plus-coupon-code/",
-      "published": "2026-11-26T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/paramount-plus-coupon-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "fb609c0e1d",
-      "title": "LegalZoom Promo Code: Exclusive 10% Off LLC Formations",
-      "summary": "Save on top services at LegalZoom, like LLC registration, incorporation, estate plans, and more with coupons and deals from WIRED.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/legalzoom-promo-code/",
-      "published": "2026-11-26T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/legalzoom-promo-code/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "2ca5cd5f31",
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "summary": "The credit rating agency may lower Nvidia's credit rating to AA-, the fourth-highest rating.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
-      "published": "2026-11-25T22:44:32+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "f585db88b5",
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "summary": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
-      "published": "2026-11-25T20:03:27+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "13d83a98f1",
-      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-      "summary": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-      "published": "2026-11-25T19:54:57+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "69b3be8619",
-      "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
-      "summary": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
-      "published": "2026-11-25T18:22:38+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "a4870f4be6",
-      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-      "summary": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-      "published": "2026-11-25T18:11:46+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "28e63ce6c2",
-      "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
-      "summary": "U.S. prosecutors accused the former executive of defrauding victims of ransomware by paying the hackers, charging victims more, and pocketing the difference.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
-      "published": "2026-11-25T17:36:51+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "400fade95a",
-      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "summary": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "published": "2026-11-25T17:35:58+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "4ce029ef2d",
-      "title": "Etsy clarifies AI terms after seller backlash",
-      "summary": "One veteran illustrator dismisses revisions as \"sugar coating.\"",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/",
-      "published": "2026-11-25T17:12:57+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "7c10dbab39",
-      "title": "A familiar Iranian hacking group has found a new way to cause chaos",
-      "summary": "France blames an Iranian cyber unit for sabotaging hundreds of supermarket freezers.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
-      "published": "2026-11-25T14:29:43+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "6cc1c2bb6c",
-      "title": "Todoist confirms 6% of customers’ details were stolen in data breach",
-      "summary": "Todoist said a hacker gained access to its production systems and stole customer data, including email IDs, password hashes, and account creation dates.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
-      "published": "2026-11-25T14:20:28+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "69601ca4fe",
-      "title": "AI may soon change what it means to be a theoretical physicist",
-      "summary": "Frontier AI is already solving problems that once took top physicists a full day.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-      "published": "2026-11-25T12:00:28+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "8cfc97780a",
-      "title": "How Jump-Roping Toy Soldiers Accidentally Took Over Your FYP",
-      "summary": "The holiday theme park performers started posting their own AI fan videos as an inside joke. They didn’t expect it to actually catch on.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/hot-jump-roping-toy-soldiers-accidentally-made-their-own-psyop/",
-      "published": "2026-11-25T12:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/hot-jump-roping-toy-soldiers-accidentally-made-their-own-psyop/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "0646cef35e",
-      "title": "Airplane Turbulence Is Extremely Hard to Predict, but Maybe Not for Long",
-      "summary": "The “hardest remaining problem in classical physics” gets a boost from terabytes of crowdsourced data and new ways of using machine learning and AI.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/",
-      "published": "2026-11-25T11:30:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/airplane-turbulence-is-extremely-hard-to-predict-and-avoid/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "cd8f21655a",
-      "title": "The ‘True Crime Community’ Is Inspiring Violent Attacks Through TikTok",
-      "summary": "Attacks linked to a network of young people obsessed with mass shooters are greatly increasing, research shared with WIRED shows, as the nihilistic group uses TikTok and AI to spread its message.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/the-true-crime-community-is-inspiring-violent-attacks-through-tiktok/",
-      "published": "2026-11-25T11:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/the-true-crime-community-is-inspiring-violent-attacks-through-tiktok/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "74b4117fc3",
-      "title": "Not Just Nvidia: Inside Team Trump’s Takeover of Intel",
-      "summary": "Donald Trump’s dealings with Intel reveal yet another government-led pressure campaign involving a private company, court documents show.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/inside-trumps-demands-to-another-chips-ceo/",
-      "published": "2026-11-25T10:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/inside-trumps-demands-to-another-chips-ceo/"
-        }
-      ],
-      "status": "unverified",
-      "score": 24
-    },
-    {
-      "id": "d785e0bd0a",
-      "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
-      "summary": "\"DART made a really, really large mess. However, we didn’t really know what kind of mess.\"",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
-      "published": "2026-11-25T22:36:45+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "49eae8355d",
-      "title": "The canceled Tesla Cybertruck is the fastest-selling used truck in America",
-      "summary": "The Tesla Cybertruck was the fastest-selling used truck last month, averaging just 39.1 days on the market compared to 65.5 days for trucks overall.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/",
-      "published": "2026-11-25T19:54:32+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/the-canceled-tesla-cybertruck-is-the-fastest-selling-used-truck-in-america/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "8822a5fcd4",
-      "title": "1Password said hackers broke into its internal systems, but customer passwords are safe",
-      "summary": "The password manager maker said an attacker gained access to an employee's corporate account and took some information about customers.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
-      "published": "2026-11-25T18:49:52+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "23062613af",
-      "title": "Backblaze explains why it's sharing customer information with advertisers",
-      "summary": "Backblaze tells Ars it won't share users' backup, storage files with advertisers.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/",
-      "published": "2026-11-25T18:38:29+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/information-technology/2026/11/backblaze-explains-why-its-sharing-customer-information-with-advertisers/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "f9767d505d",
-      "title": "The Iowa Lead Detonation Happened. Now the Real Work Begins to Study It",
-      "summary": "Early results indicate minimal signs of lead in the environment, though it will take days for more rigorous testing.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/iowa-lead-detonation-real-monitoring-work-begins/",
-      "published": "2026-11-25T18:38:12+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/iowa-lead-detonation-real-monitoring-work-begins/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "75e6224a3e",
-      "title": "Ladybird browser's first downloadable alpha is surprisingly capable",
-      "summary": "An independent browser engine arrives on Linux and macOS, and we've tried it.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
-      "published": "2026-11-25T17:33:30+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "9e820194d8",
-      "title": "X’s latest update for creators focuses on vertical video",
-      "summary": "As short-form video ramps up in popularity, X's new creation tools are part of its effort to compete with YouTube and Instagram.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/",
-      "published": "2026-11-25T17:28:29+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/xs-latest-update-for-creators-focuses-on-vertical-video/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "f4afdae9a6",
-      "title": "WhatsApp now lets you schedule messages in group and individual chats",
-      "summary": "Users can schedule messages from 10 minutes later to after 14 days.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/",
-      "published": "2026-11-25T16:57:51+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/whatsapp-now-lets-you-schedule-messages-in-group-and-individual-chats/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "cfe027a80a",
-      "title": "Ars Live recap: Don’t expect military attacks on data centers to stop",
-      "summary": "Militaries have many reasons to target data centers and the cloud in wartime.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/",
-      "published": "2026-11-25T16:47:14+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/11/ars-live-recap-dont-expect-military-attacks-on-data-centers-to-stop/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "d10a6b8d4d",
-      "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
-      "summary": "Huawei didn’t try very hard to hide thefts of US trade secrets, DOJ says.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
-      "published": "2026-11-25T16:33:45+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "429615d03a",
-      "title": "Lead azide detonation sends clouds over Iowa as questions of health risks swirl",
-      "summary": "Prior modeling estimated the plume would cover hundreds of square miles.",
-      "source": "Ars Technica",
-      "url": "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/",
-      "published": "2026-11-25T15:35:17+00:00",
-      "sources": [
-        "Ars Technica"
-      ],
-      "source_links": [
-        {
-          "source": "Ars Technica",
-          "url": "https://arstechnica.com/health/2026/11/army-detonates-tons-of-lead-azide-as-local-residents-brace-for-toxic-plume/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "223c3d722c",
-      "title": "Allstate suffers multiday tech outage ahead of Thanksgiving",
-      "summary": "The disruption comes at a particularly bad time for the insurance giant, as millions of Americans prepare to travel for the Thanksgiving holiday weekend.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
-      "published": "2026-11-25T15:08:37+00:00",
-      "sources": [
-        "TechCrunch"
-      ],
-      "source_links": [
-        {
-          "source": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "1d65a96a30",
-      "title": "The 36 Best Gifts for Dads (2026)",
-      "summary": "Dads are typically tough to shop for. Let me help with these WIRED-tested gift ideas.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-gifts-for-dads-2026/",
-      "published": "2026-11-25T11:49:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/best-gifts-for-dads-2026/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "573c024248",
-      "title": "The Best TVs We’ve Tested (2026): Samsung, LG, TCL, Sony, and More.",
-      "summary": "Affordable QLEDs, glorious RGB, premium OLEDs—these are our favorite televisions across every category.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-tvs/",
-      "published": "2026-11-25T11:30:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/best-tvs/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "ec42563f8c",
-      "title": "A Journey Through the Absurd Hell of Trump’s Third-Country Deportations",
-      "summary": "How a Thai-born, US-raised Cambodian refugee ended up a prisoner of Africa’s last absolute monarch.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/journey-through-the-pathetic-absurd-hell-of-trumps-third-country-deportations/",
-      "published": "2026-11-25T11:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/journey-through-the-pathetic-absurd-hell-of-trumps-third-country-deportations/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "451024a7ed",
-      "title": "The Best iPhone Duo Cases and Accessories (2026)",
-      "summary": "Protect and enhance your iPhone Duo with one of our favorite cases or accessories.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-iphone-duo-cases-and-accessories/",
-      "published": "2026-11-25T10:45:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/best-iphone-duo-cases-and-accessories/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "6ddfe6e831",
-      "title": "Shop Small: Our Favorite Gifts From Independent Businesses (2026)",
-      "summary": "Here are 11 independent stores WIRED editors love and the gifts we’d order from them on Shop.com.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/shop-small-gift-guide-2026/",
-      "published": "2026-11-25T10:32:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/shop-small-gift-guide-2026/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "841d061d62",
-      "title": "The 6 Best Latte Machines for Automatic Espresso Drinks (2026)",
-      "summary": "Whether you want a cappuccino at the push of a button or an iced latte with cold foam, we found a machine that makes it easy.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-latte-and-cappuccino-machines/",
-      "published": "2026-11-25T10:17:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/best-latte-and-cappuccino-machines/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "dfe7b05e9f",
-      "title": "Best Red-Light Therapy for Hair Growth and Restoration (2026)",
-      "summary": "Don’t fly to Turkey just yet. Our WIRED testers saw visible hair regrowth with these red-light therapy devices.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/",
-      "published": "2026-11-25T10:01:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/best-red-light-therapy-for-hair-growth/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "00ee6b501d",
-      "title": "NordVPN Coupons: 75% Off + 3 Months Free",
-      "summary": "Save up to 77% on 2-year plans and get 3 free months with our NordVPN discount codes.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/nordvpn-coupon/",
-      "published": "2026-11-25T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/nordvpn-coupon/"
-        }
-      ],
-      "status": "unverified",
-      "score": 16
-    },
-    {
-      "id": "8bdf30e50e",
-      "title": "Uplift Promo Codes: $300 Off",
-      "summary": "Upgrade your home office with the best Uplift Desk discount codes. Save on standing desks, ergonomic chairs, and accessories.",
-      "source": "Wired",
-      "url": "https://www.wired.com/story/uplift-desk-coupon-code/",
-      "published": "2026-11-25T06:00:00+00:00",
-      "sources": [
-        "Wired"
-      ],
-      "source_links": [
-        {
-          "source": "Wired",
-          "url": "https://www.wired.com/story/uplift-desk-coupon-code/"
         }
       ],
       "status": "unverified",

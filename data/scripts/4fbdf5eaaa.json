@@ -1,0 +1,45 @@
+{
+  "news": {
+    "id": "4fbdf5eaaa",
+    "title": "Come for the Games, Stay for the Community With GeForce NOW",
+    "summary": "Good games bring people together. This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing. From friendships formed in online lobbies to new worlds explored on everyday devices, GeForce NOW Ambassadors share their reasons to love cloud gaming. Those ready to find their own […]",
+    "source": "NVIDIA Blog",
+    "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/",
+    "published": "2026-11-26T14:00:22+00:00",
+    "sources": [
+      "NVIDIA Blog"
+    ],
+    "source_links": [
+      {
+        "source": "NVIDIA Blog",
+        "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-community-war-thunder-reward/"
+      }
+    ],
+    "status": "official",
+    "score": 16
+  },
+  "title": "Come for the Games, Stay for the Community With GeForce NOW",
+  "scenes": [
+    {
+      "narration": "Tech news you need to know. Come for the Games, Stay for the Community With GeForce NOW.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "Good games bring people together.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "This GFN Thursday, GeForce NOW is celebrating the members, creators and community moderators who turn every session into something worth sharing.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "From friendships formed in online lobbies to new worlds explored on everyday devices, GeForce NOW Ambassadors share their reasons to love cloud gaming.",
+      "search": "futuristic technology"
+    },
+    {
+      "narration": "This was announced by NVIDIA Blog.",
+      "search": "futuristic technology"
+    }
+  ],
+  "method": "template"
+}
